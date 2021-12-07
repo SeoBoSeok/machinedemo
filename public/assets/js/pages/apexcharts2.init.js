@@ -23,6 +23,7 @@ function generateDayWiseTimeSeries(baseval, count, yrange) {
    
 var options = {
   series: [{
+  name: 'X',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
       min: 1,
       max: 10
@@ -55,6 +56,7 @@ chart.render();
 
 var optionsLine2 = {
   series: [{
+    name: 'Y',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 0,
     max: 20
@@ -77,6 +79,7 @@ chartLine2.render();
 
 var optionsArea = {
   series: [{
+    name: 'Z',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
     max: 60
@@ -99,6 +102,7 @@ chartArea.render();
 
 var optionsSmall = {
   series: [{
+    name: 'SP1',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
     max: 60
@@ -121,6 +125,7 @@ chartSmall.render();
 
 var optionsSmall2 = {
   series: [{
+    name: 'Spindle speed',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
     max: 60
