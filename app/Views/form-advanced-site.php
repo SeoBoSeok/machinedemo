@@ -36,64 +36,64 @@
                 <div class="row">
                     <div class="col-lg-12">
 
-                    <table class="table mb-0">
+                    <table class="table mb-10">
 
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Site Id</th>
-                                                <th>Description</th>
-                                                <th>Location</th>
-                                                <th>List_MachineCells</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">1</th>
-                                                <td>ST00010</td>
-                                                <td>가상공작기계 데모셀</td>
-                                                <td>한국기계연구원 14D동 107호</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">2</th>
-                                                <td>ST00011</td>
-                                                <td>모바일 가공기 셀</td>
-                                                <td>한국기계연구원 14A동 106호</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">3</th>
-                                                <td>ST00000</td>
-                                                <td>전체장비</td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">4</th>
-                                                <td>ST00020</td>
-                                                <td>가상공작기계 데모셀</td>
-                                                <td>한국생산기술연구원</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">5</th>
-                                                <td>ST00030</td>
-                                                <td>가상공작기계 실충기 전체</td>
-                                                <td>SMEC기계연, 생기원</td>
-                                                <td></td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">6</th>
-                                                <td>ST00100</td>
-                                                <td>연속생산 제조셀(10대 * 4대)</td>
-                                                <td></td>
-                                                <td></td>
-                                            </tr>                                                                                                                                    
-                                        </tbody>
-                                    </table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Site Id</th>
+                                    <th>Description</th>
+                                    <th>Location</th>
+                                    <th>List_MachineCells</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>ST00010</td>
+                                    <td>가상공작기계 데모셀</td>
+                                    <td>한국기계연구원 14D동 107호</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>ST00011</td>
+                                    <td>모바일 가공기 셀</td>
+                                    <td>한국기계연구원 14A동 106호</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>ST00000</td>
+                                    <td>전체장비</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>ST00020</td>
+                                    <td>가상공작기계 데모셀</td>
+                                    <td>한국생산기술연구원</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">5</th>
+                                    <td>ST00030</td>
+                                    <td>가상공작기계 실충기 전체</td>
+                                    <td>SMEC기계연, 생기원</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">6</th>
+                                    <td>ST00100</td>
+                                    <td>연속생산 제조셀(10대 * 4대)</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>                                                                                                                                    
+                            </tbody>
+                        </table>
 
-                        <div class="card mt-10">
+                        <div class="card">
                             <div class="card-body">
 
                                 <h4 class="card-title">Site 새등록</h4>
@@ -140,6 +140,9 @@
                                                 </p>
                                                 <textarea id="textarea" class="form-control" maxlength="225" rows="3" placeholder="This textarea has a limit of 225 chars."></textarea>
                                             </div>                                       
+                                            <button class="btn btn-light dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="mdi mdi-plus me-1"></i> Create New
+                                            </button>
                                         </div>
                                     </div>
 
