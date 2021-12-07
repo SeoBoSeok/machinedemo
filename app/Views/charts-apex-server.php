@@ -44,7 +44,7 @@
         
 
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-xl-8">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Bar Chart</h4>
@@ -54,7 +54,17 @@
                         </div>
                         <!--end card-->
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Bar Chart</h4>
+
+                                <div id="bar_chart" class="apex-charts" dir="ltr"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div class="col-xl-2">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Bar Chart</h4>
