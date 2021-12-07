@@ -191,7 +191,7 @@
                 <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <?php
                     $session = \Config\Services::session();
-                    print_r($session);
+                    // print_r($session);
                     $lang = $session->get('lang');
                     switch ($lang) {
                         case 'ko':
