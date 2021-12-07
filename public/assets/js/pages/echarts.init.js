@@ -754,7 +754,11 @@ optionLoad = {
         type: 'bar',
         stack: 'x'
       }
-    ]
+    ],
+    animationDuration: 0,
+    animationDurationUpdate: 1000,
+    animationEasing: 'linear',
+    animationEasingUpdate: 'linear'
   }
   function runLoad() {
     var data = [(Math.round((Math.random() * 1) + 10)), (Math.round((Math.random() * 1) + 22)), (Math.round((Math.random() * 1) + 28)), (Math.round((Math.random() * 1) + 43))];
