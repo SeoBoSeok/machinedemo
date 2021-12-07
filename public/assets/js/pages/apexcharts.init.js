@@ -742,7 +742,7 @@ let seriesData = [
         y: {
           formatter: function (val) {
             console.log('val', val);
-            return val;
+            return dateFns.getTime(val);
           }
         }
       },
