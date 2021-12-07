@@ -20,7 +20,7 @@
                                 <div class="col-7">
                                     <div class="text-primary p-4">
                                         <h5 class="text-primary">Welcome Back !</h5>
-                                        <p>Sign in to continue to Skote.</p>
+                                        <p>Sign in to continue to 가상공작기계.</p>
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
@@ -109,7 +109,7 @@
                             <p>Don't have an account ? <a href="auth-register" class="fw-medium text-primary"> Signup now </a> </p>
                             <p>© <script>
                                     document.write(new Date().getFullYear())
-                                </script> Skote. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                </script> All right reserved. Crafted with <i class="mdi mdi-heart text-danger"></i> by 이비오(주)</p>
                         </div>
                     </div>
 
