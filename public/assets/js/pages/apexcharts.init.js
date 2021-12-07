@@ -741,7 +741,9 @@ let seriesData = [
     tooltip: {
         enabled: true,
         custom: function({series, seriesIndex, dataPointIndex, w}) {
-            console.log(series);
+            console.log('series', series);
+            console.log('seriesIndex', seriesIndex);
+            console.log('dataPointIndex', dataPointIndex);
         return '<div class="arrow_box">' +
             '<span>' + series[seriesIndex][dataPointIndex] + '</span>' +
             '</div>'
