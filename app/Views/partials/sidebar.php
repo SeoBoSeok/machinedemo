@@ -19,9 +19,9 @@
                         <li><a href="form-layouts" key="t-form-layouts"><?= lang('Files.Form Layouts') ?></a></li>
                         <li><a href="form-validation" key="t-form-validation"><?= lang('Files.Form Validation') ?></a></li>
                         <li><a href="form-advanced" key="t-form-advanced"><?= lang('Files.Form Advanced') ?></a></li>
-                        <li><a href="form-advanced-site" key="t-form-advanced-site"><?= Site ?></a></li>
+                        <!-- <li><a href="form-advanced-site" key="t-form-advanced-site"><?= Site ?></a></li>
                         <li><a href="form-advanced-machine" key="t-form-advanced-machine"><?= Machine ?></a></li>
-                        <li><a href="form-advanced-cell" key="t-form-advanced-cell"><?= Cell ?></a></li>
+                        <li><a href="form-advanced-cell" key="t-form-advanced-cell"><?= Cell ?></a></li> -->
                     </ul>
                 </li>
 
