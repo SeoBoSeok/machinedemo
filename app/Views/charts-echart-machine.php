@@ -39,15 +39,15 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">SP Unbalance</h4>
-                                <div id="gauge-chart" class="e-charts-2"></div>
+                                <div id="gauge-chart-2" class="e-charts"></div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">SP bearing vib.</h4>
-                                <div id="gauge-chart" class="e-charts-3"></div>
+                                <div id="gauge-chart-3" class="e-charts"></div>
                             </div>
                         </div>
                     </div>
