@@ -60,6 +60,9 @@ var optionsLine2 = {
     max: 20
   })
 }],
+xaxis: {
+  type: 'datetime'
+},
   chart: {
   id: 'tw',
   group: 'social',
@@ -79,6 +82,9 @@ var optionsArea = {
     max: 60
   })
 }],
+xaxis: {
+  type: 'datetime'
+},
   chart: {
   id: 'yt',
   group: 'social',
@@ -98,6 +104,9 @@ var optionsSmall = {
     max: 60
   })
 }],
+xaxis: {
+  type: 'datetime'
+},
   chart: {
   id: 'ig',
   group: 'social',
@@ -117,6 +126,9 @@ var optionsSmall2 = {
     max: 60
   })
 }],
+xaxis: {
+  type: 'datetime'
+},
   chart: {
   id: 'li',
   group: 'social',
