@@ -218,7 +218,9 @@
                     ?>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
-
+                    <?php
+                    print_r($_SESSION);
+                    ?>
                     <!-- item-->
                     <a href="<?= base_url('lang/ko'); ?>" class="dropdown-item notify-item language" data-lang="en">
                         <img src="assets/images/flags/flag-800.png" alt="user-image" class="me-1" height="12"> <span class="align-middle">Korean</span>
