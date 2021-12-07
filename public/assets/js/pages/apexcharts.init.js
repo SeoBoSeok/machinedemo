@@ -537,15 +537,15 @@ let seriesData = [
         {
           x: x1,
           y: [
-            dateFns.getTime((subMinutes(new Date(), 60), "Korea/Seoul")),
+            dateFns.getTime((dateFns.subMinutes(new Date(), 60), "Korea/Seoul")),
             dateFns.getTime((new Date(), "Korea/Seoul"))
           ]
         },
         {
           x: x1,
           y: [
-            dateFns.getTime((subMinutes(new Date(), 120), "Korea/Seoul")),
-            dateFns.getTime((subMinutes(new Date(), 90), "Korea/Seoul")),
+            dateFns.getTime((dateFns.subMinutes(new Date(), 120), "Korea/Seoul")),
+            dateFns.getTime((dateFns.subMinutes(new Date(), 90), "Korea/Seoul")),
           ]
         },
         {
