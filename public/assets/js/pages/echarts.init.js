@@ -731,6 +731,62 @@ optionRUL = {
 
 optionRUL && myChartRUL.setOption(optionRUL);
 
+var chartDomLoad = document.getElementById('chart-Load');
+var myChartLoad = echarts.init(chartDomRUL);
+var optionLoad;
+
+const dataLoad = [10, 15, 20, 0];
+// RUL
+optionLoad = {
+    xAxis: {
+      max: 100
+    },
+    yAxis: {
+      type: 'category',
+      data: ['X', 'Y', 'Z', 'SP1']
+    },
+    series: [
+      {
+        type: 'bar',
+        data: dataLoad,
+        label: {
+          show: false,
+          position: 'right',
+          valueAnimation: true
+        }
+      }
+    ],
+    legend: {
+      show: false
+    },
+    animationDuration: 0,
+    animationDurationUpdate: 1000,
+    animationEasing: 'linear',
+    animationEasingUpdate: 'linear'
+  };
+  function runLoad() {
+    dataLoad[0] = (Math.random() * 11);
+    dataLoad[1] = (Math.random() * 5);
+    dataLoad[2] = (Math.random() * 21);
+    dataLoad[3] = (Math.random() * 1);
+    myChartRUL.setOption({
+      series: [
+        {
+          type: 'bar',
+          dataLoad
+        }
+      ]
+    });
+  }
+  setTimeout(function () {
+    runLoad();
+  }, 0);
+  setInterval(function () {
+    runLoad();
+  }, 1000);
+
+optionLoad && myChartLoad.setOption(optionLoad);
+
 // Machine MSC
 
 // var dom = document.getElementById("bar-chart-machine");
