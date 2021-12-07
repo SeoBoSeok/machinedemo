@@ -43,7 +43,7 @@
                                 <div class="table-rep-plugin">
                                 <div class="table-responsive mb-0" data-pattern="priority-columns">
 
-                                <table class="table mb-10">
+                                <table class="table mb-10 table-striped">
 
 <thead>
     <tr>
