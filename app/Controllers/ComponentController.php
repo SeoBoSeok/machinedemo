@@ -359,6 +359,14 @@ class ComponentController extends BaseController
 		return view('charts-echart', $data);
 	}
 
+	public function show_charts_echart_machine(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'EChart']),
+			'page_title' => view('partials/page-title', ['title' => 'ECharts', 'pagetitle' => 'Charts'])
+		];
+		return view('charts-echart-machine', $data);
+	}
+
 	public function show_charts_chartjs(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Chartjs']),
