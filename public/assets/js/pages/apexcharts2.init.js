@@ -24,17 +24,27 @@ function generateDayWiseTimeSeries(baseval, count, yrange) {
 var options = {
   series: [{
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 10,
-    max: 100
-  })
-}],
+      min: 1,
+      max: 10
+    })
+  }],
   chart: {
-  id: 'fb',
-  group: 'social',
-  type: 'line',
-  height: 300
-},
-colors: ['#008FFB']
+    id: 'fb',
+    group: 'social',
+    type: 'line',
+    height: 300
+  },
+  title: {
+    text: 'Monthly Inflation in Argentina, 2002',
+    floating: true,
+    offsetY: 330,
+    align: 'center',
+    style: {
+        color: '#444',
+        fontWeight:  '500',
+    }
+  },
+  colors: ['#008FFB']
 };
 
 var chart = new ApexCharts(document.querySelector("#chart-line"), options);
@@ -43,8 +53,8 @@ chart.render();
 var optionsLine2 = {
   series: [{
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 30,
-    max: 100
+    min: 0,
+    max: 20
   })
 }],
   chart: {

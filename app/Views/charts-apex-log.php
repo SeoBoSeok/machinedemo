@@ -43,16 +43,6 @@
                         </div>
                         <!--end card-->
                     </div>
-                    <div class="col-xl-12">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title mb-4">Machine</h4>
-
-                                <div id="bar_chart_machine" class="apex-charts" dir="ltr"></div>
-                            </div>
-                        </div>
-                        <!--end card-->
-                    </div>
                 </div>
                 <!-- end row -->
 
