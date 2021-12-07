@@ -672,6 +672,70 @@ if (option3 && typeof option2 === "object") {
     myChart3.setOption(option3, true);
 }
 
+var chartDomRUL = document.getElementById('chart-RUL');
+var myChartRUL = echarts.init(chartDomRUL);
+var optionRUL;
+
+const data = [];
+for (let i = 0; i < 2; ++i) {
+  data.push(Math.round(Math.random() * 20));
+}
+// RUL
+optionRUL = {
+    xAxis: {
+      max: 100
+    },
+    yAxis: {
+      type: 'category',
+      data: ['XYZ', 'SP'],
+      max: 2 // only the largest 3 bars will be displayed
+    },
+    series: [
+      {
+        name: 'X',
+        type: 'bar',
+        data: data,
+        label: {
+          show: true,
+          position: 'right',
+          valueAnimation: true
+        }
+      }
+    ],
+    legend: {
+      show: true
+    },
+    animationDuration: 0,
+    animationDurationUpdate: 1000,
+    animationEasing: 'linear',
+    animationEasingUpdate: 'linear'
+  };
+  function run() {
+    for (var i = 0; i < data.length; ++i) {
+      if (Math.random() > 0.9) {
+        data[i] += Math.round(Math.random() * 20);
+      } else {
+        data[i] += Math.round(Math.random() * 10);
+      }
+    }
+    myChartRUL.setOption({
+      series: [
+        {
+          type: 'bar',
+          data
+        }
+      ]
+    });
+  }
+  setTimeout(function () {
+    run();
+  }, 0);
+  setInterval(function () {
+    run();
+  }, 1000);
+
+optionRUL && myChartRUL.setOption(optionRUL);
+
 // Machine MSC
 
 // var dom = document.getElementById("bar-chart-machine");

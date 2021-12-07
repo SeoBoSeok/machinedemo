@@ -52,6 +52,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">RUL [%]</h4>
+                                <div id="chart-RUL" class="e-charts"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- end row -->
 
                 <!-- end row -->
