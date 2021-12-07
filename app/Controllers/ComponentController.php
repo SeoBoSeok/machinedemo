@@ -367,6 +367,14 @@ class ComponentController extends BaseController
 		return view('charts-echart-machine', $data);
 	}
 
+	public function show_charts_apex_log(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Operation Data Log']),
+			'page_title' => view('partials/page-title', ['title' => 'Log', 'pagetitle' => 'Operation Data Log'])
+		];
+		return view('charts-apex-log', $data);
+	}
+
 	public function show_charts_chartjs(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Chartjs']),
