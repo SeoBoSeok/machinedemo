@@ -219,7 +219,7 @@
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
                     <?php
-                    print_r($_SESSION);
+                    // print_r($_SESSION);
                     ?>
                     <!-- item-->
                     <a href="<?= base_url('lang/ko'); ?>" class="dropdown-item notify-item language" data-lang="en">

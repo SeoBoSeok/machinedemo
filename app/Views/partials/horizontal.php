@@ -221,7 +221,7 @@
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
                     <?php
-                    print_r($_SESSION);
+                    // print_r($_SESSION);
                     ?>
                     <!-- item-->
                     <?php if($lang !== 'ko'):  ?>
