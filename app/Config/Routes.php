@@ -32,7 +32,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 // Authentication Routing ---- Removed 
-// $routes->match(['get', 'post'], 'auth-login', 'AuthController::login');
+$routes->match(['get', 'post'], 'auth-login', 'AuthController::login');
 // $routes->match(['get', 'post'], 'auth-register', 'AuthController::register');
 // $routes->match(['get', 'post'], 'auth-recoverpw', 'AuthController::recoverpw');
 // $routes->match(['get', 'post'], 'auth-updatepw', 'AuthController::updatepw');
