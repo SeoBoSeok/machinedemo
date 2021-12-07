@@ -591,7 +591,7 @@ if (option && typeof option === "object") {
 // gauge 2
 
 var dom2 = document.getElementById("gauge-chart-2");
-var myChart2 = echarts.init(dom);
+var myChart2 = echarts.init(dom2);
 var app2 = {};
 option2 = null;
 option2 = {
@@ -633,7 +633,7 @@ if (option2 && typeof option2 === "object") {
 // gauge 3
 
 var dom3 = document.getElementById("gauge-chart-3");
-var myChart3 = echarts.init(dom);
+var myChart3 = echarts.init(dom3);
 var app3 = {};
 option3 = null;
 option3 = {
