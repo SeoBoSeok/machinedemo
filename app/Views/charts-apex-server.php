@@ -13,7 +13,11 @@
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js" integrity="sha512-F+u8eWHrfY8Xw9BLzZ8rG/0wIvs0y+JyRJrXjp3VjtFPylAEEGwKbua5Ip/oiVhaTDaDs4eU2Xtsxjs/9ag2bQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<style>
+    .apexcharts-rangebar-area, .apexcharts-text {
+        cursor: pointer;
+    }
+</style>
 <!-- Begin page -->
 <div id="layout-wrapper">
 
