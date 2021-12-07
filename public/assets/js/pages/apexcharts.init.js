@@ -1135,3 +1135,11 @@ var chart = new ApexCharts(
 );
 
 chart.render();
+
+$('.apexcharts-rangebar-area').click(function(){
+  window.location.href = '/charts-echart-machine';
+});
+
+$('.apexcharts-text').click(function(){
+  window.location.href = '/charts-apex-log';
+});
