@@ -917,7 +917,7 @@ var options = {
     plotOptions: {
         bar: {
             horizontal: true,
-            barHeight: '10%',
+            barHeight: '30%',
             rangeBarGroupRows: false
         }
     },
@@ -1005,12 +1005,12 @@ var options = {
     ]
   }
 
-  var chartMachine = new ApexCharts(
-    document.querySelector("#bar_chart_machine"),
-    optionsDataMachine
-  );
+var chartMachine = new ApexCharts(
+document.querySelector("#bar_chart_machine"),
+optionsDataMachine
+);
 
-  chartMachine.render();
+chartMachine.render();
 
 
 //  Radial chart
