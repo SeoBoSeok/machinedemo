@@ -7,7 +7,7 @@
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
-                <!-- <li class="menu-title" key="t-menu"><?= lang('Files.Menu') ?></li>
+                <li class="menu-title" key="t-menu"><?= lang('Files.Menu') ?></li>
 
                 <li>
                     <a href="javascript: void(0);" class="waves-effect">
@@ -274,7 +274,7 @@
                         <li><a href="ui-rating" key="t-rating"><?= lang('Files.Rating') ?></a></li>
                         <li><a href="ui-notifications" key="t-notifications"><?= lang('Files.Notifications') ?></a></li>
                     </ul>
-                </li> -->
+                </li>
 
                 <li>
                     <a href="javascript: void(0);" class="waves-effect">
@@ -296,7 +296,7 @@
                     </ul>
                 </li>
 
-                <!-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-list-ul"></i>
                         <span key="t-tables"><?= lang('Files.Tables') ?></span>
@@ -307,7 +307,7 @@
                         <li><a href="tables-responsive" key="t-responsive-table"><?= lang('Files.Responsive Table') ?></a></li>
                         <li><a href="tables-editable" key="t-editable-table"><?= lang('Files.Editable Table') ?></a></li>
                     </ul>
-                </li> -->
+                </li>
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
@@ -325,7 +325,7 @@
                     </ul>
                 </li>
 
-                <!-- <li>
+                <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="bx bx-aperture"></i>
                         <span key="t-icons"><?= lang('Files.Icons') ?></span>
@@ -365,7 +365,7 @@
                             </ul>
                         </li>
                     </ul>
-                </li> -->
+                </li>
 
             </ul>
         </div>
