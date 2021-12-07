@@ -700,6 +700,12 @@ let seriesData = [
         selection: function(chartContext, { xaxis, yaxis }) {
           console.log(chartContext);
         }
+      },
+      zoom: {
+        enabled: false
+      },
+      toolbar: {
+        show: false
       }
     },
     animations: {
@@ -712,7 +718,7 @@ let seriesData = [
     plotOptions: {
       bar: {
         horizontal: true,
-        barHeight: '10%',
+        barHeight: '30%',
         rangeBarGroupRows: false
       }
     },
@@ -729,7 +735,7 @@ let seriesData = [
       type: 'datetime'
     },
     legend: {
-      position: 'top'
+        position: 'bottom'
     },
     responsive: [
       {
@@ -900,25 +906,20 @@ var options = {
         markerClick: function(event, chartContext, { seriesIndex, dataPointIndex, config}) {
           console.log(event);
         }
+      },
+      zoom: {
+        enabled: false
+      },
+      toolbar: {
+        show: false
       }
     },
     plotOptions: {
-      bar: {
-        horizontal: true,
-        colors: {
-          ranges: [{
-              from: 0,
-              to: 100,
-              color: undefined
-          }],
-          backgroundBarColors: [],
-          backgroundBarOpacity: 1,
-          backgroundBarRadius: 0,
-        },
-        dataLabels: {
-          position: 'top',
-        },
-      }
+        bar: {
+            horizontal: true,
+            barHeight: '30%',
+            rangeBarGroupRows: false
+        }
     },
     series: seriesDataMachine,
     dataLabels: {
@@ -950,7 +951,7 @@ var options = {
       }
     },
     legend: {
-      position: 'top'
+      position: 'bottom'
     },
     colors: [
       "gray", "#66ccff", "#FEB019", "#FF4560", "#775DD0",
