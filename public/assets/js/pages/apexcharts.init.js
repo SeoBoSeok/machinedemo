@@ -748,7 +748,7 @@ let seriesData = [
             console.log('y1', y1);
             console.log('y2', y2);
         return '<div class="arrow_box">' +
-            '<span>' + dateFns.format(y1, 'kk:mm:ss') + '-' + dateFns.format(y2, 'kk:mm:ss') + '</span>' +
+            '<span>' + new Date(y1) + '-' + dateFns.format(y2, 'kk:mm:ss') + '</span>' +
             '<button></div>'
         }
     },
