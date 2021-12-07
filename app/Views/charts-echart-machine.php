@@ -71,12 +71,13 @@
                     </div>
                 </div>
                 <!-- end row -->
+                <style>.e-charts-speed{height: 120px;}</style>
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Speed [%]</h4>
-                                <div id="chart-Speed" class=""></div>
+                                <div id="chart-Speed" class="e-charts-speed"></div>
                             </div>
                         </div>
                     </div>
