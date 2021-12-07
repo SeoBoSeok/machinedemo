@@ -105,7 +105,7 @@
 
                                 <form>
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div class="col">
                                             <div class="mb-3 row">
                                                 <label for="example-text-input" class="col-md-2 col-form-label">Site Id</label>
                                                 <div class="col-md-10">
