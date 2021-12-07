@@ -176,7 +176,7 @@
                                             <div class="mb-3 row">
                                                 <label class="form-label">Tyes</label>
 
-                                                <select class="form-control" data-placeholder="Choose ...">
+                                                <select class="form-select" data-placeholder="Choose ...">
                                                     <optgroup label="Types">
                                                         <option value="AK">Machine</option>
                                                         <option value="HI">T1</option>
