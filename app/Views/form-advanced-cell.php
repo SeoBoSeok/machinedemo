@@ -61,8 +61,7 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                    
+                                    <td>0</td>                                 
                                 </tr>
                                 <tr>
                                     <th scope="row">1</th>
@@ -73,8 +72,7 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                    
+                                    <td>0</td>                                  
                                 </tr>
                                 <tr>
                                     <th scope="row">3</th>
@@ -85,8 +83,7 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                    
+                                    <td>0</td>                                  
                                 </tr>
                                 <tr>
                                     <th scope="row">4</th>
@@ -97,8 +94,7 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                    
+                                    <td>0</td>                                 
                                 </tr>
                                 <tr>
                                     <th scope="row">5</th>
@@ -109,8 +105,7 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                    
+                                    <td>0</td>                                  
                                 </tr>
                                 <tr>
                                     <th scope="row">6</th>
@@ -122,7 +117,6 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>                                    
                                 </tr>
                                 <tr>
                                     <th scope="row">7</th>
@@ -133,8 +127,7 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                    
+                                    <td>0</td>                                
                                 </tr>
                                 <tr>
                                     <th scope="row">8</th>
@@ -145,8 +138,7 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                    
+                                    <td>0</td>                                
                                 </tr>
                                 <tr>
                                     <th scope="row">9</th>
@@ -157,8 +149,7 @@
                                     <td>0</td>
                                     <td>0</td>
                                     <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                    
+                                    <td>0</td>                               
                                 </tr>                                                                                                                                                                                                                                                                                                                                                  
                             </tbody>
                         </table>
