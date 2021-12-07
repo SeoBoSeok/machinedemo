@@ -27,83 +27,33 @@
                 <?= $page_title ?>
 
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-xl-4">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mb-4">Machine status change [%]</h4>
-                                <div id="bar-chart-machine" class="e-charts"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="col-xl-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title mb-4">Mix Line-Bar</h4>
-                                <div id="mix-line-bar" class="e-charts"></div>
-                            </div>
-                        </div>
-                    </div> -->
-                </div>
-                <!-- end row -->
-
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title mb-4">Doughnut Chart</h4>
-                                <div id="doughnut-chart" class="e-charts"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title mb-4">Pie Chart</h4>
-                                <div id="pie-chart" class="e-charts"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end row -->
-
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title mb-4">Scatter Chart</h4>
-                                <div id="scatter-chart" class="e-charts"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title mb-4">Bubble Chart</h4>
-                                <div id="bubble-chart" class="e-charts"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end row -->
-
-                <div class="row">
-                    <div class="col-xl-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title mb-4">Candlestick Chart</h4>
-                                <div id="candlestick-chart" class="e-charts"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <h4 class="card-title mb-4">Gauge Chart</h4>
+                                <h4 class="card-title mb-4">XYZ Friction</h4>
                                 <div id="gauge-chart" class="e-charts"></div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">SP Unbalance</h4>
+                                <div id="gauge-chart" class="e-charts-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">SP bearing vib.</h4>
+                                <div id="gauge-chart" class="e-charts-3"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <!-- end row -->
+
                 <!-- end row -->
 
             </div> <!-- container-fluid -->

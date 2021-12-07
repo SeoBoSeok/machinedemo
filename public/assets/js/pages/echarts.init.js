@@ -588,6 +588,90 @@ if (option && typeof option === "object") {
     myChart.setOption(option, true);
 }
 
+// gauge 2
+
+var dom2 = document.getElementById("gauge-chart-2");
+var myChart2 = echarts.init(dom);
+var app2 = {};
+option2 = null;
+option2 = {
+    
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        feature: {
+            restore: {title: "Refresh"},
+            saveAsImage: {title: "Download Image"}
+        }
+    },
+    series: [
+        {
+            name: 'Business indicator',
+            type: 'gauge',
+            detail: {formatter:'{value}%'},
+            axisLine: {     
+                lineStyle: {       
+                    color: [[0.2, '#34c38f'],[0.8, '#556ee6'],[1, '#f46a6a']], 
+                    width: 20
+                }
+            },
+            data: [{value: 30, name: 'Completion rate'}]
+        }
+    ]
+};
+
+setInterval(function () {
+    option2.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 30;
+    myChart2.setOption(option2, true);
+},1000);
+;
+if (option2 && typeof option2 === "object") {
+    myChart2.setOption(option2, true);
+}
+
+// gauge 3
+
+var dom3 = document.getElementById("gauge-chart-3");
+var myChart3 = echarts.init(dom);
+var app3 = {};
+option3 = null;
+option3 = {
+    
+    tooltip : {
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        feature: {
+            restore: {title: "Refresh"},
+            saveAsImage: {title: "Download Image"}
+        }
+    },
+    series: [
+        {
+            name: 'Business indicator',
+            type: 'gauge',
+            detail: {formatter:'{value}%'},
+            axisLine: {     
+                lineStyle: {       
+                    color: [[0.2, '#34c38f'],[0.8, '#556ee6'],[1, '#f46a6a']], 
+                    width: 20
+                }
+            },
+            data: [{value: 30, name: 'Completion rate'}]
+        }
+    ]
+};
+
+setInterval(function () {
+    option3.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 30;
+    myChart2.setOption(option3, true);
+},1000);
+;
+if (option3 && typeof option2 === "object") {
+    myChart3.setOption(option3, true);
+}
+
 // Machine MSC
 
 var dom = document.getElementById("bar-chart-machine");
@@ -681,10 +765,11 @@ optionMSC = {
     ]
   };
 
-// setInterval(function () {
-//     optionMSC.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 30;
-//     myChart.setOption(optionMSC, true);
-// },1000);
+setInterval(function () {
+    optionMSC.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 30;
+    myChart.setOption(optionMSC, true);
+},1000);
+
 if (optionMSC && typeof optionMSC === "object") {
     myChart.setOption(optionMSC, true);
 }
