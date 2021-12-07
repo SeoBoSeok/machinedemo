@@ -114,17 +114,6 @@
                                                     <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                                 </div>
                                             </div>
-
-                                        </div>
-
-                                        <div class="col-lg-6">
-                                            <div class="mt-3">
-                                                <label class="mb-1">Description</label>
-                                                <p class="text-muted mb-2">
-                                                    
-                                                </p>
-                                                <textarea id="textarea" class="form-control" maxlength="225" rows="3" placeholder="This textarea has a limit of 225 chars."></textarea>
-                                            </div>
                                             <div class="mb-3">
                                                 <label class="form-label">List of Machine Cells</label>
 
@@ -140,7 +129,17 @@
                                                     </optgroup>
                                                 </select>
 
-                                            </div>                                            
+                                            </div>     
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="mt-3">
+                                                <label class="mb-1">Description</label>
+                                                <p class="text-muted mb-2">
+                                                    
+                                                </p>
+                                                <textarea id="textarea" class="form-control" maxlength="225" rows="3" placeholder="This textarea has a limit of 225 chars."></textarea>
+                                            </div>                                       
                                         </div>
                                     </div>
 
