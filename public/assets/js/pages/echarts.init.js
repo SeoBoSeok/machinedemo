@@ -732,7 +732,7 @@ optionRUL = {
 optionRUL && myChartRUL.setOption(optionRUL);
 
 var chartDomLoad = document.getElementById('chart-Load');
-var myChartLoad = echarts.init(chartDomRUL);
+var myChartLoad = echarts.init(chartDomLoad);
 var optionLoad;
 // RUL
 optionLoad = {
@@ -757,8 +757,8 @@ optionLoad = {
     ]
   }
   function runLoad() {
-    var data = [(Math.round((Math.random() * 2) + 10)), (Math.round((Math.random() * 2) + 22)), (Math.round((Math.random() * 2) + 28)), (Math.round((Math.random() * 2) + 43))];
-    myChartRUL.setOption({
+    var data = [(Math.round((Math.random() * 1) + 10)), (Math.round((Math.random() * 1) + 22)), (Math.round((Math.random() * 1) + 28)), (Math.round((Math.random() * 1) + 43))];
+    myChartLoad.setOption({
       series: [
         {
           type: 'bar',
