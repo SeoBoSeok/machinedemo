@@ -688,7 +688,6 @@ optionRUL = {
     },
     series: [
       {
-        name: 'X',
         type: 'bar',
         data: data,
         label: {

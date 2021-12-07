@@ -361,8 +361,8 @@ class ComponentController extends BaseController
 
 	public function show_charts_echart_machine(){
 		$data = [
-			'title_meta' => view('partials/title-meta', ['title' => 'EChart']),
-			'page_title' => view('partials/page-title', ['title' => 'ECharts', 'pagetitle' => 'Charts'])
+			'title_meta' => view('partials/title-meta', ['title' => 'Machine Monitor']),
+			'page_title' => view('partials/page-title', ['title' => 'Machine Monitor', 'pagetitle' => 'Machine Monitor'])
 		];
 		return view('charts-echart-machine', $data);
 	}
