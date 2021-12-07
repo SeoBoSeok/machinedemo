@@ -192,7 +192,7 @@
                     <?php
                     $session = \Config\Services::session();
                     // print_r($session);
-                    print_r($_SESSION);
+                    // print_r($_SESSION);
                     $lang = $session->get('lang');
                     switch ($lang) {
                         case 'ko':
