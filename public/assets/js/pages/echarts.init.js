@@ -731,11 +731,11 @@ optionRUL = {
 
 optionRUL && myChartRUL.setOption(optionRUL);
 
-var chartDomSpeed = document.getElementById('chart-Speed');
-var myChartSpeed = echarts.init(chartDomSpeed);
-var optionSpeed;
+var chartDomLoad = document.getElementById('chart-Load');
+var myChartLoad = echarts.init(chartDomLoad);
+var optionLoad;
 // RUL
-optionSpeed = {
+optionLoad = {
     xAxis: {
         max: 100
     },
