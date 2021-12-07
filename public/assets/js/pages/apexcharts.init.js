@@ -752,13 +752,13 @@ let seriesData = [
             show: true,
             formatter: function (val) {
                 console.log('dd', val);
-                return dateFns.format(val, 'k:mm:ss');
+                return 'dataFns';
                 },
         },
         y: {
             formatter: function (val) {
             console.log('val', val);
-            return val;
+            return 'val';
             }
         },
         z: {
