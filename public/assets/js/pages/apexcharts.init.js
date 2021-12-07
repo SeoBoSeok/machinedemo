@@ -741,7 +741,7 @@ let seriesData = [
     tooltip: {
         y: {
           formatter: function (val) {
-            console.log(val);
+            console.log('val', val);
             return val;
           }
         }
