@@ -220,11 +220,9 @@
                 <div class="dropdown-menu dropdown-menu-end">
 
                     <!-- item-->
-                    <?php if($lang !== 'ko'):  ?>
-                        <a href="<?= base_url('lang/en'); ?>" class="dropdown-item notify-item language" data-lang="en">
-                            <img src="assets/images/flags/flag-800.png" alt="user-image" class="me-1" height="12"> <span class="align-middle">Korean</span>
-                        </a>
-                    <?php endif ?>
+                    <a href="<?= base_url('lang/ko'); ?>" class="dropdown-item notify-item language" data-lang="en">
+                        <img src="assets/images/flags/flag-800.png" alt="user-image" class="me-1" height="12"> <span class="align-middle">Korean</span>
+                    </a>
                     <a href="<?= base_url('lang/en'); ?>" class="dropdown-item notify-item language" data-lang="en">
                         <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">English</span>
                     </a>
