@@ -114,7 +114,7 @@
                                                     <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
                                                 </div>
                                             </div>
-                                            <div class="mb-3">
+                                            <div class="mb-3 row">
                                                 <label class="form-label">List of Machine Cells</label>
 
                                                 <select class="select2 form-control select2-multiple" multiple="multiple" data-placeholder="Choose ...">
