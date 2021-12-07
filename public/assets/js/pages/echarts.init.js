@@ -684,7 +684,7 @@ optionRUL = {
     },
     yAxis: {
       type: 'category',
-      data: ['XYZ', 'SP']
+      data: ['SP', 'XYZ']
     },
     series: [
       {
@@ -741,7 +741,7 @@ optionLoad = {
     },
     yAxis: {
         type: 'category',
-        data: ['X', 'Y', 'Z', 'SP1']
+        data: ['SP1', 'Z', 'Y', 'X']
     },
     series: [
       {
