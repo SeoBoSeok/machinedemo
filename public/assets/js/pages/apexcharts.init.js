@@ -418,6 +418,320 @@ chart.render();
 
 // Bar chart
 
+let seriesData = [
+    {
+      name: 'Connection',
+      data: [
+        {
+          x: x1,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 24), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 13), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x1,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 3), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(new Date(), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x2,
+          y: []
+        },
+        {
+          x: x3,
+          y: []
+        },
+        {
+          x: x4,
+          y: []
+        },
+        {
+          x: x5,
+          y: []
+        },
+        {
+          x: x6,
+          y: []
+        },
+        {
+          x: x7,
+          y: []
+        },
+        {
+          x: x8,
+          y: []
+        },
+        {
+          x: x9,
+          y: []
+        },
+        {
+          x: x10,
+          y: []
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 24), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 13), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 12), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(new Date(), 60, "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x11,
+          y: [
+            getTime(zonedTimeToUtc(subDays(new Date(), 1), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(new Date(), 60, "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x12,
+          y: []
+        },
+        {
+          x: x13,
+          y: []
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subDays(new Date(), 1), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(new Date(), 60, "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x15,
+          y: []
+        }
+      ]
+    },
+    // George Washington
+    {
+      name: 'Machine Cycle',
+      data: [
+        {
+          x: x1,
+          y: [
+            getTime(zonedTimeToUtc(subMinutes(new Date(), 60), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(new Date(), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x1,
+          y: [
+            getTime(zonedTimeToUtc(subMinutes(new Date(), 120), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subMinutes(new Date(), 90), "Korea/Seoul")),
+          ]
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 23), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 22), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 21), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 20), "Korea/Seoul")),
+          ]
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 18), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 16), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 14), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 13), "Korea/Seoul")),
+          ]
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 10), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 9), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 8), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 7), "Korea/Seoul")),
+          ]
+        }, 
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 6), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 5), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x3,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 4), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 3), "Korea/Seoul")),
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 24), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 23), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 22), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 21), "Korea/Seoul")),
+          ]
+        }, 
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 20), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 19), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 18), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 17), "Korea/Seoul")),
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 16), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 15), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 14), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 13), "Korea/Seoul")),
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 12), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 11), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 10), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 9), "Korea/Seoul")),
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 8), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 7), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 6), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 5), "Korea/Seoul")),
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 4), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 3), "Korea/Seoul"))
+          ]
+        },
+        {
+          x: x14,
+          y: [
+            getTime(zonedTimeToUtc(subHours(new Date(), 2), "Korea/Seoul")),
+            getTime(zonedTimeToUtc(subHours(new Date(), 1), "Korea/Seoul")),
+          ]
+        },                                   
+      ]
+    },
+  ]
+  
+  let optionsData = {
+    chart: {
+      type: 'rangeBar',
+      width: "100%",
+      height: 380,
+      events: {
+        selection: function(chartContext, { xaxis, yaxis }) {
+          console.log(chartContext);
+        }
+      }
+    },
+    animations: {
+      enabled: true,
+      easing: "linear",
+      dynamicAnimation: {
+        speed: 1000
+      }
+    },
+    plotOptions: {
+      bar: {
+        horizontal: true,
+        barHeight: '30%',
+        rangeBarGroupRows: false
+      }
+    },
+    colors: [
+      "gray", "#66ccff", "#FEB019", "#FF4560", "#775DD0",
+      "#3F51B5", "#546E7A", "#D4526E", "#8D5B4C", "#F86624",
+      "#D7263D", "#1B998B", "#2E294E", "#F46036", "#E2C044"
+    ],
+    fill: {
+      type: 'solid'
+    },
+    xaxis: {
+      type: 'datetime'
+    },
+    legend: {
+      position: 'top'
+    },
+    responsive: [
+      {
+        breakpoint: 1000,
+        options: {
+          plotOptions: {
+            bar: {
+              horizontal: true
+            }
+          },
+          legend: {
+            position: "bottom"
+          }
+        }
+      }
+    ]
+  }
+
 var options = {
     chart: {
         height: 350,

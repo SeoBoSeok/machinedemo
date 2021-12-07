@@ -11,6 +11,9 @@
 
 <?= $this->include('partials/body') ?>
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js" integrity="sha512-F+u8eWHrfY8Xw9BLzZ8rG/0wIvs0y+JyRJrXjp3VjtFPylAEEGwKbua5Ip/oiVhaTDaDs4eU2Xtsxjs/9ag2bQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <!-- Begin page -->
 <div id="layout-wrapper">
 
@@ -47,7 +50,7 @@
                     <div class="col-xl-8">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mb-4">Bar Chart</h4>
+                                <h4 class="card-title mb-4">Time Chart</h4>
 
                                 <div id="bar_chart" class="apex-charts" dir="ltr"></div>
                             </div>
