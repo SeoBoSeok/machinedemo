@@ -699,7 +699,7 @@ let seriesData = [
       height: '800px',
       events: {
         selection: function(chartContext, { xaxis, yaxis }) {
-          console.log(chartContext);
+          console.log('chartContext', chartContext);
         }
       },
       zoom: {
