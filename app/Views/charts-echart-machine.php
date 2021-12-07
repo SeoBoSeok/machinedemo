@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <!-- end row -->
-                <style>.e-charts-speed{height: 120px;}</style>
+                <style>.e-charts-speed{height: 200px;}</style>
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="card">
