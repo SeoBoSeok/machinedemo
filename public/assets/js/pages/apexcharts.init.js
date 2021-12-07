@@ -740,7 +740,7 @@ let seriesData = [
     },
     tooltip: {
         enabled: true,
-        enabledOnSeries: undefined,
+        enabledOnSeries: true,
         shared: true,
         followCursor: false,
         intersect: false,
