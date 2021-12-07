@@ -145,3 +145,187 @@ colors: ['#546E7A']
 
 var chartSmall2 = new ApexCharts(document.querySelector("#chart-small2"), optionsSmall2);
 chartSmall2.render();
+
+var optionsSmall3 = {
+  series: [{
+    name: 'Feedrate',
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 10,
+    max: 60
+  })
+}],
+xaxis: {
+  type: 'datetime'
+},
+  chart: {
+  id: 'li',
+  group: 'social',
+  type: 'area',
+  height: 300
+},
+colors: ['#546E7A']
+};
+
+var chartSmall3 = new ApexCharts(document.querySelector("#chart-small3"), optionsSmall3);
+chartSmall3.render();
+
+var optionsSmall4 = {
+  series: [{
+    name: 'Fx',
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 10,
+    max: 60
+  })
+}],
+xaxis: {
+  type: 'datetime'
+},
+  chart: {
+  id: 'li',
+  group: 'social',
+  type: 'area',
+  height: 300
+},
+colors: ['#546E7A']
+};
+
+var chartSmall4 = new ApexCharts(document.querySelector("#chart-small4"), optionsSmall4);
+chartSmall4.render();
+
+var optionsSmall5 = {
+  series: [{
+    name: 'Fy',
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 10,
+    max: 60
+  })
+}],
+xaxis: {
+  type: 'datetime'
+},
+  chart: {
+  id: 'li',
+  group: 'social',
+  type: 'area',
+  height: 300
+},
+colors: ['#546E7A']
+};
+
+var chartSmall5 = new ApexCharts(document.querySelector("#chart-small5"), optionsSmall5);
+chartSmall5.render();
+
+var optionsSmall6 = {
+  series: [{
+    name: 'Fz',
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 10,
+    max: 60
+  })
+}],
+xaxis: {
+  type: 'datetime'
+},
+  chart: {
+  id: 'li',
+  group: 'social',
+  type: 'area',
+  height: 300
+},
+colors: ['#546E7A']
+};
+
+var chartSmall6 = new ApexCharts(document.querySelector("#chart-small6"), optionsSmall6);
+chartSmall6.render();
+
+var optionsSmall7 = {
+  series: [{
+    name: 'Accel. SP X[g]',
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 10,
+    max: 60
+  })
+}],
+xaxis: {
+  type: 'datetime'
+},
+  chart: {
+  id: 'li',
+  group: 'social',
+  type: 'area',
+  height: 300
+},
+colors: ['#546E7A']
+};
+
+var chartSmall7 = new ApexCharts(document.querySelector("#chart-small7"), optionsSmall7);
+chartSmall7.render();
+
+var optionsSmall8 = {
+  series: [{
+    name: 'Accel. SP Y[g]',
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 10,
+    max: 60
+  })
+}],
+xaxis: {
+  type: 'datetime'
+},
+  chart: {
+  id: 'li',
+  group: 'social',
+  type: 'area',
+  height: 300
+},
+colors: ['#546E7A']
+};
+
+var chartSmall8 = new ApexCharts(document.querySelector("#chart-small8"), optionsSmall8);
+chartSmall8.render();
+
+var optionsSmall9 = {
+  series: [{
+    name: 'Accel. SP Z[g]',
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 10,
+    max: 60
+  })
+}],
+xaxis: {
+  type: 'datetime'
+},
+  chart: {
+  id: 'li',
+  group: 'social',
+  type: 'area',
+  height: 300
+},
+colors: ['#546E7A']
+};
+
+var chartSmall9 = new ApexCharts(document.querySelector("#chart-small9"), optionsSmall9);
+chartSmall9.render();
+
+var optionsSmall10 = {
+  series: [{
+    name: 'Sound [Pa]',
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 10,
+    max: 60
+  })
+}],
+xaxis: {
+  type: 'datetime'
+},
+  chart: {
+  id: 'li',
+  group: 'social',
+  type: 'area',
+  height: 300
+},
+colors: ['#546E7A']
+};
+
+var chartSmall10 = new ApexCharts(document.querySelector("#chart-small10"), optionsSmall10);
+chartSmall10.render();

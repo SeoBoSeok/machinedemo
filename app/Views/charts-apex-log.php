@@ -39,6 +39,14 @@
                                 <div id="chart-area"></div>
                                 <div id="chart-small"></div>
                                 <div id="chart-small2"></div>
+                                <div id="chart-small3"></div>
+                                <div id="chart-small4"></div>
+                                <div id="chart-small5"></div>
+                                <div id="chart-small6"></div>
+                                <div id="chart-small7"></div>
+                                <div id="chart-small8"></div>
+                                <div id="chart-small9"></div>
+                                <div id="chart-small10"></div>
                             </div>
                         </div>
                         <!--end card-->
