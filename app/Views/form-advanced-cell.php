@@ -173,7 +173,7 @@
                                                     <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                             </div>
-                                            <div class="mb-3 row">
+                                            <div class="mb-3">
                                                 <label class="form-label">Tyes</label>
 
                                                 <select class="form-select" data-placeholder="Choose ...">
