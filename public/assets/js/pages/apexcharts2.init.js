@@ -28,6 +28,9 @@ var options = {
       max: 10
     })
   }],
+  xaxis: {
+    type: 'datetime'
+  },
   chart: {
     id: 'fb',
     group: 'social',
