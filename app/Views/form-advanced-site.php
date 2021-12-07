@@ -138,9 +138,9 @@
                                                 <p class="text-muted mb-2">
                                                     
                                                 </p>
-                                                <textarea id="textarea" class="form-control" maxlength="225" rows="5" placeholder="This textarea has a limit of 225 chars."></textarea>
+                                                <textarea id="textarea" class="form-control" maxlength="225" rows="4" placeholder="This textarea has a limit of 225 chars."></textarea>
                                             </div>                                       
-                                            <button class="btn btn-light dropdown-toggle w-100 mt-5" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <button class="btn btn-light dropdown-toggle w-100 mt-2" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="mdi mdi-plus me-1"></i> Create New
                                             </button>
                                         </div>
