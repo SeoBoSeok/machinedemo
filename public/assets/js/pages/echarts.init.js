@@ -731,61 +731,50 @@ optionRUL = {
 
 optionRUL && myChartRUL.setOption(optionRUL);
 
-// var chartDomLoad = document.getElementById('chart-Load');
-// var myChartLoad = echarts.init(chartDomRUL);
-// var optionLoad;
+var chartDomLoad = document.getElementById('chart-Load');
+var myChartLoad = echarts.init(chartDomRUL);
+var optionLoad;
+// RUL
+optionLoad = {
+    xAxis: {
+        max: 100
+    },
+    yAxis: {
+        type: 'category',
+        data: ['X', 'Y', 'Z', 'SP1']
+    },
+    series: [
+      {
+        data: [10, 22, 28, 43],
+        type: 'bar',
+        stack: 'x'
+      },
+      {
+        data: [5, 4, 3, 5],
+        type: 'bar',
+        stack: 'x'
+      }
+    ]
+  }
+  function runLoad() {
+    var data = [(Math.round((Math.random() * 2) + 10)), (Math.round((Math.random() * 2) + 22)), (Math.round((Math.random() * 2) + 28)), (Math.round((Math.random() * 2) + 43))];
+    myChartRUL.setOption({
+      series: [
+        {
+          type: 'bar',
+          data
+        }
+      ]
+    });
+  }
+  setTimeout(function () {
+    runLoad();
+  }, 0);
+  setInterval(function () {
+    runLoad();
+  }, 1000);
 
-// const dataLoad = [10, 15, 20, 0];
-// // RUL
-// optionLoad = {
-//     xAxis: {
-//       max: 100
-//     },
-//     yAxis: {
-//       type: 'category',
-//       data: ['X', 'Y', 'Z', 'SP1']
-//     },
-//     series: [
-//       {
-//         type: 'bar',
-//         data: dataLoad,
-//         label: {
-//           show: false,
-//           position: 'right',
-//           valueAnimation: true
-//         }
-//       }
-//     ],
-//     legend: {
-//       show: false
-//     },
-//     animationDuration: 0,
-//     animationDurationUpdate: 1000,
-//     animationEasing: 'linear',
-//     animationEasingUpdate: 'linear'
-//   };
-//   function runLoad() {
-//     dataLoad[0] = (Math.random() * 11);
-//     dataLoad[1] = (Math.random() * 5);
-//     dataLoad[2] = (Math.random() * 21);
-//     dataLoad[3] = (Math.random() * 1);
-//     myChartRUL.setOption({
-//       series: [
-//         {
-//           type: 'bar',
-//           dataLoad
-//         }
-//       ]
-//     });
-//   }
-//   setTimeout(function () {
-//     runLoad();
-//   }, 0);
-//   setInterval(function () {
-//     runLoad();
-//   }, 1000);
-
-// optionLoad && myChartLoad.setOption(optionLoad);
+optionLoad && myChartLoad.setOption(optionLoad);
 
 // Machine MSC
 
