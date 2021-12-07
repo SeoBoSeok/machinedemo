@@ -744,7 +744,7 @@ let seriesData = [
             format: 'dd MMM',
             formatter: function (val) {
                 console.log('dd', val);
-                return new Date(val);
+                return dateFns.format(new Date(val), 'MM/dd/yyyy');
               },
         },
         y: {
