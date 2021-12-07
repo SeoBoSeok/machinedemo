@@ -680,3 +680,14 @@ optionMSC = {
       }
     ]
   };
+
+setInterval(function () {
+    optionMSC.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 30;
+    myChart.setOption(optionMSC, true);
+},1000);
+;
+if (optionMSC && typeof optionMSC === "object") {
+    myChart.setOption(optionMSC, true);
+}
+
+optionMSC && myChart.setOption(optionMSC);
