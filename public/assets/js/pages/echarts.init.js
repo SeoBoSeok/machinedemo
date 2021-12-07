@@ -616,13 +616,13 @@ option2 = {
                     width: 20
                 }
             },
-            data: [{value: 30, name: 'Completion rate'}]
+            data: [{value: 15, name: 'Completion rate'}]
         }
     ]
 };
 
 setInterval(function () {
-    option2.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 30;
+    option2.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 15;
     myChart2.setOption(option2, true);
 },1000);
 ;
@@ -655,7 +655,7 @@ option3 = {
             axisLine: {     
                 lineStyle: {       
                     color: [[0.2, '#34c38f'],[0.8, '#556ee6'],[1, '#f46a6a']], 
-                    width: 20
+                    width: 50
                 }
             },
             data: [{value: 30, name: 'Completion rate'}]
@@ -664,7 +664,7 @@ option3 = {
 };
 
 setInterval(function () {
-    option3.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 30;
+    option3.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 50;
     myChart2.setOption(option3, true);
 },1000);
 ;
