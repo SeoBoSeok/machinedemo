@@ -655,17 +655,17 @@ option3 = {
             axisLine: {     
                 lineStyle: {       
                     color: [[0.2, '#34c38f'],[0.8, '#556ee6'],[1, '#f46a6a']], 
-                    width: 50
+                    width: 20
                 }
             },
-            data: [{value: 30, name: 'SP bearing vib.'}]
+            data: [{value: 50, name: 'SP bearing vib.'}]
         }
     ]
 };
 
 setInterval(function () {
     option3.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 50;
-    myChart2.setOption(option3, true);
+    myChart3.setOption(option3, true);
 },1000);
 ;
 if (option3 && typeof option2 === "object") {
