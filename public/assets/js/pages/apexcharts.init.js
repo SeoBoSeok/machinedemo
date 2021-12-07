@@ -696,7 +696,6 @@ let seriesData = [
     chart: {
       type: 'rangeBar',
       width: "100%",
-      height: 380,
       events: {
         selection: function(chartContext, { xaxis, yaxis }) {
           console.log(chartContext);
@@ -707,13 +706,13 @@ let seriesData = [
       enabled: true,
       easing: "linear",
       dynamicAnimation: {
-        speed: 1000
+        speed: 500
       }
     },
     plotOptions: {
       bar: {
         horizontal: true,
-        barHeight: '30%',
+        barHeight: '10%',
         rangeBarGroupRows: false
       }
     },
