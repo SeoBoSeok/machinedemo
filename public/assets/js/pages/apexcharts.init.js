@@ -739,10 +739,18 @@ let seriesData = [
         position: 'bottom'
     },
     tooltip: {
+        x: {
+            show: true,
+            format: 'dd MMM',
+            formatter: function (val) {
+                console.log('dd', val);
+                return val;
+              },
+        },
         y: {
           formatter: function (val) {
             console.log('val', val);
-            return dateFns.getTime(val);
+            return val;
           }
         }
       },
