@@ -229,7 +229,7 @@
                                         <div class="row">
                                             <div class="col-lg-4">
                                                 <div class="text-lg-center">
-                                                    <img src="assets/images/users/avatar-1.jpg" class="avatar-sm me-3 mx-lg-auto mb-3 mt-1 float-start float-lg-none rounded-circle" alt="img" />
+                                                    <img src="assets/images/kkimm_logo.png" class="avatar-sm me-3 mx-lg-auto mb-3 mt-1 float-start float-lg-none rounded-circle" alt="img" />
                                                     <h5 class="mb-1 font-size-15 text-truncate">Stanley Bland</h5>
                                                     <a href="#" class="text-muted">@Skote</a>
                                                 </div>

@@ -645,7 +645,7 @@
                             <div class="card text-center team-box">
                                 <div class="card-body">
                                     <div>
-                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="rounded">
+                                        <img src="assets/images/kkimm_logo.png" alt="" class="rounded">
                                     </div>
     
                                     <div class="mt-3">

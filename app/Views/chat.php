@@ -33,7 +33,7 @@
                             <div class="py-4 border-bottom">
                                 <div class="d-flex">
                                     <div class="align-self-center me-3">
-                                        <img src="assets/images/users/avatar-1.jpg" class="avatar-xs rounded-circle" alt="">
+                                        <img src="assets/images/kkimm_logo.png" class="avatar-xs rounded-circle" alt="">
                                     </div>
                                     <div class="flex-grow-1">
                                         <h5 class="font-size-15 mt-0 mb-1">Henry Wells</h5>

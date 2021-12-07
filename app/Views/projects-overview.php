@@ -88,7 +88,7 @@
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td><img src="assets/images/users/avatar-1.jpg" class="rounded-circle avatar-xs" alt=""></td>
+                                                        <td><img src="assets/images/kkimm_logo.png" class="rounded-circle avatar-xs" alt=""></td>
                                                         <td><h5 class="font-size-14 m-0"><a href="" class="text-dark">Jennifer Walker</a></h5></td>
                                                         <td>
                                                             <div>

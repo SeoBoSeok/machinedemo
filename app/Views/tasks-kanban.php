@@ -128,7 +128,7 @@
                                                         <div class="avatar-group float-start task-assigne">
                                                             <div class="avatar-group-item">
                                                                 <a href="javascript: void(0);" class="d-inline-block" value="member-1">
-                                                                    <img src="assets/images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                                    <img src="assets/images/kkimm_logo.png" alt="" class="rounded-circle avatar-xs">
                                                                 </a>
                                                             </div>
                                                             <div class="avatar-group-item">
@@ -453,7 +453,7 @@
                                                         <div class="avatar-group float-start task-assigne">
                                                             <div class="avatar-group-item">
                                                                 <a href="javascript: void(0);" class="d-inline-block" value="member-1">
-                                                                    <img src="assets/images/users/avatar-1.jpg" alt="" class="rounded-circle avatar-xs">
+                                                                    <img src="assets/images/kkimm_logo.png" alt="" class="rounded-circle avatar-xs">
                                                                 </a>
                                                             </div>
                                                             <div class="avatar-group-item">
@@ -654,7 +654,7 @@
                                                 <div class="form-check form-check-primary mb-2 d-flex align-items-center">
                                                     <input class="form-check-input" type="checkbox" id="member-1" name="member[]">
                                                     <label class="form-check-label ms-2" for="member-1">Albert Rodarte</label>
-                                                    <img src="assets/images/users/avatar-1.jpg" class="rounded-circle avatar-xs m-1" alt="">
+                                                    <img src="assets/images/kkimm_logo.png" class="rounded-circle avatar-xs m-1" alt="">
                                                 </div>
                                             </li>
                                             <li>

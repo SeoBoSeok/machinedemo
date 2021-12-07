@@ -92,7 +92,7 @@
                                         <form class="form-horizontal" action="/">
 
                                             <div class="user-thumb text-center mb-4">
-                                                <img src="assets/images/users/avatar-1.jpg" class="rounded-circle img-thumbnail avatar-md" alt="thumbnail">
+                                                <img src="assets/images/kkimm_logo.png" class="rounded-circle img-thumbnail avatar-md" alt="thumbnail">
                                                 <h5 class="font-size-15 mt-3">Maria Laird</h5>
                                             </div>
 

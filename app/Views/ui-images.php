@@ -188,7 +188,7 @@
                                         <!-- Start Media Object -->
                                         <div class="d-flex align-items-end">
                                             <div class="flex-shrink-0 me-3">
-                                                <img class="rounded avatar-sm" src="assets/images/users/avatar-1.jpg" alt="Generic placeholder image">                                                
+                                                <img class="rounded avatar-sm" src="assets/images/kkimm_logo.png" alt="Generic placeholder image">                                                
                                             </div>
                                             <div class="flex-grow-1">
                                                 <h5>Bottom-aligned media</h5>

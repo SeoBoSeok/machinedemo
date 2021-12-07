@@ -151,7 +151,7 @@
                             <div class="card-body">
                                 <div class="d-flex">
                                     <div class="me-3">
-                                        <img src="assets/images/users/avatar-1.jpg" alt="" class="avatar-sm rounded-circle img-thumbnail">
+                                        <img src="assets/images/kkimm_logo.png" alt="" class="avatar-sm rounded-circle img-thumbnail">
                                     </div>
                                     <div class="flex-grow-1">
                                         <div class="d-flex">
