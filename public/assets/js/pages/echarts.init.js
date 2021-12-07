@@ -574,13 +574,13 @@ option = {
                     width: 20
                 }
             },
-            data: [{value: 50, name: 'Completion rate'}]
+            data: [{value: 30, name: 'Completion rate'}]
         }
     ]
 };
 
 setInterval(function () {
-    option.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2));
+    option.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2)) + 30;
     myChart.setOption(option, true);
 },1000);
 ;
