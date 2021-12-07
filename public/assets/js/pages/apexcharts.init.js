@@ -499,14 +499,14 @@ let seriesData = [
           x: x3,
           y: [
             dateFns.getTime(dateFns.subHours(new Date(), 12), "Korea/Seoul"),
-            dateFns.getTime((new Date(), 60, "Korea/Seoul"))
+            dateFns.getTime(new Date())
           ]
         },
         {
           x: x11,
           y: [
             dateFns.getTime(dateFns.subDays(new Date(), 1), "Korea/Seoul"),
-            dateFns.getTime((new Date(), 60, "Korea/Seoul"))
+            dateFns.getTime(dateFns.subMinutes(new Date(), 60), "Korea/Seoul")
           ]
         },
         {
