@@ -829,6 +829,68 @@ optionSpeed = {
 
 optionSpeed && myChartSpeed.setOption(optionSpeed);
 
+// Cutting
+
+var chartDomCutting = document.getElementById('chart-Cutting');
+var myChartCutting = echarts.init(chartDomCutting);
+var optionCutting;
+
+optionCutting = {
+    title: {
+      text: 'Cutting Speed'
+    },
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: {
+        type: 'shadow'
+      }
+    },
+    legend: {},
+    grid: {
+      left: '3%',
+      right: '4%',
+      bottom: '3%',
+      containLabel: true
+    },
+    xAxis: {
+        max: 100
+    },
+    yAxis: {
+      type: 'category',
+      data: ['Fx', 'Fy', 'Fz']
+    },
+    series: [
+      {
+        type: 'bar',
+        data: [10, 8, 15]
+      },
+    ],
+    animationDuration: 0,
+    animationDurationUpdate: 1000,
+    animationEasing: 'linear',
+    animationEasingUpdate: 'linear'
+  };
+
+  function runCutting() {
+    var data = [(Math.round((Math.random() * 1) + 10)), (Math.round((Math.random() * 1) + 8)), (Math.round((Math.random() * 1) + 15))];
+    myChartCutting.setOption({
+      series: [
+        {
+          type: 'bar',
+          data
+        }
+      ]
+    });
+  }
+  setTimeout(function () {
+    runCutting();
+  }, 0);
+  setInterval(function () {
+    runCutting();
+  }, 1000);
+
+optionCutting && myChartCutting.setOption(optionCutting);
+
 // Machine MSC
 
 // var dom = document.getElementById("bar-chart-machine");
