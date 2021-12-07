@@ -676,10 +676,7 @@ var chartDomRUL = document.getElementById('chart-RUL');
 var myChartRUL = echarts.init(chartDomRUL);
 var optionRUL;
 
-const data = [];
-for (let i = 0; i < 2; ++i) {
-  data.push(Math.round(Math.random() * 20));
-}
+const data = [20, 1];
 // RUL
 optionRUL = {
     xAxis: {
@@ -713,9 +710,9 @@ optionRUL = {
   function run() {
     for (var i = 0; i < data.length; ++i) {
       if (Math.random() > 0.9) {
-        data[i] = Math.round(Math.random() * 23);
+        data[i] += (Math.random() * 0.05);
       } else {
-        data[i] = Math.round(Math.random() * 18);
+        data[i] += (Math.random() * 0.01);
       }
     }
     myChartRUL.setOption({
