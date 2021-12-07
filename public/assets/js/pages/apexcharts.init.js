@@ -901,7 +901,6 @@ var options = {
   const optionsDataMachine = {
     chart: {
       type: 'bar',
-      height: 800,
       events: {
         markerClick: function(event, chartContext, { seriesIndex, dataPointIndex, config}) {
           console.log(event);
@@ -917,7 +916,7 @@ var options = {
     plotOptions: {
         bar: {
             horizontal: true,
-            barHeight: '30%',
+            barHeight: '50%',
             rangeBarGroupRows: false
         }
     },
