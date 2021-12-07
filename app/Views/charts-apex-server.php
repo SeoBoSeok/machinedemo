@@ -29,7 +29,7 @@
 
                 <?= $page_title ?>
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
@@ -38,10 +38,9 @@
                                 <div id="line_chart_datalabel" class="apex-charts" dir="ltr"></div>
                             </div>
                         </div>
-                        <!--end card-->
                     </div>
 
-                </div>
+                </div> -->
                 <!-- end row -->
 
         
