@@ -574,7 +574,7 @@ option = {
                     width: 20
                 }
             },
-            data: [{value: 30, name: 'Completion rate'}]
+            data: [{value: 30, name: 'XYZ Friction'}]
         }
     ]
 };
@@ -616,7 +616,7 @@ option2 = {
                     width: 20
                 }
             },
-            data: [{value: 15, name: 'Completion rate'}]
+            data: [{value: 15, name: 'SP Unbalance'}]
         }
     ]
 };
@@ -658,7 +658,7 @@ option3 = {
                     width: 50
                 }
             },
-            data: [{value: 30, name: 'Completion rate'}]
+            data: [{value: 30, name: 'SP bearing vib.'}]
         }
     ]
 };
