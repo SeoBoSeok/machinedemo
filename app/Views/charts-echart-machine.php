@@ -30,8 +30,8 @@
                     <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mb-4">Line Chart</h4>
-                                <div id="line-chart" class="e-charts"></div>
+                                <h4 class="card-title mb-4">Machine status change [%]</h4>
+                                <div id="bar-chart-machine" class="e-charts"></div>
                             </div>
                         </div>
                     </div>

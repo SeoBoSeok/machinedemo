@@ -590,7 +590,7 @@ if (option && typeof option === "object") {
 
 // Machine MSC
 
-var dom = document.getElementById("gauge-chart-MSC");
+var dom = document.getElementById("bar-chart-machine");
 var myChart = echarts.init(dom);
 var app = {};
 optionMSC = null;
