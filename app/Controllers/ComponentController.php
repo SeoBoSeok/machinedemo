@@ -231,6 +231,30 @@ class ComponentController extends BaseController
 		return view('form-advanced', $data);
 	}
 
+	public function show_form_advanced_site(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Form Advanced']),
+			'page_title' => view('partials/page-title', ['title' => 'Form Advanced', 'pagetitle' => 'Forms'])
+		];
+		return view('form-advanced-site', $data);
+	}
+
+	public function show_form_advanced_machine(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Form Advanced']),
+			'page_title' => view('partials/page-title', ['title' => 'Form Advanced', 'pagetitle' => 'Forms'])
+		];
+		return view('form-advanced-machine', $data);
+	}
+
+	public function show_form_advanced_cell(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Form Advanced']),
+			'page_title' => view('partials/page-title', ['title' => 'Form Advanced', 'pagetitle' => 'Forms'])
+		];
+		return view('form-advanced-cell', $data);
+	}
+
 	public function show_form_editors(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Form Editors']),
