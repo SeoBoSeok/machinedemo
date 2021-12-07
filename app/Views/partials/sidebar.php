@@ -19,12 +19,9 @@
                         <li><a href="form-layouts" key="t-form-layouts"><?= lang('Files.Form Layouts') ?></a></li>
                         <li><a href="form-validation" key="t-form-validation"><?= lang('Files.Form Validation') ?></a></li>
                         <li><a href="form-advanced" key="t-form-advanced"><?= lang('Files.Form Advanced') ?></a></li>
-                        <li><a href="form-editors" key="t-form-editors"><?= lang('Files.Form Editors') ?></a></li>
-                        <li><a href="form-uploads" key="t-form-upload"><?= lang('Files.Form File Upload') ?></a></li>
-                        <li><a href="form-xeditable" key="t-form-xeditable"><?= lang('Files.Form Xeditable') ?></a></li>
-                        <li><a href="form-repeater" key="t-form-repeater"><?= lang('Files.Form Repeater') ?></a></li>
-                        <li><a href="form-wizard" key="t-form-wizard"><?= lang('Files.Form Wizard') ?></a></li>
-                        <li><a href="form-mask" key="t-form-mask"><?= lang('Files.Form Mask') ?></a></li>
+                        <li><a href="form-advanced-site" key="t-form-advanced"><?= Site ?></a></li>
+                        <li><a href="form-advanced-machine" key="t-form-advanced"><?= Machine ?></a></li>
+                        <li><a href="form-advanced-cell" key="t-form-advanced"><?= Cell ?></a></li>
                     </ul>
                 </li>
 
