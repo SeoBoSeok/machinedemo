@@ -40,15 +40,16 @@
                         <span key="t-charts">모니터링</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="charts-apex" key="t-apex-charts"><?= lang('Files.Apex Charts') ?></a></li>
+                        <!-- <li><a href="charts-apex" key="t-apex-charts"><?= lang('Files.Apex Charts') ?></a></li>
                         <li><a href="charts-echart" key="t-e-charts"><?= lang('Files.E Charts') ?></a></li>
                         <li><a href="charts-chartjs" key="t-chartjs-charts"><?= lang('Files.Chartjs Charts') ?></a></li>
                         <li><a href="charts-flot" key="t-flot-charts"><?= lang('Files.Flot Charts') ?></a></li>
                         <li><a href="charts-tui" key="t-ui-charts"><?= lang('Files.Toast UI Charts') ?></a></li>
-                        <li><a href="charts-knob" key="t-knob-charts"><?= lang('Files.Jquery Knob Charts') ?></a></li>
+                        <li><a href="charts-knob" key="t-knob-charts"><?= lang('Files.Jquery Knob Charts') ?></a></li> -->
                         <li><a href="charts-sparkline" key="t-sparkline-charts"><?= lang('Files.Sparkline Charts') ?></a></li>
                         <li><a href="charts-apex-server" key="t-apex-charts-server">VMS SERVER</a></li>
                         <li><a href="charts-echart-machine" key="t-apex-charts-machine">MACHINE MONITOR</a></li>
+                        <li><a href="charts-apex-log" key="t-apex-charts-log">Operation Data Log [24h]</a></li>
                     </ul>
                 </li>
 
