@@ -20,7 +20,7 @@
                                 <div class="col-7">
                                     <div class="text-primary p-4">
                                         <h5 class="text-primary">Welcome Back !</h5>
-                                        <p>Sign in to continue to Skote.</p>
+                                        <p>Sign in to continue to 가상공작기계.</p>
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
@@ -47,30 +47,20 @@
                                 </a>
                             </div>
                             <div class="p-2">
-                                <form class="form-horizontal" method="post" action="auth-login">
+                                <form class="form-horizontal" action="/">
 
                                     <div class="mb-3">
-                                        <label for="username" class="form-label">Email</label>
-                                        <input type="text" class="form-control" id="username" placeholder="Enter email address" name="username" value="<?= set_value('username') ?>">
+                                        <label for="username" class="form-label">Username</label>
+                                        <input type="text" class="form-control" id="username" placeholder="Enter username">
                                     </div>
-                                    <?php if (isset($validation) && $validation->hasError('username')) { ?>
-                                        <div class="alert alert-danger" role="alert">
-                                            <?= $validation->getError('username'); ?>
-                                        </div>
-                                    <?php } ?>
 
                                     <div class="mb-3">
                                         <label class="form-label">Password</label>
                                         <div class="input-group auth-pass-inputgroup">
-                                            <input type="password" class="form-control" placeholder="Enter password" aria-label="Password" aria-describedby="password-addon" name="userpassword" value="">
+                                            <input type="password" class="form-control" placeholder="Enter password" aria-label="Password" aria-describedby="password-addon">
                                             <button class="btn btn-light " type="button" id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
                                         </div>
                                     </div>
-                                    <?php if (isset($validation) && $validation->hasError('userpassword')) { ?>
-                                        <div class="alert alert-danger" role="alert">
-                                            <?= $validation->getError('userpassword'); ?>
-                                        </div>
-                                    <?php } ?>
 
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="remember-check">
@@ -119,7 +109,7 @@
                             <p>Don't have an account ? <a href="auth-register" class="fw-medium text-primary"> Signup now </a> </p>
                             <p>© <script>
                                     document.write(new Date().getFullYear())
-                                </script> Skote. Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand</p>
+                                </script> All right reserved. Crafted with <i class="mdi mdi-heart text-danger"></i> by 이비오(주)</p>
                         </div>
                     </div>
 
