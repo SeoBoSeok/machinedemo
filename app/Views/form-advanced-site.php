@@ -105,13 +105,13 @@
                                             <div class="mb-3 row">
                                                 <label for="example-text-input" class="col-md-2 col-form-label">Site Id</label>
                                                 <div class="col-md-10">
-                                                    <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                             </div>
                                             <div class="mb-3 row">
                                                 <label for="example-text-input" class="col-md-2 col-form-label">Location</label>
                                                 <div class="col-md-10">
-                                                    <input class="form-control" type="text" value="Artisanal kale" id="example-text-input">
+                                                    <input class="form-control" type="text" value="" id="example-text-input">
                                                 </div>
                                             </div>
                                             <div class="mb-3 row">
@@ -129,17 +129,17 @@
                                                     </optgroup>
                                                 </select>
 
-                                            </div>     
-                                        </div>
-
-                                        <div class="col-lg-6">
+                                            </div>
                                             <div class="">
                                                 <label class="mb-1">Description</label>
                                                 <p class="text-muted mb-2">
                                                     
                                                 </p>
                                                 <textarea id="textarea" class="form-control" maxlength="225" rows="4" placeholder="This textarea has a limit of 225 chars."></textarea>
-                                            </div>                                       
+                                            </div>        
+                                        </div>
+
+                                        <div class="col-lg-6">                                    
                                             <button class="btn btn-light dropdown-toggle w-100 mt-2" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="mdi mdi-plus me-1"></i> Create New
                                             </button>
