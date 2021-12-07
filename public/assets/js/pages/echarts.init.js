@@ -713,9 +713,9 @@ optionRUL = {
   function run() {
     for (var i = 0; i < data.length; ++i) {
       if (Math.random() > 0.9) {
-        data[i] += Math.round(Math.random() * 20);
+        data[i] = Math.round(Math.random() * 23);
       } else {
-        data[i] += Math.round(Math.random() * 10);
+        data[i] = Math.round(Math.random() * 18);
       }
     }
     myChartRUL.setOption({
