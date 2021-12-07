@@ -725,6 +725,7 @@ let seriesData = [
     fill: {
       type: 'solid'
     },
+    series: seriesData,
     xaxis: {
       type: 'datetime'
     },
@@ -777,8 +778,8 @@ var options = {
 }
 
 var chart = new ApexCharts(
-    document.querySelector("#bar_chart"),
-    options
+    document.querySelector("#bar_chart_main"),
+    optionsData
 );
 
 chart.render();
