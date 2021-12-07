@@ -109,20 +109,17 @@
 
                                                 <select class="select2 form-control select2-multiple" multiple="multiple" data-placeholder="Choose ...">
                                                     <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                        <option value="AK">MC00010</option>
-                                                        <option value="HI">MC00011</option>
+                                                        <option value="AK">MT04301</option>
+                                                        <option value="HI">MT04302</option>
                                                     </optgroup>
                                                     <optgroup label="Pacific Time Zone">
-                                                        <option value="CA">MA0001</option>
-                                                        <option value="NV">MA0002</option>
-                                                        <option value="OR">MA0003</option>
+                                                        <option value="CA">MT03011</option>
+                                                        <option value="NV">MT03012</option>
+                                                        <option value="OR">MT03013</option>
                                                     </optgroup>
                                                 </select>
 
-                                            </div>     
-                                        </div>
-
-                                        <div class="col-lg-6">
+                                            </div> 
                                             <div class="">
                                                 <label class="mb-1">Description</label>
                                                 <p class="text-muted mb-2">
@@ -132,8 +129,12 @@
                                             </div>                                       
                                             <button class="btn btn-light dropdown-toggle w-100 mt-2" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="mdi mdi-plus me-1"></i> Create New
-                                            </button>
+                                            </button>                                                
                                         </div>
+
+                                        <!-- <div class="col-lg-6">
+                                            
+                                        </div> -->
                                     </div>
 
                                 </form>

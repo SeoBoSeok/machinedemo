@@ -136,14 +136,15 @@
                                                     
                                                 </p>
                                                 <textarea id="textarea" class="form-control" maxlength="225" rows="4" placeholder="This textarea has a limit of 225 chars."></textarea>
-                                            </div>        
-                                        </div>
-
-                                        <div class="col-lg-6">                                    
+                                            </div>
                                             <button class="btn btn-light dropdown-toggle w-100 mt-2" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                 <i class="mdi mdi-plus me-1"></i> Create New
-                                            </button>
+                                            </button>      
                                         </div>
+
+                                        <!-- <div class="col-lg-6">                                    
+                                            
+                                        </div> -->
                                     </div>
 
                                 </form>
