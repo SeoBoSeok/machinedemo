@@ -754,6 +754,11 @@ let seriesData = [
             return dateFns.format(val, 'k:mm:ss');
             }
         },
+        custom: function({series, seriesIndex, dataPointIndex, w}) {
+        return '<div class="arrow_box">' +
+            '<span>' + series[seriesIndex][dataPointIndex] + '</span>' +
+            '</div>'
+        }
     },
     responsive: [
       {
