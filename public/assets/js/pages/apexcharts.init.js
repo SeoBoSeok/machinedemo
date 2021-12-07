@@ -740,7 +740,6 @@ let seriesData = [
     },
     tooltip: {
         enabled: true,
-
         custom: function({series, seriesIndex, dataPointIndex, w, y1, y2}) {
             console.log('series', series);
             console.log('seriesIndex', seriesIndex);
@@ -748,7 +747,7 @@ let seriesData = [
             console.log('y1', y1);
             console.log('y2', y2);
         return '<div class="arrow_box">' +
-            '<span>' + new Date(y1) + '-' + dateFns.format(y2, 'kk:mm:ss') + '</span>' +
+            '<span>' + dateFns.format(new Date(y1), 'k:mm:ss') + '-' + dateFns.format(y2, 'kk:mm:ss') + '</span>' +
             '<button></div>'
         }
     },
