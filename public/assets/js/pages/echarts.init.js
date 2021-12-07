@@ -580,9 +580,9 @@ option = {
 };
 
 setInterval(function () {
-    option.series[0].data[0].value = (Math.random() * 100).toFixed(2) - 0;
+    option.series[0].data[0].value = Math.round((Math.random() * 2).toFixed(2));
     myChart.setOption(option, true);
-},2000);
+},1000);
 ;
 if (option && typeof option === "object") {
     myChart.setOption(option, true);
