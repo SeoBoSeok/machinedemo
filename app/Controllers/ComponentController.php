@@ -234,7 +234,7 @@ class ComponentController extends BaseController
 	public function show_form_advanced_site(){
 		if(!session()->get('isLoggedIn')){	
 			return redirect()->to('auth-login');
-		}
+		} 
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Site']),
 			'page_title' => view('partials/page-title', ['title' => 'Site', 'pagetitle' => 'Forms'])
