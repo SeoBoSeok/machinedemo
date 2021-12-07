@@ -304,16 +304,16 @@ chart.render();
 // column chart with datalabels
 
 let x1 = 'MT04302S';
-let x2 = 'MT04302S';
+let x2 = 'MT04303S';
 let x3 = 'MT04301';
 let x4 = 'MT04302';
 let x5 = 'MT04303';
 let x6 = 'MT91302';
 let x7 = 'MT91303';
-let x8 = 'MT91302';
+let x8 = 'MT91304';
 let x9 = 'MT9130221';
 let x10 = 'MT9130121';
-let x11 = 'MT9130221';
+let x11 = 'MT9130222';
 let x12 = 'MT04302S21';
 let x13 = 'MT0430321';
 let x14 = 'MT0430421';
