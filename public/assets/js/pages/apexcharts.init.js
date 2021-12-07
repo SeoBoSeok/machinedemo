@@ -1006,7 +1006,7 @@ var options = {
 
   var chartMachine = new ApexCharts(
     document.querySelector("#bar_chart_machine"),
-    options
+    optionsDataMachine
   );
 
   chartMachine.render();
