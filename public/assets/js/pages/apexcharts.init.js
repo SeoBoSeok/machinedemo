@@ -748,22 +748,11 @@ let seriesData = [
         custom: undefined,
         fillSeriesColor: false,
         theme: false,
-        x: {
-            show: true,
-            formatter: function (val) {
-                console.log('dd', val);
-                return 'dataFns';
-                },
-        },
         y: {
             formatter: function (val) {
             console.log('val', val);
-            return 'val';
+            return dateFns.format(val, 'k:mm:ss');
             }
-        },
-        z: {
-            formatter: undefined,
-            title: 'Size: '
         },
         marker: {
             show: true,
