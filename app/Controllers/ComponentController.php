@@ -343,6 +343,14 @@ class ComponentController extends BaseController
 		return view('charts-apex', $data);
 	}
 
+	public function show_charts_apex_server(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'VMS Server']),
+			'page_title' => view('partials/page-title', ['title' => 'VMS Server', 'pagetitle' => 'Charts'])
+		];
+		return view('charts-apex-server', $data);
+	}
+
 	public function show_charts_echart(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'EChart']),

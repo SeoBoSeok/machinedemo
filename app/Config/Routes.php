@@ -186,6 +186,7 @@ $routes->get('tables-responsive', 'ComponentController::show_tables_responsive')
 $routes->get('tables-editable', 'ComponentController::show_tables_editable');
 
 $routes->get('charts-apex', 'ComponentController::show_charts_apex');
+$routes->get('charts-apex-server', 'ComponentController::show_charts_apex_server');
 $routes->get('charts-echart', 'ComponentController::show_charts_echart');
 $routes->get('charts-chartjs', 'ComponentController::show_charts_chartjs');
 $routes->get('charts-flot', 'ComponentController::show_charts_flot');
