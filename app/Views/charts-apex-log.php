@@ -30,7 +30,7 @@
                 <?= $page_title ?>
 
                 <div class="row">
-                    <div class="col-xl-8">
+                    <div class="col-xl-12">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Time Chart</h4>
@@ -43,7 +43,7 @@
                         </div>
                         <!--end card-->
                     </div>
-                    <div class="col-xl-4">
+                    <div class="col-xl-12">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Machine</h4>
