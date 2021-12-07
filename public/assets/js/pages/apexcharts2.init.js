@@ -14,7 +14,7 @@ function generateDayWiseTimeSeries(baseval, count, yrange) {
       Math.floor(Math.random() * (yrange.max - yrange.min + 1)) + yrange.min;
 
     series.push([x, y]);
-    baseval += 86400000;
+    baseval += 864000;
     i++;
   }
   return series;
