@@ -33,10 +33,10 @@ $routes->setAutoRoute(true);
 
 // Authentication Routing ---- Removed 
 $routes->match(['get', 'post'], 'auth-login', 'AuthController::login');
-// $routes->match(['get', 'post'], 'auth-register', 'AuthController::register');
-// $routes->match(['get', 'post'], 'auth-recoverpw', 'AuthController::recoverpw');
-// $routes->match(['get', 'post'], 'auth-updatepw', 'AuthController::updatepw');
-// $routes->get('auth-logout', 'AuthController::logout');
+$routes->match(['get', 'post'], 'auth-register', 'AuthController::register');
+$routes->match(['get', 'post'], 'auth-recoverpw', 'AuthController::recoverpw');
+$routes->match(['get', 'post'], 'auth-updatepw', 'AuthController::updatepw');
+$routes->get('auth-logout', 'AuthController::logout');
 
 $routes->get('/', 'ComponentController::show_charts_apex_server');
 $routes->get('/home', 'ComponentController::show_charts_apex_server');
