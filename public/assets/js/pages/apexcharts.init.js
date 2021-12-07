@@ -918,7 +918,7 @@ var options = {
     plotOptions: {
         bar: {
             horizontal: true,
-            barHeight: '50%',
+            barHeight: '100%',
             rangeBarGroupRows: false
         }
     },
