@@ -108,11 +108,11 @@
                                                 <label class="form-label">List of Machine Cells</label>
 
                                                 <select class="select2 form-control select2-multiple" multiple="multiple" data-placeholder="Choose ...">
-                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                    <optgroup label="한국기계연구원 14D동">
                                                         <option value="AK">MT04301</option>
                                                         <option value="HI">MT04302</option>
                                                     </optgroup>
-                                                    <optgroup label="Pacific Time Zone">
+                                                    <optgroup label="한국기계연구원 14A동">
                                                         <option value="CA">MT03011</option>
                                                         <option value="NV">MT03012</option>
                                                         <option value="OR">MT03013</option>

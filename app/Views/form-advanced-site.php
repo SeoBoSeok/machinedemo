@@ -92,8 +92,12 @@
                                 </tr>                                                                                                                                    
                             </tbody>
                         </table>
+                        <!-- end select2 -->
 
-                        <div class="card">
+                    </div>
+
+                    <div class="col-lg-6">
+                    <div class="card">
                             <div class="card-body">
 
                                 <h4 class="card-title">Site 새등록</h4>
@@ -118,11 +122,11 @@
                                                 <label class="form-label">List of Machine Cells</label>
 
                                                 <select class="select2 form-control select2-multiple" multiple="multiple" data-placeholder="Choose ...">
-                                                    <optgroup label="Alaskan/Hawaiian Time Zone">
+                                                    <optgroup label="한국기계연구원 14D동">
                                                         <option value="AK">MC00010</option>
                                                         <option value="HI">MC00011</option>
                                                     </optgroup>
-                                                    <optgroup label="Pacific Time Zone">
+                                                    <optgroup label="한국기계연구원 14A동">
                                                         <option value="CA">MA0001</option>
                                                         <option value="NV">MA0002</option>
                                                         <option value="OR">MA0003</option>
@@ -150,11 +154,8 @@
                                 </form>
 
                             </div>
-                        </div>
-                        <!-- end select2 -->
-
+                        </div>                        
                     </div>
-
 
                 </div>
                 <!-- end row -->
