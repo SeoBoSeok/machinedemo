@@ -679,6 +679,12 @@ var optionRUL;
 const data = [20, 1];
 // RUL
 optionRUL = {
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow'
+        }
+      },
     xAxis: {
       max: 100
     },
@@ -736,6 +742,12 @@ var myChartLoad = echarts.init(chartDomLoad);
 var optionLoad;
 // RUL
 optionLoad = {
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow'
+        }
+      },
     xAxis: {
         max: 100
     },
@@ -785,6 +797,12 @@ var myChartSpeed = echarts.init(chartDomSpeed);
 var optionSpeed;
 // RUL
 optionSpeed = {
+    tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'shadow'
+        }
+      },
     xAxis: {
         max: 100
     },
