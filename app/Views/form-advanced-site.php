@@ -93,7 +93,7 @@
                                         </tbody>
                                     </table>
 
-                        <div class="card">
+                        <div class="card mt-10">
                             <div class="card-body">
 
                                 <h4 class="card-title">Site 새등록</h4>
@@ -133,7 +133,7 @@
                                         </div>
 
                                         <div class="col-lg-6">
-                                            <div class="mt-3">
+                                            <div class="">
                                                 <label class="mb-1">Description</label>
                                                 <p class="text-muted mb-2">
                                                     
