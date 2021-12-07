@@ -30,27 +30,51 @@
                 <?= $page_title ?>
 
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Time Chart</h4>
                                 <div id="chart-line"></div>
-                                <div id="chart-line2"></div>
-                                <div id="chart-area"></div>
-                                <div id="chart-small"></div>
-                                <div id="chart-small2"></div>
-                                <div id="chart-small3"></div>
-                                <div id="chart-small4"></div>
-                                <div id="chart-small5"></div>
-                                <div id="chart-small6"></div>
-                                <div id="chart-small7"></div>
-                                <div id="chart-small8"></div>
-                                <div id="chart-small9"></div>
-                                <div id="chart-small10"></div>
                             </div>
                         </div>
                         <!--end card-->
                     </div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Time Chart</h4>
+                                <div id="chart-line2"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Time Chart</h4>
+                                <div id="chart-area"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Time Chart</h4>
+                                <div id="chart-small"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div id="chart-small2"></div>
+                    <div id="chart-small3"></div>
+                    <div id="chart-small4"></div>
+                    <div id="chart-small5"></div>
+                    <div id="chart-small6"></div>
+                    <div id="chart-small7"></div>
+                    <div id="chart-small8"></div>
+                    <div id="chart-small9"></div>
+                    <div id="chart-small10"></div>
                 </div>
                 <!-- end row -->
 
