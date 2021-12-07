@@ -25,8 +25,8 @@ var options = {
   series: [{
   name: 'X',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-      min: 1,
-      max: 10
+      min: 10,
+      max: 20
     })
   }],
   xaxis: {
@@ -58,7 +58,7 @@ var optionsLine2 = {
   series: [{
     name: 'Y',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 0,
+    min: 10,
     max: 20
   })
 }],
@@ -82,7 +82,7 @@ var optionsArea = {
     name: 'Z',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
-    max: 60
+    max: 20
   })
 }],
 xaxis: {
@@ -105,7 +105,7 @@ var optionsSmall = {
     name: 'SP1',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
-    max: 60
+    max: 20
   })
 }],
 xaxis: {
@@ -127,7 +127,7 @@ var optionsSmall2 = {
   series: [{
     name: 'Spindle speed',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 10,
+    min: 40,
     max: 60
   })
 }],
@@ -150,7 +150,7 @@ var optionsSmall3 = {
   series: [{
     name: 'Feedrate',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 10,
+    min: 40,
     max: 60
   })
 }],
@@ -174,7 +174,7 @@ var optionsSmall4 = {
     name: 'Fx',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
-    max: 60
+    max: 100
   })
 }],
 xaxis: {
@@ -197,7 +197,7 @@ var optionsSmall5 = {
     name: 'Fy',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
-    max: 60
+    max: 100
   })
 }],
 xaxis: {
@@ -220,7 +220,7 @@ var optionsSmall6 = {
     name: 'Fz',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
-    max: 60
+    max: 100
   })
 }],
 xaxis: {
@@ -242,8 +242,8 @@ var optionsSmall7 = {
   series: [{
     name: 'Accel. SP X[g]',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 10,
-    max: 60
+    min: 0,
+    max: 1
   })
 }],
 xaxis: {
@@ -265,8 +265,8 @@ var optionsSmall8 = {
   series: [{
     name: 'Accel. SP Y[g]',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 10,
-    max: 60
+    min: 0,
+    max: 1
   })
 }],
 xaxis: {
@@ -288,8 +288,8 @@ var optionsSmall9 = {
   series: [{
     name: 'Accel. SP Z[g]',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 10,
-    max: 60
+    min: 0,
+    max: 1
   })
 }],
 xaxis: {
@@ -311,8 +311,8 @@ var optionsSmall10 = {
   series: [{
     name: 'Sound [Pa]',
   data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
-    min: 10,
-    max: 60
+    min: 0,
+    max: 1
   })
 }],
 xaxis: {
