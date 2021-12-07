@@ -35,8 +35,14 @@
 
                 <div class="row">
                     <div class="col-lg-12">
+                    <div class="card">
+                        <div class="card-body">
+                        <!-- <h4 class="card-title">Example</h4> -->
+                                <!-- <p class="card-title-desc">This is an experimental awesome solution for responsive tables with complex data.</p> -->
 
-                    <table class="table mb-10">
+                                <div class="table-rep-plugin">
+                                <div class="table-responsive mb-0" data-pattern="priority-columns">
+                    <table class="table mb-10 table-striped">
 
                             <thead>
                                 <tr>
@@ -154,7 +160,7 @@
                             </tbody>
                         </table>
                         <!-- end select2 -->
-
+                        </div></div></div></div>
                     </div>
 
                     <div class="col-lg-6">
