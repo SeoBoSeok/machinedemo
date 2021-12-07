@@ -233,24 +233,24 @@ class ComponentController extends BaseController
 
 	public function show_form_advanced_site(){
 		$data = [
-			'title_meta' => view('partials/title-meta', ['title' => 'Form Advanced']),
-			'page_title' => view('partials/page-title', ['title' => 'Form Advanced', 'pagetitle' => 'Forms'])
+			'title_meta' => view('partials/title-meta', ['title' => 'Site']),
+			'page_title' => view('partials/page-title', ['title' => 'Site', 'pagetitle' => 'Forms'])
 		];
 		return view('form-advanced-site', $data);
 	}
 
 	public function show_form_advanced_machine(){
 		$data = [
-			'title_meta' => view('partials/title-meta', ['title' => 'Form Advanced']),
-			'page_title' => view('partials/page-title', ['title' => 'Form Advanced', 'pagetitle' => 'Forms'])
+			'title_meta' => view('partials/title-meta', ['title' => 'Machine']),
+			'page_title' => view('partials/page-title', ['title' => 'Machine', 'pagetitle' => 'Forms'])
 		];
 		return view('form-advanced-machine', $data);
 	}
 
 	public function show_form_advanced_cell(){
 		$data = [
-			'title_meta' => view('partials/title-meta', ['title' => 'Form Advanced']),
-			'page_title' => view('partials/page-title', ['title' => 'Form Advanced', 'pagetitle' => 'Forms'])
+			'title_meta' => view('partials/title-meta', ['title' => 'Cell']),
+			'page_title' => view('partials/page-title', ['title' => 'Cell', 'pagetitle' => 'Forms'])
 		];
 		return view('form-advanced-cell', $data);
 	}
