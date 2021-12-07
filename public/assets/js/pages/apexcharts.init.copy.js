@@ -1137,9 +1137,9 @@ var chart = new ApexCharts(
 chart.render();
 
 $('.apexcharts-rangebar-area').click(function(){
-  window.location.href = '/charts-echart-machine';
+  window.location.href = '/charts-apex-log';
 });
 
 $('.apexcharts-text').click(function(){
-  window.location.href = '/charts-apex-log';
+  window.location.href = '/charts-echart-machine';
 });
