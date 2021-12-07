@@ -699,7 +699,7 @@ optionRUL = {
       }
     ],
     legend: {
-      show: true
+      show: false
     },
     animationDuration: 0,
     animationDurationUpdate: 1000,
