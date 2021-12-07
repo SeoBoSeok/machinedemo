@@ -20,7 +20,7 @@
             <div class="container">
                 <a class="navbar-logo" href="/">
                     <img src="assets/images/logo-dark.png" alt="" height="19" class="logo logo-dark">
-                    <img src="assets/images/logo-light.png" alt="" height="19" class="logo logo-light">
+                    <img src="assets/images/kimm_logo.png" alt="" height="19" class="logo logo-light">
                 </a>
 
                 <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item waves-effect waves-light" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
@@ -1088,7 +1088,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="mb-4">
-                            <img src="assets/images/logo-light.png" alt="" height="20">
+                            <img src="assets/images/kimm_logo.png" alt="" height="20">
                         </div>
     
                         <p class="mb-2"><script>document.write(new Date().getFullYear())</script> © Skote. Design & Develop by Themesbrand</p>

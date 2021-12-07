@@ -21,7 +21,7 @@
                     <div class="text-center">
                         <a href="/" class="d-block auth-logo">
                             <img src="assets/images/logo-dark.png" alt="" height="20" class="auth-logo-dark mx-auto">
-                            <img src="assets/images/logo-light.png" alt="" height="20" class="auth-logo-light mx-auto">
+                            <img src="assets/images/kimm_logo.png" alt="" height="20" class="auth-logo-light mx-auto">
                         </a>
                         <div class="row justify-content-center mt-5">
                             <div class="col-sm-4">

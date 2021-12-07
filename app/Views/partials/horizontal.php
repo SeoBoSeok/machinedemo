@@ -17,7 +17,7 @@
                         <img src="assets/images/logo-light.svg" alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="assets/images/logo-light.png" alt="" height="19">
+                        <img src="assets/images/kimm_logo.png" alt="" height="19">
                     </span>
                 </a>
             </div>
