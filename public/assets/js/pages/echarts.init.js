@@ -854,7 +854,7 @@ optionCutting = {
     },
     yAxis: {
       type: 'category',
-      data: ['Fx', 'Fy', 'Fz']
+      data: ['Fx', 'Fy', 'Fz'].reverse()
     },
     series: [
       {
@@ -913,7 +913,7 @@ optionAcceleration = {
     },
     yAxis: {
       type: 'category',
-      data: ['Accel. SP X[g]', 'Accel. SP Y[g]', 'Accel. SP Z[g]', 'Sound[Pa]']
+      data: ['Accel. SP X[g]', 'Accel. SP Y[g]', 'Accel. SP Z[g]', 'Sound[Pa]'].reverse()
     },
     series: [
       {
