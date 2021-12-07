@@ -745,6 +745,7 @@ let seriesData = [
             console.log('series', series);
             console.log('seriesIndex', seriesIndex);
             console.log('dataPointIndex', dataPointIndex);
+            console.log('w', w);
             console.log('y1', y1);
             console.log('y2', y2);
         return '<div class="arrow_box">' +
