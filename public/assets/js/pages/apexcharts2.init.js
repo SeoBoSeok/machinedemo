@@ -23,16 +23,16 @@ function generateDayWiseTimeSeries(baseval, count, yrange) {
    
 var options = {
   series: [{
-  data: generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 20, {
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
-    max: 60
+    max: 100
   })
 }],
   chart: {
   id: 'fb',
   group: 'social',
   type: 'line',
-  height: 160
+  height: 300
 },
 colors: ['#008FFB']
 };
@@ -42,16 +42,16 @@ chart.render();
 
 var optionsLine2 = {
   series: [{
-  data: generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 20, {
-    min: 10,
-    max: 30
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
+    min: 30,
+    max: 100
   })
 }],
   chart: {
   id: 'tw',
   group: 'social',
   type: 'line',
-  height: 160
+  height: 300
 },
 colors: ['#546E7A']
 };
@@ -61,7 +61,7 @@ chartLine2.render();
 
 var optionsArea = {
   series: [{
-  data: generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 20, {
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
     max: 60
   })
@@ -70,7 +70,7 @@ var optionsArea = {
   id: 'yt',
   group: 'social',
   type: 'area',
-  height: 160
+  height: 300
 },
 colors: ['#00E396']
 };
@@ -80,7 +80,7 @@ chartArea.render();
 
 var optionsSmall = {
   series: [{
-  data: generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 20, {
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
     max: 60
   })
@@ -89,8 +89,7 @@ var optionsSmall = {
   id: 'ig',
   group: 'social',
   type: 'area',
-  height: 160,
-  width: 300
+  height: 300,
 },
 colors: ['#008FFB']
 };
@@ -100,7 +99,7 @@ chartSmall.render();
 
 var optionsSmall2 = {
   series: [{
-  data: generateDayWiseTimeSeries(new Date('11 Feb 2017').getTime(), 20, {
+  data: generateDayWiseTimeSeries(new Date().getTime(), 20, {
     min: 10,
     max: 60
   })
@@ -109,8 +108,7 @@ var optionsSmall2 = {
   id: 'li',
   group: 'social',
   type: 'area',
-  height: 160,
-  width: 300
+  height: 300
 },
 colors: ['#546E7A']
 };
