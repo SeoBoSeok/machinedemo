@@ -593,99 +593,99 @@ let seriesData = [
         {
           x: x3,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 6), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 5), "Korea/Seoul"))
+            dateFns.getTime(dateFns.subHours(new Date(), 6), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 5), "Korea/Seoul")
           ]
         },
         {
           x: x3,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 4), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 3), "Korea/Seoul")),
+            dateFns.getTime(dateFns.subHours(new Date(), 4), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 3), "Korea/Seoul"),
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 24), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 23), "Korea/Seoul"))
+            dateFns.getTime(dateFns.subHours(new Date(), 24), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 23), "Korea/Seoul")
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 22), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 21), "Korea/Seoul")),
+            dateFns.getTime(dateFns.subHours(new Date(), 22), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 21), "Korea/Seoul"),
           ]
         }, 
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 20), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 19), "Korea/Seoul"))
+            dateFns.getTime(dateFns.subHours(new Date(), 20), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 19), "Korea/Seoul")
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 18), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 17), "Korea/Seoul")),
+            dateFns.getTime(dateFns.subHours(new Date(), 18), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 17), "Korea/Seoul"),
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 16), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 15), "Korea/Seoul"))
+            dateFns.getTime(dateFns.subHours(new Date(), 16), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 15), "Korea/Seoul")
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 14), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 13), "Korea/Seoul")),
+            dateFns.getTime(dateFns.subHours(new Date(), 14), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 13), "Korea/Seoul"),
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 12), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 11), "Korea/Seoul"))
+            dateFns.getTime(dateFns.subHours(new Date(), 12), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 11), "Korea/Seoul")
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 10), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 9), "Korea/Seoul")),
+            dateFns.getTime(dateFns.subHours(new Date(), 10), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 9), "Korea/Seoul"),
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 8), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 7), "Korea/Seoul"))
+            dateFns.getTime(dateFns.subHours(new Date(), 8), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 7), "Korea/Seoul")
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 6), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 5), "Korea/Seoul")),
+            dateFns.getTime(dateFns.subHours(new Date(), 6), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 5), "Korea/Seoul"),
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 4), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 3), "Korea/Seoul"))
+            dateFns.getTime(dateFns.subHours(new Date(), 4), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 3), "Korea/Seoul")
           ]
         },
         {
           x: x14,
           y: [
-            dateFns.getTime((dateFns.subHours(new Date(), 2), "Korea/Seoul")),
-            dateFns.getTime((dateFns.subHours(new Date(), 1), "Korea/Seoul")),
+            dateFns.getTime(dateFns.subHours(new Date(), 2), "Korea/Seoul"),
+            dateFns.getTime(dateFns.subHours(new Date(), 1), "Korea/Seoul"),
           ]
         },                                   
       ]
