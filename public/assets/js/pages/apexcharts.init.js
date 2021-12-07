@@ -696,6 +696,7 @@ let seriesData = [
     chart: {
       type: 'rangeBar',
       width: "100%",
+      height: '800px',
       events: {
         selection: function(chartContext, { xaxis, yaxis }) {
           console.log(chartContext);
@@ -718,7 +719,7 @@ let seriesData = [
     plotOptions: {
       bar: {
         horizontal: true,
-        barHeight: '10%',
+        barHeight: '30%',
         rangeBarGroupRows: false
       }
     },
@@ -901,6 +902,7 @@ var options = {
   const optionsDataMachine = {
     chart: {
       type: 'bar',
+      height: '800px',
       events: {
         markerClick: function(event, chartContext, { seriesIndex, dataPointIndex, config}) {
           console.log(event);
