@@ -768,9 +768,6 @@ let seriesData = [
         marker: {
             show: true,
         },
-        items: {
-           display: flex,
-        },
     },
     responsive: [
       {
