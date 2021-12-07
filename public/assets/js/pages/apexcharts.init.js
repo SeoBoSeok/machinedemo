@@ -718,7 +718,7 @@ let seriesData = [
     plotOptions: {
       bar: {
         horizontal: true,
-        barHeight: '30%',
+        barHeight: '10%',
         rangeBarGroupRows: false
       }
     },
@@ -901,7 +901,7 @@ var options = {
   const optionsDataMachine = {
     chart: {
       type: 'bar',
-      height: 430,
+      height: 800,
       events: {
         markerClick: function(event, chartContext, { seriesIndex, dataPointIndex, config}) {
           console.log(event);
@@ -912,12 +912,12 @@ var options = {
       },
       toolbar: {
         show: false
-      }
+      },
     },
     plotOptions: {
         bar: {
             horizontal: true,
-            barHeight: '30%',
+            barHeight: '10%',
             rangeBarGroupRows: false
         }
     },
