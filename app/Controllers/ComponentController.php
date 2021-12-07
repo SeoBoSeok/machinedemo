@@ -236,7 +236,8 @@ class ComponentController extends BaseController
 		// 	return redirect()->to('auth-login');
 		// } 
 		session()->set('test', true);
-		print_r (session());
+		// print_r (session());
+		print_r($_SESSION);
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Site']),
 			'page_title' => view('partials/page-title', ['title' => 'Site', 'pagetitle' => 'Forms'])
