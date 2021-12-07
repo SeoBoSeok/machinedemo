@@ -731,11 +731,11 @@ optionRUL = {
 
 optionRUL && myChartRUL.setOption(optionRUL);
 
-var chartDomLoad = document.getElementById('chart-Load');
-var myChartLoad = echarts.init(chartDomLoad);
-var optionLoad;
+var chartDomSpeed = document.getElementById('chart-Speed');
+var myChartSpeed = echarts.init(chartDomSpeed);
+var optionSpeed;
 // RUL
-optionLoad = {
+optionSpeed = {
     xAxis: {
         max: 100
     },
@@ -779,6 +779,55 @@ optionLoad = {
   }, 1000);
 
 optionLoad && myChartLoad.setOption(optionLoad);
+
+var chartDomSpeed = document.getElementById('chart-Speed');
+var myChartSpeed = echarts.init(chartDomSpeed);
+var optionSpeed;
+// RUL
+optionSpeed = {
+    xAxis: {
+        max: 100
+    },
+    yAxis: {
+        type: 'category',
+        data: ['feedrate', 'Spindle Speed']
+    },
+    series: [
+      {
+        data: [28, 43],
+        type: 'bar',
+        stack: 'x'
+      },
+      {
+        data: [43, 32],
+        type: 'bar',
+        stack: 'x'
+      }
+    ],
+    animationDuration: 0,
+    animationDurationUpdate: 1000,
+    animationEasing: 'linear',
+    animationEasingUpdate: 'linear'
+  }
+  function runSpeed() {
+    var data = [(Math.round((Math.random() * 1) + 28)), (Math.round((Math.random() * 1) + 43))];
+    myChartSpeed.setOption({
+      series: [
+        {
+          type: 'bar',
+          data
+        }
+      ]
+    });
+  }
+  setTimeout(function () {
+    runSpeed();
+  }, 0);
+  setInterval(function () {
+    runSpeed();
+  }, 1000);
+
+optionSpeed && myChartSpeed.setOption(optionSpeed);
 
 // Machine MSC
 
