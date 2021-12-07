@@ -88,8 +88,12 @@
                                 </tr>                                                                                                                                 
                             </tbody>
                         </table>
+                        <!-- end select2 -->
 
-                        <div class="card">
+                    </div>
+
+                    <div class="col-lg-6">
+                    <div class="card">
                             <div class="card-body">
 
                                 <h4 class="card-title">Machine 새등록</h4>
@@ -97,7 +101,7 @@
 
                                 <form>
                                     <div class="row">
-                                        <div class="col-lg-6">
+                                        <div>
                                             <div class="mb-3 row">
                                                 <label for="example-text-input" class="col-md-2 col-form-label">Machine Id</label>
                                                 <div class="col-md-10">
@@ -140,11 +144,8 @@
                                 </form>
 
                             </div>
-                        </div>
-                        <!-- end select2 -->
-
+                        </div>                        
                     </div>
-
 
                 </div>
                 <!-- end row -->
