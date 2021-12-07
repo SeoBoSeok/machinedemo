@@ -738,6 +738,14 @@ let seriesData = [
     legend: {
         position: 'bottom'
     },
+    tooltip: {
+        y: {
+          formatter: function (val) {
+            console.log(val);
+            return val;
+          }
+        }
+      },
     responsive: [
       {
         breakpoint: 1000,
