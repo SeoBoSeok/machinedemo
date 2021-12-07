@@ -76,13 +76,13 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Speed [%]</h4>
-                                <div id="chart-Speed" class="e-charts"></div>
+                                <div id="chart-Speed" class=""></div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Cutting forces [N]</h4>
@@ -90,9 +90,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-12">
+                    <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Acceleration & Speed</h4>
