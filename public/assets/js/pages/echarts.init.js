@@ -684,8 +684,7 @@ optionRUL = {
     },
     yAxis: {
       type: 'category',
-      data: ['XYZ', 'SP'],
-      max: 2 // only the largest 3 bars will be displayed
+      data: ['XYZ', 'SP']
     },
     series: [
       {
@@ -693,7 +692,7 @@ optionRUL = {
         type: 'bar',
         data: data,
         label: {
-          show: true,
+          show: false,
           position: 'right',
           valueAnimation: true
         }
