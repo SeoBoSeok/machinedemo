@@ -836,9 +836,6 @@ var myChartCutting = echarts.init(chartDomCutting);
 var optionCutting;
 
 optionCutting = {
-    title: {
-      text: 'Cutting Speed'
-    },
     tooltip: {
       trigger: 'axis',
       axisPointer: {
@@ -890,6 +887,65 @@ optionCutting = {
   }, 1000);
 
 optionCutting && myChartCutting.setOption(optionCutting);
+
+// Acceleration
+
+var chartDomAcceleration = document.getElementById('chart-Acceleration');
+var myChartAcceleration = echarts.init(chartDomAcceleration);
+var optionAcceleration;
+
+optionAcceleration = {
+    tooltip: {
+      trigger: 'axis',
+      axisPointer: {
+        type: 'shadow'
+      }
+    },
+    legend: {},
+    grid: {
+      left: '3%',
+      right: '4%',
+      bottom: '3%',
+      containLabel: true
+    },
+    xAxis: {
+        max: 10
+    },
+    yAxis: {
+      type: 'category',
+      data: ['Accel. SP X[g]', 'Accel. SP Y[g]', 'Accel. SP Z[g]', 'Sound[Pa]']
+    },
+    series: [
+      {
+        type: 'bar',
+        data: [1, 2, 1,0]
+      },
+    ],
+    animationDuration: 0,
+    animationDurationUpdate: 1000,
+    animationEasing: 'linear',
+    animationEasingUpdate: 'linear'
+  };
+
+  function runAccel() {
+    var data = [(Math.round((Math.random() * 3) + 1)), (Math.round((Math.random() * 2) + 2)), (Math.round((Math.random() * 4) + 1)), (Math.round((Math.random() * 1)))];
+    myChartAcceleration.setOption({
+      series: [
+        {
+          type: 'bar',
+          data
+        }
+      ]
+    });
+  }
+  setTimeout(function () {
+    runAccel();
+  }, 0);
+  setInterval(function () {
+    runAccel();
+  }, 1000);
+
+  optionAcceleration && myChartAcceleration.setOption(optionAcceleration);
 
 // Machine MSC
 

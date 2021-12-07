@@ -87,7 +87,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Cutting forces [N]</h4>
-                                <div id="chart-Cutting" class="e-charts"></div>
+                                <div id="chart-Cutting" class="e-charts-speed"></div>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Acceleration & Speed</h4>
-                                <div id="chart-Acceleration" class="e-charts"></div>
+                                <div id="chart-Acceleration" class="e-charts-speed"></div>
                             </div>
                         </div>
                     </div>
