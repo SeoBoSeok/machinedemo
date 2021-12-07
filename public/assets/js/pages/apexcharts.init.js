@@ -740,20 +740,6 @@ let seriesData = [
     },
     tooltip: {
         enabled: true,
-        enabledOnSeries: true,
-        shared: true,
-        followCursor: false,
-        intersect: false,
-        inverseOrder: false,
-        custom: true,
-        fillSeriesColor: false,
-        theme: false,
-        y: {
-            formatter: function (val) {
-            console.log('val', val);
-            return dateFns.format(val, 'k:mm:ss');
-            }
-        },
         custom: function({series, seriesIndex, dataPointIndex, w}) {
         return '<div class="arrow_box">' +
             '<span>' + series[seriesIndex][dataPointIndex] + '</span>' +
