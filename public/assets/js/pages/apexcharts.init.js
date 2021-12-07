@@ -739,40 +739,38 @@ let seriesData = [
         position: 'bottom'
     },
     tooltip: {
+        enabled: true,
+        enabledOnSeries: undefined,
+        shared: true,
+        followCursor: false,
+        intersect: false,
+        inverseOrder: false,
+        custom: undefined,
+        fillSeriesColor: false,
+        theme: false,
         x: {
             show: true,
             formatter: function (val) {
                 console.log('dd', val);
                 return dateFns.format(val, 'k:mm:ss');
-              },
+                },
         },
         y: {
-          formatter: function (val) {
+            formatter: function (val) {
             console.log('val', val);
             return val;
-          }
-        }
-      },
-      markers: {
-        size: 0,
-        colors: undefined,
-        strokeColors: '#fff',
-        strokeWidth: 2,
-        strokeOpacity: 0.9,
-        strokeDashArray: 0,
-        fillOpacity: 1,
-        discrete: [],
-        shape: "circle",
-        radius: 2,
-        offsetX: 0,
-        offsetY: 0,
-        onClick: undefined,
-        onDblClick: undefined,
-        showNullDataPoints: true,
-        hover: {
-          size: undefined,
-          sizeOffset: 3
-        }
+            }
+        },
+        z: {
+            formatter: undefined,
+            title: 'Size: '
+        },
+        marker: {
+            show: true,
+        },
+        items: {
+           display: flex,
+        },
     },
     responsive: [
       {
