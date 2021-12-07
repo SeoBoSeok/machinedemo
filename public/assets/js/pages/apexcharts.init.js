@@ -866,6 +866,151 @@ var options = {
 
   chart.render();
 
+// machine apex
+
+
+  let seriesDataMachine = [
+    {
+      name: 'XYZ friction',
+      data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+    },
+    {
+      name: 'SP unbaian',
+      data: [0,20,0,30,0,20,0,0,0,10,0,0,10,0,0]
+    },
+    {
+      name: 'SP bearing',
+      data: [0,80,0,70,0,50,0,0,0,80,0,0,80,0,0]
+    },
+    {
+      name: 'RULE XYZ',
+      data: [0,10,0,10,0,5,0,0,0,3,0,0,8,0,0]
+    },
+    {
+      name: 'RULE SP',
+      data: [0,30,0,40,0,35,0,0,0,23,0,0,38,0,0]
+    }
+  ]
+  
+  const optionsDataMachine = {
+    chart: {
+      type: 'bar',
+      height: 430,
+      events: {
+        markerClick: function(event, chartContext, { seriesIndex, dataPointIndex, config}) {
+          console.log(event);
+        }
+      }
+    },
+    plotOptions: {
+      bar: {
+        horizontal: true,
+        colors: {
+          ranges: [{
+              from: 0,
+              to: 100,
+              color: undefined
+          }],
+          backgroundBarColors: [],
+          backgroundBarOpacity: 1,
+          backgroundBarRadius: 0,
+        },
+        dataLabels: {
+          position: 'top',
+        },
+      }
+    },
+    series: seriesDataMachine,
+    dataLabels: {
+      enabled: false,
+      offsetX: -6,
+      style: {
+        fontSize: '12px',
+        colors: ['#fff']
+      }
+    },
+    stroke: {
+      show: true,
+      width: 1,
+      colors: ['#fff']
+    },
+    tooltip: {
+      shared: true,
+      intersect: false
+    },
+    xaxis: {
+      categories: [x1, x2, x3, x4, x5, x6, x7, x8, x9, x10, x11, x12, x13, x14, x15],
+      max: 100
+    },
+    tooltip: {
+      y: {
+        formatter: function (val) {
+          return val + "%"
+        }
+      }
+    },
+    legend: {
+      position: 'top'
+    },
+    colors: [
+      "gray", "#66ccff", "#FEB019", "#FF4560", "#775DD0",
+      "#3F51B5", "#546E7A", "#D4526E", "#8D5B4C", "#F86624",
+      "#D7263D", "#1B998B", "#2E294E", "#F46036", "#E2C044"
+    ],
+    grid: {
+      show: true,
+      borderColor: '#90A4AE',
+      strokeDashArray: 0,
+      position: 'back',
+      xaxis: {
+          lines: {
+              show: true
+          }
+      },   
+      yaxis: {
+          lines: {
+              show: true
+          }
+      },  
+      row: {
+          colors: undefined,
+          opacity: 0.5
+      },  
+      column: {
+          colors: undefined,
+          opacity: 0.5
+      },  
+      padding: {
+          top: 0,
+          right: 0,
+          bottom: 0,
+          left: 0
+      },  
+    },
+    responsive: [
+      {
+        breakpoint: 1000,
+        options: {
+          plotOptions: {
+            bar: {
+              horizontal: false
+            }
+          },
+          legend: {
+            position: "bottom"
+          }
+        }
+      }
+    ]
+  }
+
+  var chartMachine = new ApexCharts(
+    document.querySelector("#bar_chart_machine"),
+    options
+  );
+
+  chartMachine.render();
+
 
 //  Radial chart
 
