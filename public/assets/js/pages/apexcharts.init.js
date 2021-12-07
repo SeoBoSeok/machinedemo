@@ -740,13 +740,16 @@ let seriesData = [
     },
     tooltip: {
         enabled: true,
-        custom: function({series, seriesIndex, dataPointIndex, w}) {
+
+        custom: function({series, seriesIndex, dataPointIndex, w, y1, y2}) {
             console.log('series', series);
             console.log('seriesIndex', seriesIndex);
             console.log('dataPointIndex', dataPointIndex);
+            console.log('y1', y1);
+            console.log('y2', y2);
         return '<div class="arrow_box">' +
             '<span>' + series[seriesIndex][dataPointIndex] + '</span>' +
-            '</div>'
+            '<button></div>'
         }
     },
     responsive: [
