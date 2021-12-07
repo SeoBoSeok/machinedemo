@@ -741,7 +741,6 @@ let seriesData = [
     tooltip: {
         x: {
             show: true,
-            format: 'dd MMM',
             formatter: function (val) {
                 console.log('dd', val);
                 return dateFns.format(val, 'kk:mm:ss');
