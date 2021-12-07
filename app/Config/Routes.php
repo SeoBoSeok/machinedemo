@@ -39,7 +39,7 @@ $routes->match(['get', 'post'], 'auth-updatepw', 'AuthController::updatepw');
 $routes->get('auth-logout', 'AuthController::logout');
 
 $routes->get('/', 'ComponentController::show_charts_apex_server');
-$routes->get('/home', 'Front::index');
+$routes->get('/home', 'ComponentController::show_charts_apex_server');
 
 //Dashbboard section routing
 $routes->get('dashboard-saas', 'Front::show_dashboard_saas');
