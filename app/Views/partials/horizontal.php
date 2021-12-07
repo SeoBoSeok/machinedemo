@@ -196,9 +196,12 @@
                         $session = \Config\Services::session();
                         $lang = $session->get('lang');
                         switch($lang){
-                            case 'en':
-                               echo '<img src="assets/images/flags/us.jpg" alt="Header Language" height="16">';
+                            case 'ko':
+                               echo '<img src="assets/images/flags/flag-800.png" alt="Header Language" height="16">';
                                 break;
+                            case 'en':
+                                echo '<img src="assets/images/flags/us.jpg" alt="Header Language" height="16">';
+                                    break;                                
                             case 'es':
                                echo '<img src="assets/images/flags/spain.jpg" alt="Header Language" height="16">';
                                 break;
@@ -212,13 +215,18 @@
                                echo '<img src="assets/images/flags/russia.jpg" alt="Header Language" height="16">';
                                 break;
                             default:
-                                echo '<img src="assets/images/flags/us.jpg" alt="Header Language" height="16">';
+                            echo '<img src="assets/images/flags/flag-800.png" alt="Header Language" height="16">';
                         }
                     ?>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
 
                     <!-- item-->
+                    <?php if($lang !== 'ko'):  ?>
+                        <a href="<?= base_url('lang/en'); ?>" class="dropdown-item notify-item language" data-lang="en">
+                            <img src="assets/images/flags/flag-800.png" alt="user-image" class="me-1" height="12"> <span class="align-middle">Korean</span>
+                        </a>
+                    <?php endif ?>
                     <?php if($lang !== 'en'):  ?>
                         <a href="<?= base_url('lang/en'); ?>" class="dropdown-item notify-item language" data-lang="en">
                             <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">English</span>
