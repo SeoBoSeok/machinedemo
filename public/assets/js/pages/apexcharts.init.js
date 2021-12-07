@@ -745,7 +745,7 @@ let seriesData = [
         followCursor: false,
         intersect: false,
         inverseOrder: false,
-        custom: undefined,
+        custom: true,
         fillSeriesColor: false,
         theme: false,
         y: {
@@ -753,9 +753,6 @@ let seriesData = [
             console.log('val', val);
             return dateFns.format(val, 'k:mm:ss');
             }
-        },
-        marker: {
-            show: true,
         },
     },
     responsive: [
