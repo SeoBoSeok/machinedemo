@@ -27,22 +27,22 @@
                 <?= $page_title ?>
 
                 <div class="row">
-                    <!-- <div class="col-xl-6">
+                    <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Machine status change [%]</h4>
                                 <div id="bar-chart-machine" class="e-charts"></div>
                             </div>
                         </div>
-                    </div> -->
-                    <div class="col-xl-6">
+                    </div>
+                    <!-- <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title mb-4">Mix Line-Bar</h4>
                                 <div id="mix-line-bar" class="e-charts"></div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- end row -->
 
