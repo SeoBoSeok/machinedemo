@@ -33,7 +33,7 @@
                     <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mb-4">Time Chart</h4>
+                                <h4 class="card-title mb-4">Load X [%]</h4>
                                 <div id="chart-line"></div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                     <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mb-4">Time Chart</h4>
+                                <h4 class="card-title mb-4">Load Y [%]</h4>
                                 <div id="chart-line2"></div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                     <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mb-4">Time Chart</h4>
+                                <h4 class="card-title mb-4">Load Z [%]</h4>
                                 <div id="chart-area"></div>
                             </div>
                         </div>
@@ -60,20 +60,93 @@
                     <div class="col-xl-6">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title mb-4">Time Chart</h4>
+                                <h4 class="card-title mb-4">Load SP1 [%]</h4>
                                 <div id="chart-small"></div>
                             </div>
                         </div>
                         <!--end card-->
                     </div>
-                    <div id="chart-small2"></div>
-                    <div id="chart-small3"></div>
-                    <div id="chart-small4"></div>
-                    <div id="chart-small5"></div>
-                    <div id="chart-small6"></div>
-                    <div id="chart-small7"></div>
-                    <div id="chart-small8"></div>
-                    <div id="chart-small9"></div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Spindle speed [%]</h4>
+                                <div id="chart-small2"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Feedrate [%]</h4>
+                                <div id="chart-small3"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>        
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Fx [N]</h4>
+                                <div id="chart-small4"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Fy [N]</h4>
+                                <div id="chart-small5"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>         
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Fz [N]</h4>
+                                <div id="chart-small6"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>                                                            
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Accel. SP X [g]</h4>
+                                <div id="chart-small7"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Accel. SP Y [g]</h4>
+                                <div id="chart-small8"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Accel. SP Z [g]</h4>
+                                <div id="chart-small9"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title mb-4">Sound [Pa]</h4>
+                                <div id="chart-small10"></div>
+                            </div>
+                        </div>
+                        <!--end card-->
+                    </div>                                        
                     <div id="chart-small10"></div>
                 </div>
                 <!-- end row -->
