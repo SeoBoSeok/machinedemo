@@ -36,7 +36,7 @@
                                     <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead>
-                                                <tr class="on_toggle open" onclick="show('table1')">
+                                                <tr class="on_toggle open" onclick="show('table1')" style="vertical-align: middle;">
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
