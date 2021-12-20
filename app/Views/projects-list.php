@@ -23,7 +23,11 @@
 
                 <div class="page-content">
                     <div class="container-fluid">
-
+<style>
+    .project-list-table tr:hover {cursor: pointer;}
+    .project-list-table tr.open table {display: block;}
+    .project-list-table tr table {display: none;}
+</style>
                         <?= $page_title ?>
 
                         <div class="row">
