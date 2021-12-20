@@ -116,7 +116,7 @@
 
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
-                                            <thead>
+                                            <thead style="visibility: hidden;">
                                                 <tr>
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
@@ -201,7 +201,7 @@
                                         
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
-                                            <thead>
+                                            <thead style="visibility: hidden;">
                                                 <tr>
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
@@ -286,7 +286,7 @@
 
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
-                                            <thead>
+                                            <thead style="visibility: hidden;">
                                                 <tr>
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
@@ -371,7 +371,7 @@
 
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
-                                            <thead>
+                                            <thead style="visibility: hidden;">
                                                 <tr>
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
@@ -456,7 +456,7 @@
 
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
-                                            <thead>
+                                            <thead style="visibility: hidden;">
                                                 <tr>
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
@@ -541,7 +541,7 @@
 
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
-                                            <thead>
+                                            <thead style="visibility: hidden;">
                                                 <tr>
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
@@ -626,7 +626,7 @@
 
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
-                                            <thead>
+                                            <thead style="visibility: hidden;">
                                                 <tr>
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
@@ -708,7 +708,7 @@
 </div>
                                             </tbody>
                                         </table> 
-                                        
+
 
                                     </div>
                                 </div>
