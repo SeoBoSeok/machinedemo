@@ -91,6 +91,35 @@
                                                         </div>
                                                     </td>
                                                 </tr>
+                                                <table class="table mb-10 table-striped">
+
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Object Id</th>
+                                    <th>Type</th>
+                                    <th>X</th>
+                                    <th>Y</th>
+                                    <th>Z</th>
+                                    <th>RX</th>
+                                    <th>RY</th>
+                                    <th>RZ</th>                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">0</th>
+                                    <td>MT04301</td>
+                                    <td>Machine</td>
+                                    <td>SMEC SM400DH</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>                                 
+                                </tr>
+                            </tbody>
+                            <table>
                                                 <tr>
                                                     <td><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
                                                     <td>
