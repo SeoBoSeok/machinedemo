@@ -137,7 +137,7 @@
                                                     </td>
                                                     <td>SMEC SM400DH</td>
                                                     <td><span class="badge bg-success">0</span></td>
-                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-success">2000</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
@@ -222,7 +222,7 @@
                                                     </td>
                                                     <td>SMEC SM400DH</td>
                                                     <td><span class="badge bg-success">0</span></td>
-                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-success">4000</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
@@ -307,7 +307,7 @@
                                                     </td>
                                                     <td>SMEC SM400DH</td>
                                                     <td><span class="badge bg-success">0</span></td>
-                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-success">6000</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
@@ -392,7 +392,7 @@
                                                     </td>
                                                     <td>SMEC SM400DH</td>
                                                     <td><span class="badge bg-success">0</span></td>
-                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-success">8000</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
@@ -477,7 +477,7 @@
                                                     </td>
                                                     <td>SMEC SM400DH</td>
                                                     <td><span class="badge bg-success">0</span></td>
-                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-success">10000</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
@@ -562,7 +562,7 @@
                                                     </td>
                                                     <td>SMEC SM400DH</td>
                                                     <td><span class="badge bg-success">0</span></td>
-                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-success">12000</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
