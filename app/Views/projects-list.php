@@ -63,30 +63,53 @@
                             <thead>
                                 <tr>
                                     <th>#</th>
-                                    <th>Object Id</th>
-                                    <th>Type</th>
-                                    <th>X</th>
-                                    <th>Y</th>
-                                    <th>Z</th>
-                                    <th>RX</th>
-                                    <th>RY</th>
-                                    <th>RZ</th>                                    
+                                    <th>Machine Cell Id</th>
+                                    <th>Description</th>
+                                    <th>List Objects</th>
+                                    <th>posX</th>
+                                    <th>posY</th>
+                                    <th>posZ</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <th scope="row">0</th>
-                                    <td>MT04301</td>
-                                    <td>Machine</td>
-                                    <td>SMEC SM400DH</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>0</td>                                 
+                                    <th scope="row">1</th>
+                                    <td>MC00010</td>
+                                    <td>SM400DH 10대</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>                                    
                                 </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>MC00010</td>
+                                    <td>SM400DH 10대</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>                                    
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>MC00010</td>
+                                    <td>SM400DH 10대</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>                                    
+                                </tr>
+                                <tr>
+                                    <th scope="row">4</th>
+                                    <td>MC00010</td>
+                                    <td>SM400DH 10대</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>                                    
+                                </tr>                                                                                                                                 
                             </tbody>
-                            <table>
+                        </table>
 </div>
                                             </tbody>
                                         </table>
