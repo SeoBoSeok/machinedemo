@@ -36,7 +36,7 @@
                                     <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead>
-                                                <tr>
+                                                <tr class="on_toggle open" onclick="show('table1')">
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
@@ -62,7 +62,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped">
+                                                <table class="table mb-10 table-striped tables" id="table1">
 
                             <thead>
                                 <tr>
@@ -121,7 +121,7 @@
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead style="visibility: hidden;">
-                                                <tr class="on_toggle open">
+                                                <tr class="on_toggle open" onclick="show('table2');">
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
@@ -147,7 +147,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped">
+                                                <table class="table mb-10 table-striped tables" id="table2">
 
                             <thead>
                                 <tr>
@@ -206,7 +206,7 @@
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead style="visibility: hidden;">
-                                                <tr class="on_toggle open">
+                                                <tr class="on_toggle open" onclick="show('table3');">
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
@@ -232,7 +232,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped">
+                                                <table class="table mb-10 table-striped tables" id="table3">
 
                             <thead>
                                 <tr>
@@ -291,7 +291,7 @@
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead style="visibility: hidden;">
-                                                <tr class="on_toggle open">
+                                                <tr class="on_toggle open" onclick="show('table3');"> 
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
@@ -317,7 +317,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped">
+                                                <table class="table mb-10 table-striped tables" id="table3">
 
                             <thead>
                                 <tr>
@@ -376,7 +376,7 @@
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead style="visibility: hidden;">
-                                                <tr class="on_toggle open">
+                                                <tr class="on_toggle open" onclick="show('table4');">
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
@@ -402,7 +402,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped">
+                                                <table class="table mb-10 table-striped tables" id="table4">
 
                             <thead>
                                 <tr>
@@ -461,7 +461,7 @@
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead style="visibility: hidden;">
-                                                <tr class="on_toggle open">
+                                                <tr class="on_toggle open" onclick="show('table5');">
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
@@ -487,7 +487,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped">
+                                                <table class="table mb-10 table-striped tables" id="table5">
 
                             <thead>
                                 <tr>
@@ -546,7 +546,7 @@
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead style="visibility: hidden;">
-                                                <tr class="on_toggle open">
+                                                <tr class="on_toggle open" onclick="show('table6');">
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
@@ -572,7 +572,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped">
+                                                <table class="table mb-10 table-striped tables" id="table6">
 
                             <thead>
                                 <tr>
