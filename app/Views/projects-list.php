@@ -125,6 +125,16 @@
                                             </tbody>
                                         </table>
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col" style="width: 100px"></th>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"></th>
+                                                    <th scope="col"></th>
+                                                </tr>
+                                            </thead>
                                             <tbody>
                                                 <tr>
                                                     <td><img src="assets/images/companies/img-1.png" alt="" class="avatar-sm"></td>
