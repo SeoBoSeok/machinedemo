@@ -34,62 +34,28 @@
                                             <thead>
                                                 <tr>
                                                     <th scope="col" style="width: 100px">#</th>
-                                                    <th scope="col">Projects</th>
-                                                    <th scope="col">Due Date</th>
-                                                    <th scope="col">Status</th>
-                                                    <th scope="col">Team</th>
-                                                    <th scope="col">Action</th>
+                                                    <th scope="col">Object Id<br>Type</th>
+                                                    <th scope="col">X</th>
+                                                    <th scope="col">Y</th>
+                                                    <th scope="col">Z</th>
+                                                    <th scope="col">RX</th>
+                                                    <th scope="col">RY</th>
+                                                    <th scope="col">RZ</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
                                                     <td><img src="assets/images/companies/img-1.png" alt="" class="avatar-sm"></td>
                                                     <td>
-                                                        <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">New admin Design</a></h5>
-                                                        <p class="text-muted mb-0">It will be as simple as Occidental</p>
+                                                        <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
+                                                        <p class="text-muted mb-0">Machine</p>
                                                     </td>
-                                                    <td>15 Oct, 19</td>
-                                                    <td><span class="badge bg-success">Completed</span></td>
-                                                    <td>
-                                                        <div class="avatar-group">
-                                                            <div class="avatar-group-item">
-                                                                <a href="javascript: void(0);" class="d-inline-block">
-                                                                    <img src="assets/images/users/avatar-4.jpg" alt="" class="rounded-circle avatar-xs">
-                                                                </a>
-                                                            </div>
-                                                            <div class="avatar-group-item">
-                                                                <a href="javascript: void(0);" class="d-inline-block">
-                                                                    <img src="assets/images/users/avatar-5.jpg" alt="" class="rounded-circle avatar-xs">
-                                                                </a>
-                                                            </div>
-                                                            <div class="avatar-group-item">
-                                                                <a href="javascript: void(0);" class="d-inline-block">
-                                                                    <div class="avatar-xs">
-                                                                        <span class="avatar-title rounded-circle bg-success text-white font-size-16">
-                                                                            A
-                                                                        </span>
-                                                                    </div>
-                                                                </a>
-                                                            </div>
-                                                            <div class="avatar-group-item">
-                                                                <a href="javascript: void(0);" class="d-inline-block">
-                                                                    <img src="assets/images/users/avatar-2.jpg" alt="" class="rounded-circle avatar-xs">
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                <i class="mdi mdi-dots-horizontal font-size-18"></i>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-end">
-                                                                <a class="dropdown-item" href="#">Action</a>
-                                                                <a class="dropdown-item" href="#">Another action</a>
-                                                                <a class="dropdown-item" href="#">Something else here</a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
+                                                    <td>SMEC SM400DH</td>
+                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-warning">0</span></td>
+                                                    <td><span class="badge bg-warning">0</span></td>
+                                                    <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
                                                 <table class="table mb-10 table-striped">
