@@ -559,7 +559,7 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td><img src="assets/images/companies/img-7.png" alt="" class="avatar-sm"></td>
+                                                    <td><img src="assets/images/companies/img-1.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
                                                         <p class="text-muted mb-0">Machine</p>
@@ -644,7 +644,7 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td><img src="assets/images/companies/img-8.png" alt="" class="avatar-sm"></td>
+                                                    <td><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
                                                         <p class="text-muted mb-0">Machine</p>
