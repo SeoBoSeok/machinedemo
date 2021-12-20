@@ -91,6 +91,7 @@
                                                         </div>
                                                     </td>
                                                 </tr>
+                                                <div>
                                                 <table class="table mb-10 table-striped">
 
                             <thead>
@@ -120,6 +121,7 @@
                                 </tr>
                             </tbody>
                             <table>
+</div>
                                                 <tr>
                                                     <td><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
                                                     <td>
