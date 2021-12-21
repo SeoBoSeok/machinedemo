@@ -155,9 +155,6 @@
     <div class="container">
         <!-- <h2 class="add_h2">Product</h2> -->
       <div class="row">
-
-      <div class="card">
-      <div class="col">
                                     <div class="card">
                                         <div class="card-body">
                                             <div class="tab-content" id="v-pills-tabContent">
@@ -311,8 +308,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
       </div>
 
       <div class="card">
