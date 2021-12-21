@@ -122,7 +122,7 @@ class PageController extends BaseController
 
 	public function show_pages_main(){
 		$data = [
-			'title_meta' => view('partials/title-meta', ['title' => 'Main'])
+			'title_meta' => view('partials/title-meta', ['title' => '가상공작기계'])
 		];
 		return view('pages-main', $data);
 	}	
