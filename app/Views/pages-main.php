@@ -75,7 +75,7 @@
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
     .add_h2 {padding-bottom: 30px; color: #000!important;}
     .card {border: 1px solid #E3E3E3; border-radius: 5px;}
-    .bg-back {background: url(/assets/images/background.png) center center no-repeat; background-size: cover;}
+    .bg-back {background: url(/assets/images/background.png) center center no-repeat; background-size: cover; padding: 100px 0;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -117,7 +117,7 @@
 
 <main>
 
-  <section class="py-5 text-center container bg-back">
+  <section class="bg-back">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
           <h4>가상머신기반 지능화 S/W</h4>
