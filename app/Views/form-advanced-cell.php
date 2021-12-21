@@ -124,7 +124,7 @@
                                             <tbody>
                                                 <tr class="on_toggle" onclick="show(this,'table2')">
                                                     <td width="100px"><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
-                                                    <td>
+                                                    <td width="227px">
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
                                                         <p class="text-muted mb-0">Machine</p>
                                                     </td>
