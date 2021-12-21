@@ -38,7 +38,7 @@ $routes->match(['get', 'post'], 'auth-recoverpw', 'AuthController::recoverpw');
 $routes->match(['get', 'post'], 'auth-updatepw', 'AuthController::updatepw');
 $routes->get('auth-logout', 'AuthController::logout');
 
-$routes->get('/', 'ComponentController::show_pages_main');
+$routes->get('/', 'PageController::show_pages_main');
 $routes->get('/home', 'ComponentController::show_charts_apex_server');
 
 //Dashbboard section routing
