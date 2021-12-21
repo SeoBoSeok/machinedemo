@@ -93,6 +93,7 @@
     .container.video {padding: 30px 200px;background-color: rgb(248, 249, 250);}
     .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; } .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
     .sub_heading_txt {padding-top: 20px;}
+    .manual_list a {min-width: 270px; text-align: center; color: #000;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -153,7 +154,7 @@
   <div class="album py-5 bg-light">
     <div class="container">
         <!-- <h2 class="add_h2">Product</h2> -->
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+      <div class="row">
         <p>가상공작기계 메뉴얼 다운로드 페이지 입니다.</p>
         <div class="manual_list">
           <a class="btn btn-secondary" href="#;">가상공작기계 메뉴얼 다운로드</a>
