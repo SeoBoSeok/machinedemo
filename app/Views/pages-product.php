@@ -130,15 +130,7 @@
   <section class="bg-back">
     <div class="py-lg-5">
         <div class="container">
-            <div class="col-lg-6 col-md-8 heading-t">
-              <h4 class="fw-light text-white">가상머신기반 지능화 S/W</h4>
-              <h1 class="text-white">VIRTUAL <span class="blue">MACHINE SYSTEM</span></h1>
-              <h1 class="text-white">가상공작기계</h1>
-              <!-- <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-              </p> -->
-            </div>
+            
         </div>
     </div>
   </section>
@@ -152,11 +144,11 @@
                 <div class="card-header text-white">플랫폼 개념</div>
                 <div class="card-body">
                   <p class="card-text">다양한 제품 적용을 통한 당사 공작기계 경쟁력 향상 Application 생태계 구축을 통한 플랫폼 사업</p>
-                  <div class="">
+                  <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -165,11 +157,11 @@
                 <div class="card-header text-white">플랫폼 구조</div>
                 <div class="card-body">
                   <p class="card-text ">지능형 HMI플랫폼 아키텍처 구조 - 계층형 아키텍처, 내부 모듈 간 관계 블럭도</p>
-                  <div class="">
+                  <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -178,11 +170,11 @@
               <div class="card-header text-white">앱 개발 지원 방식</div>
                 <div class="card-body">
                   <p class="card-text ">HMI의 지능화 소프트웨어 기능들을 앱 단위로 용이하게 개발할 수 있도록 앱에 대한 구동 제어</p>
-                  <div class="">
+                  <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
