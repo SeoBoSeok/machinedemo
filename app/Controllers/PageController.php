@@ -134,6 +134,13 @@ class PageController extends BaseController
 		return view('pages-product', $data);
 	}		
 
+	public function show_pages_manual(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Manual'])
+		];
+		return view('pages-manual', $data);
+	}		
+
 	public function show_pages_comingsoon(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Coming Soon'])

@@ -142,6 +142,7 @@ $routes->get('pages-404', 'PageController::show_pages_404');
 $routes->get('pages-500', 'PageController::show_pages_500');
 $routes->get('pages-main', 'PageController::show_pages_main');
 $routes->get('pages-product', 'PageController::show_pages_product');
+$routes->get('pages-manual', 'PageController::show_pages_manual');
 
 //Component section routing
 $routes->get('ui-alerts', 'ComponentController::show_ui_alerts');
