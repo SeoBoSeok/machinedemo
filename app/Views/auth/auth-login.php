@@ -42,7 +42,7 @@
                                 <a href="/" class="auth-logo-light">
                                     <div class="avatar-md profile-user-wid mb-4">
                                         <span class="avatar-title">
-                                            <img src="assets/images/logo-light.svg" alt="" class="rounded-circle" height="34">
+                                            <img src="assets/images/logo-light.svg" alt="" height="34">
                                         </span>
                                     </div>
                                 </a>
@@ -50,7 +50,7 @@
                                 <a href="/" class="auth-logo-dark">
                                     <div class="avatar-md profile-user-wid mb-4">
                                         <span class="avatar-title">
-                                            <img src="assets/images/kimm_logo.png" alt="" class="rounded-circle" height="34">
+                                            <img src="assets/images/kimm_logo.png" alt="" height="34">
                                         </span>
                                     </div>
                                 </a>
