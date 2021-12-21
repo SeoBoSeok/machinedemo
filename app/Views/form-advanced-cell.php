@@ -42,11 +42,11 @@
                                                     <th scope="col" style="width: 102px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
-                                                    <th scope="col">Y</th>
-                                                    <th scope="col">Z</th>
-                                                    <th scope="col">RX</th>
-                                                    <th scope="col">RY</th>
-                                                    <th scope="col">RZ</th>
+                                                    <th scope="col" style="width: 102px">Y</th>
+                                                    <th scope="col" style="width: 102px">Z</th>
+                                                    <th scope="col" style="width: 102px">RX</th>
+                                                    <th scope="col" style="width: 102px">RY</th>
+                                                    <th scope="col" style="width: 102px">RZ</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
