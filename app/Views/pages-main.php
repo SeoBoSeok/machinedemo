@@ -125,7 +125,7 @@
 
   <div class="album py-5 bg-light">
     <div class="container">
-
+        <h2>Product</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
       <div class="col">
               <div class="card">
