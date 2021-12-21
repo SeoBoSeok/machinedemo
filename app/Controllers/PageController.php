@@ -148,6 +148,13 @@ class PageController extends BaseController
 		return view('pages-download', $data);
 	}		
 
+	public function show_pages_qa(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Manual'])
+		];
+		return view('pages-qa', $data);
+	}	
+
 	public function show_pages_comingsoon(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Coming Soon'])
