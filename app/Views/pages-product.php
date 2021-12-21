@@ -122,7 +122,7 @@
       </a>
       <ul class="nav nav-pills">
         <li class="nav-item on"><a href="#" class="nav-link" aria-current="page">Product</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Manuel</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Manual</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Download</a></li>
         <li class="nav-item"><a href="pages/faq" class="nav-link">Q&A</a></li>
         <li class="nav-item"><a href="/login" class="nav-link">Sign in</a></li>
