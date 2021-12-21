@@ -69,6 +69,7 @@
     .navbar>.container ul {list-style: none; margin-bottom: 0;}
     .navbar>.container ul li {float: left; padding: 0 10px;}
     .navbar>.container ul li:last-child {padding-right: 0;}
+    .card-body {background-color: white !important;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -127,7 +128,7 @@
     <div class="container">
         <h2>Product</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
-      <div class="col">
+        <div class="col">
               <div class="card">
                 <div class="card-header text-white">플랫폼 개념</div>
                 <div class="card-body">
@@ -140,7 +141,7 @@
                 </div>
               </div>
             </div>
-            <div class="col section_main">
+            <div class="col">
               <div class="card">
                 <div class="card-header text-white">플랫폼 구조</div>
                 <div class="card-body">
