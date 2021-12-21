@@ -129,11 +129,11 @@
                                                         <p class="text-muted mb-0">Machine</p>
                                                     </td>
                                                     <td>SMEC SM400DH</td>
-                                                    <td><span class="badge bg-success">2000</span></td>
-                                                    <td><span class="badge bg-success">0</span></td>
-                                                    <td><span class="badge bg-warning">0</span></td>
-                                                    <td><span class="badge bg-warning">0</span></td>
-                                                    <td><span class="badge bg-warning">0</span></td>
+                                                    <td width="100px"><span class="badge bg-success">2000</span></td>
+                                                    <td width="100px"><span class="badge bg-success">0</span></td>
+                                                    <td width="100px"><span class="badge bg-warning">0</span></td>
+                                                    <td width="100px"><span class="badge bg-warning">0</span></td>
+                                                    <td width="100px"><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
                                                 <table class="table mb-10 table-striped tables" id="table2">
