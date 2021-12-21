@@ -10,6 +10,54 @@
 </head>
 
 <body>
+    <style>
+        html {
+      font-size: 100%!important;
+    }
+    body {
+      font-size: 16px;
+    }
+    main {
+      background: black;
+    }
+    header span, header a {
+      color: white!important;
+    }
+    header a {
+      text-decoration: none!important;
+    }
+    .border-bottom {
+      border-bottom: 0!important;
+    }
+    .muiltr-b10jnn .container {
+      max-width: 1320px!important;
+      width: none!important;
+    }
+    .mainSlider {
+      height: 600px;
+      background: url(/assets/main.png) center center no-repeat;
+      background-size: cover;
+    }
+    .section_main {
+      background: #222222!important;
+    }
+    .card, .card-body {
+      background: #222222!important;
+    }
+    .blue_main_logo {
+      color: #558BCF!important;
+    }
+    .main_logo {
+      font-weight: 900!important;
+    }
+    .btn-group {
+      display: block!important;
+    }
+    .main_button {
+      width: 100%;
+    }
+    </style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     <div class="home-btn d-none d-sm-block">
         <a href="/" class="text-dark"><i class="fas fa-home h2"></i></a>
     </div>
