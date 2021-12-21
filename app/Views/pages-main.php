@@ -78,7 +78,7 @@
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
     .add_h2 {padding-bottom: 30px; color: #000!important;}
     .card {border: 1px solid #E3E3E3; border-radius: 5px;}
-    .bg-back {background: url(/assets/images/background.png) center center no-repeat; background-size: cover; padding: 100px 0;}
+    .bg-back {background: url(/assets/images/background.png) center center no-repeat; background-size: cover; padding: 150px 0;}
     .heading-t {text-align: left;}
     .heading-t h4{font-size: 15px;}
     .heading-t h1{font-size: 40px; font-weight: 900;}
@@ -125,7 +125,7 @@
 <main>
 
   <section class="bg-back">
-    <div class="row py-lg-5">
+    <div class="py-lg-5">
         <div class="container">
             <div class="col-lg-6 col-md-8 heading-t">
               <h4 class="fw-light text-white">가상머신기반 지능화 S/W</h4>
