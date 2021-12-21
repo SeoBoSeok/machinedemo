@@ -95,6 +95,7 @@
     .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; } .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
     .sub_heading_txt {padding-top: 20px;}
     .manual_list a {min-width: 270px; text-align: center; color: #000!important; display: inline-block!important; background-color: #e9e9e9!important; margin-bottom: 20px;}
+    .login_go {padding: 5px 10px; border-radius: 10px; background-color: #03A9F4; color: white;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -158,7 +159,7 @@
       <div class="row">
         <p>가상공작기계 메뉴얼 다운로드 페이지 입니다.</p>
         <p>다운로드 하시려면 로그인이 필요합니다.</p>
-        <a href="/auth-login" class="btn">로그인</a>
+        <a href="/auth-login" class="btn login_go">로그인</a>
         <!-- <div class="manual_list">
           <a class="btn btn-secondary" href="#;">가상공작기계 메뉴얼 다운로드</a><br>
           <a class="btn btn-secondary" href="#;">VMS Manual Download</a><br>
