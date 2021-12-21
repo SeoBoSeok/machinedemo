@@ -156,7 +156,7 @@
     <div class="container">
         <h2 class="add_h2">Product</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
-        <div class="col">
+            <div class="col">
               <div class="card">
                 <div class="card-header text-white">플랫폼 개념</div>
                 <div class="card-body">
@@ -187,6 +187,46 @@
               <div class="card-header text-white">앱 개발 지원 방식</div>
                 <div class="card-body">
                   <p class="card-text ">HMI의 지능화 소프트웨어 기능들을 앱 단위로 용이하게 개발할 수 있도록 앱에 대한 구동 제어</p>
+                  <!-- <div class="">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <div class="card-header text-white">개발 방식 비교</div>
+                <div class="card-body">
+                  <p class="card-text">지능형 HMI 플랫폼 적용 전/후의 App 개발 방식 비교</p>
+                  <!-- <div class="">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-header text-white">플랫폼 활용</div>
+                <div class="card-body">
+                  <p class="card-text ">이해관계자에 따른 지능형 HMI 플랫폼 활용</p>
+                  <!-- <div class="">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+              <div class="card-header text-white">플랫폼 확장</div>
+                <div class="card-body">
+                  <p class="card-text ">공작기계 스마트화를 넘어 제조.생산 현장의 스마트화/디지털화를 위한 기능 확장 예정</p>
                   <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
