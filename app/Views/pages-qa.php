@@ -155,38 +155,39 @@
 
       <div class="card">
                             <div class="card-body">
-                                <h4 class="card-title">Striped rows</h4>
-                                <p class="card-title-desc">Use <code>.table-striped</code> to add zebra-striping to any table row within the <code>&lt;tbody&gt;</code>.</p>
-
                                 <div class="table-responsive">
                                     <table class="table table-striped mb-0">
 
                                         <thead>
                                             <tr>
-                                                <th>#</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Username</th>
+                                                <th>번호</th>
+                                                <th>제목</th>
+                                                <th>이름</th>
+                                                <th>날짜</th>
+                                                <th>조회수</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <th scope="row">1</th>
-                                                <td>Mark</td>
-                                                <td>Otto</td>
-                                                <td>@mdo</td>
+                                                <th scope="row">3</th>
+                                                <td>FocasApi.cnc_rdtofsr 에 관한 문의 1 file</td>
+                                                <td>이진호</td>
+                                                <td>2021.12.21</td>
+                                                <td>26</td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">2</th>
-                                                <td>Jacob</td>
-                                                <td>Thornton</td>
-                                                <td>@fat</td>
+                                                <td>메뉴얼 질문드립니다. 1</td>
+                                                <td>김대혁</td>
+                                                <td>2021.11.15</td>
+                                                <td>15</td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">3</th>
-                                                <td>Larry</td>
-                                                <td>the Bird</td>
-                                                <td>@twitter</td>
+                                                <th scope="row">1</th>
+                                                <td>processMachiningTime 1</td>
+                                                <td>정수민</td>
+                                                <td>2021.09.15</td>
+                                                <td>55</td>
                                             </tr>
                                         </tbody>
                                     </table>
