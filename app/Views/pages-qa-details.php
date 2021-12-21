@@ -96,7 +96,9 @@
     .page-item.active .page-link {background-color: #4B4B4B !important; border-color: #4B4B4B !important; color: white !important;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
-    
+    <?php
+      print_r($title_meta);
+    ?>
 <header>
   <div class="collapse bg-dark" id="navbarHeader">
     <div class="container">
@@ -134,7 +136,9 @@
 </header>
 
 <main>
-
+<?php
+  print_r()
+?>
   <section class="bg-sub">
     <div class="py-lg-5">
         <div class="container">
@@ -257,45 +261,8 @@
                                                             <h5 class="font-size-15">Where can I get some?</h5>
                                                             <p class="text-muted">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental</p>
                                                         </div>
-                                                    </div>
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">Where does it come from?</h5>
-                                                            <p class="text-muted">Everyone realizes why a new common language would be desirable one could refuse to pay expensive translators.</p>
-                                                        </div>
-                                                    </div>
+                                                    </div>                                                    
                                                     
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">Why do we use it?</h5>
-                                                            <p class="text-muted">Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">Where can I get some?</h5>
-                                                            <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="faq-box d-flex">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">What is Lorem Ipsum?</h5>
-                                                            <p class="text-muted">New common language will be more simple and regular than the existing European languages. It will be as simple as occidental.</p>
-                                                        </div>
-                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
