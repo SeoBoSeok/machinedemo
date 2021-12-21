@@ -8,6 +8,8 @@
     <?= $this->include('partials/head-css') ?>
 
 </head>
+
+<body>
 <style>
     body {
         background: #2D323E !important;
@@ -16,7 +18,6 @@
         color: white !important;
     }
 </style>
-<body>
     <div class="account-pages my-5 pt-sm-5">
         <div class="container">
             <div class="row justify-content-center">
