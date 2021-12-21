@@ -124,16 +124,16 @@
                                             <tbody>
                                                 <tr class="on_toggle" onclick="show(this,'table2')">
                                                     <td width="100px"><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
-                                                    <td width="227px">
+                                                    <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
                                                         <p class="text-muted mb-0">Machine</p>
                                                     </td>
                                                     <td>SMEC SM400DH</td>
-                                                    <td width="100px"><span class="badge bg-success">2000</span></td>
-                                                    <td width="100px"><span class="badge bg-success">0</span></td>
-                                                    <td width="100px"><span class="badge bg-warning">0</span></td>
-                                                    <td width="100px"><span class="badge bg-warning">0</span></td>
-                                                    <td width="100px"><span class="badge bg-warning">0</span></td>
+                                                    <td><span class="badge bg-success">2000</span></td>
+                                                    <td><span class="badge bg-success">0</span></td>
+                                                    <td><span class="badge bg-warning">0</span></td>
+                                                    <td><span class="badge bg-warning">0</span></td>
+                                                    <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
                                                 <table class="table mb-10 table-striped tables" id="table2">
