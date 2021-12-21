@@ -70,6 +70,7 @@
     }
     .nav-pills li {float: left;}
     .navbar>.container ul {list-style: none; margin-bottom: 0;}
+    .navbar>.container ul {display: flex; justify-content: center;align-items: center;}
     .navbar>.container ul li {float: left; padding: 0 10px;}
     .navbar>.container ul li:last-child {padding-right: 0;}
     .card {border: 1px solid #E3E3E3!important; border-radius: 7px!important; overflow: hidden;}
