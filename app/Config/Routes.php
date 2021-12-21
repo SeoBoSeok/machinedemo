@@ -145,6 +145,7 @@ $routes->get('pages-product', 'PageController::show_pages_product');
 $routes->get('pages-manual', 'PageController::show_pages_manual');
 $routes->get('pages-download', 'PageController::show_pages_download');
 $routes->get('pages-qa', 'PageController::show_pages_qa');
+$routes->get('pages-qa-details', 'PageController::show_pages_qa_details');
 
 //Component section routing
 $routes->get('ui-alerts', 'ComponentController::show_ui_alerts');

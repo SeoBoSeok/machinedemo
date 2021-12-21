@@ -27,6 +27,7 @@
     .project-list-table tr:hover {cursor: pointer;}
     .project-list-table tr.open table {display: block;}
     .project-list-table tr table {display: none;}
+
 </style>
                         <?= $page_title ?>
 
@@ -61,9 +62,8 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
-                                                <div>
+                                                <tr>
                                                 <table class="table mb-10 table-striped tables" id="table1">
-
                             <thead>
                                 <tr>
                                     <th>#</th>
@@ -114,7 +114,7 @@
                                 </tr>                                                                                                                                 
                             </tbody>
                         </table>
-</div>
+</tr>
                                             </tbody>
                                         </table> 
 
