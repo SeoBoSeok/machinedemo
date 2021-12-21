@@ -84,7 +84,7 @@
     .heading-t h4{font-size: 15px;}
     .heading-t h1{font-size: 48px; font-weight: 700;}
     .blue {color: #558BCF;}
-    .nav-item.on {color: white!important; background: #03A9F4!important; padding: 5px 10px; border-radius: 7px;}
+    .nav-item.on a {color: white!important; background: #03A9F4!important; padding: 5px 10px; border-radius: 7px;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
