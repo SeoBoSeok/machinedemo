@@ -120,21 +120,9 @@
 
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
-                                            <thead style="visibility: hidden;">
-                                                <tr class="on_toggle open" onclick="show('table2');">
-                                                    <th scope="col" style="width: 100px">#</th>
-                                                    <th scope="col">Object Id<br>Type</th>
-                                                    <th scope="col">X</th>
-                                                    <th scope="col">Y</th>
-                                                    <th scope="col">Z</th>
-                                                    <th scope="col">RX</th>
-                                                    <th scope="col">RY</th>
-                                                    <th scope="col">RZ</th>
-                                                </tr>
-                                            </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
+                                                    <td width="100px"><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
                                                         <p class="text-muted mb-0">Machine</p>
