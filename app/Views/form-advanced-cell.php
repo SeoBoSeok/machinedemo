@@ -28,6 +28,7 @@
     .project-list-table tr.open table {display: block;}
     .project-list-table tr table {display: none;}
     .table {margin-bottom: 0;}
+    #table1, #table2, #table3, #table4, #table5, #table6, #table7 {display: none;} 
 </style>
                         <?= $page_title ?>
 
@@ -121,7 +122,7 @@
                                         <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <tbody>
-                                                <tr>
+                                                <tr class="on_toggle" onclick="show(this,'table2')">
                                                     <td width="100px"><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -206,7 +207,7 @@
                                                 </tr>
                                             </thead> -->
                                             <tbody>
-                                                <tr>
+                                                <tr class="on_toggle" onclick="show(this,'table3')">
                                                     <td width="100px"><img src="assets/images/companies/img-3.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -291,7 +292,7 @@
                                                 </tr>
                                             </thead> -->
                                             <tbody>
-                                                <tr>
+                                                <tr class="on_toggle" onclick="show(this,'table4')">
                                                     <td width="100px"><img src="assets/images/companies/img-4.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -305,7 +306,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped tables" id="table3">
+                                                <table class="table mb-10 table-striped tables" id="table4">
 
                             <thead>
                                 <tr>
@@ -376,7 +377,7 @@
                                                 </tr>
                                             </thead> -->
                                             <tbody>
-                                                <tr>
+                                                <tr class="on_toggle" onclick="show(this,'table5')">
                                                     <td width="100px"><img src="assets/images/companies/img-5.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -390,7 +391,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped tables" id="table4">
+                                                <table class="table mb-10 table-striped tables" id="table5">
 
                             <thead>
                                 <tr>
@@ -461,7 +462,7 @@
                                                 </tr>
                                             </thead> -->
                                             <tbody>
-                                                <tr>
+                                                <tr class="on_toggle" onclick="show(this,'table6')">
                                                     <td width="100px"><img src="assets/images/companies/img-6.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -475,7 +476,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped tables" id="table5">
+                                                <table class="table mb-10 table-striped tables" id="table6">
 
                             <thead>
                                 <tr>
@@ -546,7 +547,7 @@
                                                 </tr>
                                             </thead> -->
                                             <tbody>
-                                                <tr>
+                                                <tr class="on_toggle" onclick="show(this,'table7')">
                                                     <td width="100px"><img src="assets/images/companies/img-1.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -560,7 +561,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped tables" id="table6">
+                                                <table class="table mb-10 table-striped tables" id="table7">
 
                             <thead>
                                 <tr>
@@ -631,7 +632,7 @@
                                                 </tr>
                                             </thead> -->
                                             <tbody>
-                                                <tr>
+                                                <tr class="on_toggle" onclick="show(this,'table8')">
                                                     <td width="100px"><img src="assets/images/companies/img-2.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -645,7 +646,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
                                                 <div>
-                                                <table class="table mb-10 table-striped">
+                                                <table class="table mb-10 table-striped" id="table8">
 
                             <thead>
                                 <tr>
