@@ -120,6 +120,13 @@ class PageController extends BaseController
 		return view('pages-maintenance', $data);
 	}
 
+	public function show_pages_main(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Main Page'])
+		];
+		return view('pages-main', $data);
+	}	
+
 	public function show_pages_comingsoon(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Coming Soon'])

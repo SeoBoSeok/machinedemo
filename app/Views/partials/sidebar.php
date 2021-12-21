@@ -9,16 +9,16 @@
             <ul class="metismenu list-unstyled" id="side-menu">
 
                 <li>
-                    <a href="javascript: void(0);" class="waves-effect">
+                    <a href="/form-advanced-cell" class="waves-effect">
                         <i class="bx bxs-eraser"></i>
                         <!-- <span class="badge rounded-pill bg-danger float-end">10</span> -->
-                        <span key="t-forms">등록하기</span>
+                        <span key="t-forms">Assets</span>
                     </a>
-                    <ul class="sub-menu" aria-expanded="false">
+                    <!-- <ul class="sub-menu" aria-expanded="false">
                         <li><a href="form-advanced-site" key="t-form-advanced-site">Site</a></li>
                         <li><a href="form-advanced-machine" key="t-form-advanced-machine">Machine</a></li>
                         <li><a href="form-advanced-cell" key="t-form-advanced-cell">Cell</a></li>
-                    </ul>
+                    </ul> -->
                 </li>
 
                 <!-- <li>
