@@ -56,7 +56,7 @@
                                 </a>
                             </div>
                             <div class="p-2">
-                                <form class="form-horizontal" action="/">
+                                <form class="form-horizontal" action="/charts-apex-server">
 
                                     <div class="mb-3">
                                         <label for="username" class="form-label">Username</label>
