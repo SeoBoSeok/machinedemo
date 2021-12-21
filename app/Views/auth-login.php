@@ -8,7 +8,14 @@
     <?= $this->include('partials/head-css') ?>
 
 </head>
-
+<style>
+    body {
+        background: #2D323E !important;
+    }
+    p {
+        color: white !important;
+    }
+</style>
 <body>
     <div class="account-pages my-5 pt-sm-5">
         <div class="container">
@@ -109,7 +116,7 @@
                             <p>Don't have an account ? <a href="auth-register" class="fw-medium text-primary"> Signup now </a> </p>
                             <p>© <script>
                                     document.write(new Date().getFullYear())
-                                </script> All right reserved. Crafted with <i class="mdi mdi-heart text-danger"></i> by 이비오(주)</p>
+                                </script> All right reserved. by 이비오(주)</p>
                         </div>
                     </div>
 
