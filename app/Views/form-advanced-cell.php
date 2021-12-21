@@ -62,8 +62,8 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
-                                                <tr>
-                                                <table class="table mb-10 table-striped tables" id="table1">
+                                                <tr><>
+                                                <table class="table mb-10 table-striped tables show" id="table1">
                             <thead>
                                 <tr>
                                     <th>#</th>
@@ -114,7 +114,7 @@
                                 </tr>                                                                                                                                 
                             </tbody>
                         </table>
-</tr>
+</td></tr>
                                             </tbody>
                                         </table> 
 
