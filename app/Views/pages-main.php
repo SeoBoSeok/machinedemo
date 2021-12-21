@@ -114,10 +114,10 @@
         <strong><span class="high">VMS 가상</span>공작기계</strong>
       </a>
       <ul class="nav nav-pills">
-        <li class="nav-item"><a href="/pages/product" class="nav-link" aria-current="page">Product</a></li>
-        <li class="nav-item"><a href="/pages/manual" class="nav-link">Manual</a></li>
-        <li class="nav-item"><a href="/pages/download" class="nav-link">Download</a></li>
-        <li class="nav-item"><a href="/pages/qa" class="nav-link">Q&A</a></li>
+        <li class="nav-item"><a href="/pages-product" class="nav-link" aria-current="page">Product</a></li>
+        <li class="nav-item"><a href="/pages-manual" class="nav-link">Manual</a></li>
+        <li class="nav-item"><a href="/pages-download" class="nav-link">Download</a></li>
+        <li class="nav-item"><a href="/pages-qa" class="nav-link">Q&A</a></li>
         <li class="nav-item"><a href="/auth/login" class="nav-link">Sign in</a></li>
       </ul>
     </div>
