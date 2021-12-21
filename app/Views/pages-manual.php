@@ -16,6 +16,7 @@
     html {
       font-size: 100%!important;
       font-family: 'Roboto', sans-serif;
+      background-color: rgb(248, 249, 250) !important;
     }
     body {
       font-size: 16px;
