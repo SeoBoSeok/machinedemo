@@ -73,7 +73,7 @@
     .card-text {padding-bottom: 30px;}
     .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
-
+    .add_h2 {padding-bottom: 30px;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -130,7 +130,7 @@
 
   <div class="album py-5 bg-light">
     <div class="container">
-        <h2>Product</h2>
+        <h2 class="add_h2">Product</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
         <div class="col">
               <div class="card">
