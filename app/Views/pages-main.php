@@ -127,9 +127,9 @@
   <section class="bg-back">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto heading-t">
-        <h4 class="text-white">가상머신기반 지능화 S/W</h4>
-        <h1 class="fw-light text-white">VIRTUAL <span class="blue">MACHINE SYSTEM</span></h1>
-        <h1 class="fw-light text-white">가상공작기계</h1>
+        <h4 class="fw-light text-white">가상머신기반 지능화 S/W</h4>
+        <h1 class="text-white">VIRTUAL <span class="blue">MACHINE SYSTEM</span></h1>
+        <h1 class="text-white">가상공작기계</h1>
         <!-- <p>
           <a href="#" class="btn btn-primary my-2">Main call to action</a>
           <a href="#" class="btn btn-secondary my-2">Secondary action</a>
