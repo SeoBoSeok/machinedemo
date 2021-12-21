@@ -136,7 +136,7 @@
                 <i class="bx bx-home-circle"></i> > product
               </div>
               <div class="sub_heading_txt">
-                <h1>Product</h1>
+                <h1 class="text-white">Product</h1>
               </div>
             </div>
         </div>
