@@ -157,15 +157,49 @@
     <div class="container">
         <!-- <h2 class="add_h2">Product</h2> -->
       <div class="row">
-        <p>가상공작기계 메뉴얼 다운로드 페이지 입니다.</p>
-        <p>다운로드 하시려면 로그인이 필요합니다.</p>
-        <a href="/auth-login" class="btn login_go">로그인</a>
-        <!-- <div class="manual_list">
-          <a class="btn btn-secondary" href="#;">가상공작기계 메뉴얼 다운로드</a><br>
-          <a class="btn btn-secondary" href="#;">VMS Manual Download</a><br>
-          <a class="btn btn-secondary" href="#;">가상공작기계 적용 모델 목록 다운로드</a><br>
-          <a class="btn btn-secondary" href="#;">VMS Available Machine List</a><br>
-        </div> -->
+
+      <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">Striped rows</h4>
+                                <p class="card-title-desc">Use <code>.table-striped</code> to add zebra-striping to any table row within the <code>&lt;tbody&gt;</code>.</p>
+
+                                <div class="table-responsive">
+                                    <table class="table table-striped mb-0">
+
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>First Name</th>
+                                                <th>Last Name</th>
+                                                <th>Username</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+
       </div>
     </div>
   </div>
