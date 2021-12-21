@@ -27,7 +27,7 @@
     .project-list-table tr:hover {cursor: pointer;}
     .project-list-table tr.open table {display: block;}
     .project-list-table tr table {display: none;}
-
+    .table {margin-bottom: 0;}
 </style>
                         <?= $page_title ?>
 
