@@ -72,7 +72,8 @@
     .navbar>.container ul {list-style: none; margin-bottom: 0;}
     .navbar>.container ul li {float: left; padding: 0 10px;}
     .navbar>.container ul li:last-child {padding-right: 0;}
-    .card-header {background-color: #3C4251 !important;}
+    .card {border: 1px solid #E3E3E3; border-radius: 7px;}
+    .card-header {background-color: #3C4251 !important; padding: 10px 0!important; font-size: 18px!important;}
     .card-text {padding-bottom: 30px;}
     .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
@@ -81,7 +82,7 @@
     .bg-back {background: url(/assets/images/background.png) center center no-repeat; background-size: cover; padding: 150px 0;}
     .heading-t {text-align: left;}
     .heading-t h4{font-size: 15px;}
-    .heading-t h1{font-size: 40px; font-weight: 900;}
+    .heading-t h1{font-size: 48px; font-weight: 700;}
     .blue {color: #558BCF;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
