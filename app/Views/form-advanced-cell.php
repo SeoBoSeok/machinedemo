@@ -62,7 +62,7 @@
                                                     <td><span class="badge bg-warning">0</span></td>
                                                     <td><span class="badge bg-warning">0</span></td>
                                                 </tr>
-                                                <tr><>
+                                                <tr>
                                                 <table class="table mb-10 table-striped tables show" id="table1">
                             <thead>
                                 <tr>
