@@ -76,6 +76,10 @@
     .add_h2 {padding-bottom: 30px; color: #000!important;}
     .card {border: 1px solid #E3E3E3; border-radius: 5px;}
     .bg-back {background: url(/assets/images/background.png) center center no-repeat; background-size: cover; padding: 100px 0;}
+    .heading-t {text-align: left;}
+    .heading-t h4{font-size: 15px;}
+    .heading-t h1{font-size: 40px; font-weight: 900;}
+    .blue {color: #558BCF;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -119,10 +123,10 @@
 
   <section class="bg-back">
     <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-          <h4>가상머신기반 지능화 S/W</h4>
-        <h1 class="fw-light">VIRTUAL MACHINE SYSTEM</h1>
-        <h1 class="fw-light">가상공작기계</h1>
+      <div class="col-lg-6 col-md-8 mx-auto heading-t">
+        <h4 class="text-white">가상머신기반 지능화 S/W</h4>
+        <h1 class="fw-light text-white">VIRTUAL <span class="blue">MACHINE SYSTEM</span></h1>
+        <h1 class="fw-light text-white">가상공작기계</h1>
         <!-- <p>
           <a href="#" class="btn btn-primary my-2">Main call to action</a>
           <a href="#" class="btn btn-secondary my-2">Secondary action</a>
