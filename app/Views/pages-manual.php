@@ -153,7 +153,11 @@
     <div class="container">
         <!-- <h2 class="add_h2">Product</h2> -->
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
-
+        <p>가상공작기계 메뉴얼 다운로드 페이지 입니다.</p>
+        <a href="#;">가상공작기계 메뉴얼 다운로드</a>
+        <a href="#;">VMS Manual Download</a>
+        <a href="#;">가상공작기계 적용 모델 목록 다운로드</a>
+        <a href="#;">VMS Available Machine List</a>
       </div>
     </div>
   </div>
