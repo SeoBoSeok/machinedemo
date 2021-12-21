@@ -42,9 +42,6 @@
     .section_main {
       background: #222222!important;
     }
-    .card, .card-body {
-      background: #222222!important;
-    }
     .blue_main_logo {
       color: #558BCF!important;
     }
