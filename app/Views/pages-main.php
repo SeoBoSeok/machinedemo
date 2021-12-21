@@ -11,17 +11,11 @@
 
 <body>
     <style>
-        html {
+    html {
       font-size: 100%!important;
     }
     body {
       font-size: 16px;
-    }
-    main {
-      background: black;
-    }
-    header span, header a {
-      color: white!important;
     }
     header a {
       text-decoration: none!important;
