@@ -72,9 +72,9 @@
     .navbar>.container ul {list-style: none; margin-bottom: 0;}
     .navbar>.container ul li {float: left; padding: 0 10px;}
     .navbar>.container ul li:last-child {padding-right: 0;}
-    .card {border: 1px solid #E3E3E3!important; border-radius: 7px!important;}
+    .card {border: 1px solid #E3E3E3!important; border-radius: 7px!important; overflow: hidden;}
     .card-header {background-color: #3C4251 !important; padding-top: 10px!important;padding-bottom: 10px!important; font-size: 18px!important;}
-    .card-text {padding-bottom: 30px;}
+    .card-text {padding-bottom: 30px; min-height: 102px;}
     .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
     .add_h2 {padding-bottom: 30px; color: #000!important;}
