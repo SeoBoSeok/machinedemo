@@ -71,7 +71,8 @@
     .navbar>.container ul li:last-child {padding-right: 0;}
     .card-header {background-color: #3C4251;}
     .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
-    .main_button {background-color: #03A9F4 !important; }
+    .main_button {background-color: #03A9F4 !important; border: 0; font-size: 2rem;}
+
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -134,10 +135,10 @@
               <div class="card">
                 <div class="card-header text-white">플랫폼 개념</div>
                 <div class="card-body">
-                  <p class="card-text text-white">다양한 제품 적용을 통한 당사 공작기계 경쟁력 향상 Application 생태계 구축을 통한 플랫폼 사업</p>
+                  <p class="card-text">다양한 제품 적용을 통한 당사 공작기계 경쟁력 향상 Application 생태계 구축을 통한 플랫폼 사업</p>
                   <div class="">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-md btn-outline-secondary main_button">View</button>
+                      <button type="button" class="btn btn-md btn-outline-secondary main_button">제품소개</button>
                     </div>
                   </div>
                 </div>
@@ -147,10 +148,10 @@
               <div class="card">
                 <div class="card-header text-white">플랫폼 구조</div>
                 <div class="card-body">
-                  <p class="card-text text-white">지능형 HMI플랫폼 아키텍처 구조 - 계층형 아키텍처, 내부 모듈 간 관계 블럭도</p>
+                  <p class="card-text ">지능형 HMI플랫폼 아키텍처 구조 - 계층형 아키텍처, 내부 모듈 간 관계 블럭도</p>
                   <div class="">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-md btn-outline-secondary main_button">View</button>
+                      <button type="button" class="btn btn-md btn-outline-secondary main_button">제품소개</button>
                     </div>
                   </div>
                 </div>
@@ -160,10 +161,10 @@
               <div class="card">
               <div class="card-header text-white">앱 개발 지원 방식</div>
                 <div class="card-body">
-                  <p class="card-text text-white">HMI의 지능화 소프트웨어 기능들을 앱 단위로 용이하게 개발할 수 있도록 앱에 대한 구동 제어</p>
+                  <p class="card-text ">HMI의 지능화 소프트웨어 기능들을 앱 단위로 용이하게 개발할 수 있도록 앱에 대한 구동 제어</p>
                   <div class="">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-md btn-outline-secondary main_button">View</button>
+                      <button type="button" class="btn btn-md btn-outline-secondary main_button">제품소개</button>
                     </div>
                   </div>
                 </div>
