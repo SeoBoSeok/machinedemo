@@ -37,7 +37,7 @@
                                     <div class="table-responsive">
                                         <table class="table project-list-table table-nowrap align-middle table-borderless">
                                             <thead>
-                                                <tr class="on_toggle open" onclick="show('table1')" style="vertical-align: middle;">
+                                                <tr style="vertical-align: middle;">
                                                     <th scope="col" style="width: 100px">#</th>
                                                     <th scope="col">Object Id<br>Type</th>
                                                     <th scope="col">X</th>
@@ -49,7 +49,7 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr class="on_toggle open">
+                                                <tr class="on_toggle" onclick="show('table1')">
                                                     <td><img src="assets/images/companies/img-1.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -725,7 +725,12 @@
                 <?= $this->include('partials/footer') ?>
             </div>
             <!-- end main content-->
-
+        <script>
+            function show(el) {
+                // $('#'+el).fadeIn(300);
+                $('#'+el).fadeOut(300);
+            }
+        </script>
         </div>
         <!-- END layout-wrapper -->
 
