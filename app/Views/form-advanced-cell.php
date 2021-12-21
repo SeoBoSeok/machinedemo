@@ -28,7 +28,7 @@
     .project-list-table tr.open table {display: block;}
     .project-list-table tr table {display: none;}
     .table {margin-bottom: 0;}
-    #table1, #table2, #table3, #table4, #table5, #table6, #table7 {display: none;} 
+    #table1, #table2, #table3, #table4, #table5, #table6, #table7, #table8, #table9, , #table10 {display: none;} 
 </style>
                         <?= $page_title ?>
 
