@@ -156,7 +156,7 @@ class PageController extends BaseController
 	}	
 
 	public function show_pages_qa_details(){
-		$result = $this->db->query('SELECT * FROM notice')->result();
+		$result = $this->$db->query('SELECT * FROM notice')->result();
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Q&A', 'result' => $result])
 		];
