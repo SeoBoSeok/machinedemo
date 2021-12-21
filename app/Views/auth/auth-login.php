@@ -29,7 +29,7 @@
                                 <div class="col-7">
                                     <div class="text-primary p-4">
                                         <h5 class="text-primary">Welcome Back !</h5>
-                                        <p>가상공작기계</p>
+                                        <p style="color: #000;">가상공작기계</p>
                                     </div>
                                 </div>
                                 <div class="col-5 align-self-end">
