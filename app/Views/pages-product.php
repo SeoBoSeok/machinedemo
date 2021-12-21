@@ -20,6 +20,9 @@
     body {
       font-size: 16px;
     }
+    main {
+      background-color: #2D323E !important;
+    }
     header a {
       text-decoration: none!important;
     }
