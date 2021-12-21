@@ -49,7 +49,7 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                <tr class="on_toggle" onclick="show('table1')">
+                                                <tr class="on_toggle" onclick="show(this,'table1')">
                                                     <td><img src="assets/images/companies/img-1.png" alt="" class="avatar-sm"></td>
                                                     <td>
                                                         <h5 class="text-truncate font-size-14"><a href="#" class="text-dark">MT04301</a></h5>
@@ -726,9 +726,15 @@
             </div>
             <!-- end main content-->
         <script>
-            function show(el) {
+            function show(target, el) {
                 // $('#'+el).fadeIn(300);
-                $('#'+el).fadeOut(300);
+                if($(target).hasClass("show")) {
+                    $('#'+el).fadeOut(300);
+                    $(target).removeClass("show");
+                } else {
+                    $('#'+el).fadeIn(300);
+                    $(target).addClass("show");
+                }
             }
         </script>
         </div>
