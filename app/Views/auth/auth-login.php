@@ -10,6 +10,14 @@
 </head>
 
 <body>
+<style>
+    body {
+        background: #2D323E !important;
+    }
+    p {
+        color: white !important;
+    }
+</style>
     <div class="account-pages my-5 pt-sm-5">
         <div class="container">
             <div class="row justify-content-center">
@@ -41,7 +49,7 @@
                                 <a href="/" class="auth-logo-dark">
                                     <div class="avatar-md profile-user-wid mb-4">
                                         <span class="avatar-title rounded-circle bg-light">
-                                            <img src="assets/images/logo.svg" alt="" class="rounded-circle" height="34">
+                                            <img src="assets/images/kimm_logo.png" alt="" class="rounded-circle" height="34">
                                         </span>
                                     </div>
                                 </a>
@@ -109,7 +117,7 @@
                             <p>Don't have an account ? <a href="auth-register" class="fw-medium text-primary"> Signup now </a> </p>
                             <p>© <script>
                                     document.write(new Date().getFullYear())
-                                </script> All right reserved. Crafted with <i class="mdi mdi-heart text-danger"></i> by 이비오(주)</p>
+                                </script> All right reserved. by 이비오(주)</p>
                         </div>
                     </div>
 
