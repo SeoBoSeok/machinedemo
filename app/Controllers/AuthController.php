@@ -99,7 +99,7 @@ class AuthController extends BaseController{
 				$user = $model->where('email', $this->request->getVar('username'))->first();
 				// print_r($user);
 				$this->setUserSession($user);				
-				return redirect()->to('/');
+				return redirect()->to('/home');
 			}
 			return view('auth/auth-login', $data);
 		}		
