@@ -69,7 +69,9 @@
     .navbar>.container ul {list-style: none; margin-bottom: 0;}
     .navbar>.container ul li {float: left; padding: 0 10px;}
     .navbar>.container ul li:last-child {padding-right: 0;}
-    .card-body {background-color: white !important;}
+    .card-header {background-color: #3C4251;}
+    .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
+    .main_button {background-color: #03A9F4 !important; }
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
