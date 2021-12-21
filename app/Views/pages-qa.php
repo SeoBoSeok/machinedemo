@@ -77,13 +77,11 @@
     .navbar>.container ul {display: flex; justify-content: center;align-items: center;}
     .navbar>.container ul li {float: left; padding: 0 10px;}
     .navbar>.container ul li:last-child {padding-right: 0;}
-    .card {border: 1px solid #E3E3E3!important; border-radius: 7px!important; overflow: hidden;}
     .card-header {background-color: #3C4251 !important; padding-top: 10px!important;padding-bottom: 10px!important; font-size: 18px!important;}
     .card-text {padding-bottom: 0px; min-height: 80px;}
     .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
     .add_h2 {padding-bottom: 30px; color: #000!important;}
-    .card {border: 1px solid #E3E3E3; border-radius: 5px;}
     .bg-back {background: url(/assets/images/background.png) center center no-repeat; background-size: cover; padding: 150px 0;}
     .heading-t {text-align: left;}
     .heading-t h4{font-size: 15px;}
@@ -142,10 +140,10 @@
         <div class="container">
             <div class="sub_heading">
               <div class="sub_heading_title">
-                <i class="bx bx-home-circle"></i> > Manual
+                <i class="bx bx-home-circle"></i> > Q&A
               </div>
               <div class="sub_heading_txt">
-                <h1 class="text-white">가상공작기계 메뉴얼</h1>
+                <h1 class="text-white">Q&A</h1>
               </div>
             </div>
         </div>
