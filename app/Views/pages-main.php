@@ -73,7 +73,7 @@
     .card-text {padding-bottom: 30px;}
     .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
-    .add_h2 {padding-bottom: 30px;}
+    .add_h2 {padding-bottom: 30px; color: #000!important;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
