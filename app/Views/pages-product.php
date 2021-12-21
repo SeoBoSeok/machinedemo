@@ -130,7 +130,14 @@
   <section class="bg-back">
     <div class="py-lg-5">
         <div class="container">
-            
+            <div class="sub_heading">
+              <div class="sub_heading_title">
+                <i class="bx bx-home-circle"></i> > product
+              </div>
+              <div class="sub_heading_txt">
+                <h1>Product</h1>
+              </div>
+            </div>
         </div>
     </div>
   </section>
