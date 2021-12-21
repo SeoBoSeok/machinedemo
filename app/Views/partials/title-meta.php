@@ -5,6 +5,8 @@
 <meta content="Themesbrand" name="author" />
 <!-- App favicon -->
 <link rel="shortcut icon" href="/assets/images/favicon.ico">
-<meta property="og:title" content="가상공작기계">
-<meta property="og:image" content="/assets/images/background.png">
-<meta property="og:description" content="가상공작기계">
+<meta property="og:title" content="가상공작기계" />
+<meta property="og:url" content="http://52.78.61.227/" />
+<meta property="og:description" content="가상공작기계" />
+<meta property="og:image" content="/assets/images/background.png" />
+<meta property="og:type" content="website" />
