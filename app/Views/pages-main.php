@@ -118,7 +118,7 @@
         <li class="nav-item"><a href="/pages-manual" class="nav-link">Manual</a></li>
         <li class="nav-item"><a href="/pages-download" class="nav-link">Download</a></li>
         <li class="nav-item"><a href="/pages-qa" class="nav-link">Q&A</a></li>
-        <li class="nav-item"><a href="/auth/login" class="nav-link">Sign in</a></li>
+        <li class="nav-item"><a href="/auth-login" class="nav-link">Sign in</a></li>
       </ul>
     </div>
   </div>
