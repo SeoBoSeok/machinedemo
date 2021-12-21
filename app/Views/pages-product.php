@@ -21,7 +21,7 @@
       font-size: 16px;
     }
     main {
-      background-color: #2D323E !important;
+      background-color: rgb(248, 249, 250) !important;
     }
     header a {
       text-decoration: none!important;
