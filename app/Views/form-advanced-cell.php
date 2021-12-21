@@ -36,7 +36,7 @@
                             <div class="col-lg-12">
                                 <div class="">
                                     <div class="table-responsive">
-                                        <table class="table project-list-table table-nowrap align-middle table-borderless">
+                                        <table class="table project-list-table table-nowrap align-middle table-borderless" style="margin-bottom: -10px;">
                                             <thead>
                                                 <tr style="vertical-align: middle;">
                                                     <th scope="col" style="width: 102px">#</th>
