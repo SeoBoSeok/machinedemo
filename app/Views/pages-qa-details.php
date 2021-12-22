@@ -174,12 +174,14 @@
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade active show" id="v-pills-gen-ques" role="tabpanel" aria-labelledby="v-pills-gen-ques-tab">
                                                     <h4 class="card-title mb-5">자주 묻는 질문</h4>
+                                                    <h3>작성자 : <?php echo $data[$_SERVER['QUERY_STRING']]['au']?></h3>
+                                                    <h3>작성일 : <?php echo $data[$_SERVER['QUERY_STRING']]['t']?></h3>
                                                     <div class="faq-box d-flex mb-4">
                                                         <div class="flex-shrink-0 me-3 faq-icon">
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h5 class="font-size-15"><?php echo $data[0]['q']?></h5>
+                                                            <h5 class="font-size-15"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h5>
                                                             <!-- <p class="text-muted"></p> -->
                                                         </div>
                                                     </div>
@@ -188,7 +190,7 @@
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h5 class="font-size-15"><?php echo $data[0]['a']?><</h5>
+                                                            답변 : <?php echo $data[$_SERVER['QUERY_STRING']]['a']?></h5>
                                                             <!-- <p class="text-muted">Everyone realizes why a new common language would be desirable one could refuse to pay expensive translators.</p> -->
                                                         </div>
                                                     </div>
