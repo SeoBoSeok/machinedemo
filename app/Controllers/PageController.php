@@ -157,12 +157,12 @@ class PageController extends BaseController
 
 	public function show_pages_qa_details(){
 		// $result = $this->db->query('SELECT * FROM notice')->result();
-		// $db = \Config\Database::connect();
-		// $result = $db->query('SELECT * FROM notice')->result();
+		$db = \Config\Database::connect();
+		$result = $db->query('SELECT * FROM notice')->result();
 
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Q&A']),
-			// 'result' => $result
+			'result' => $result
 		];
 		return view('pages-qa-details', $data);
 	}		
