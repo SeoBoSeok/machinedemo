@@ -138,7 +138,16 @@
 <main>
 <?php
   // print_r()
-  print_r ($_SERVER);
+  // print_r ($_SERVER); // $_SERVER['QUERY_STRING']
+  $data = array();
+
+  array_push($data, array(
+    'q' => 'processMachiningTime 1',
+    'a' => 'processMachiningTime 1 file을 download에서 찾으실 수 있습니다.',
+    't' => '2021.09.15',
+    'au' => '정수민'
+  ));
+
 ?>
   <section class="bg-sub">
     <div class="py-lg-5">
@@ -170,7 +179,7 @@
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">FocasAPI 의 C# BackgroundWorker 스레드 상에서 비정상 작동에 관한 질문</h5>
+                                                            <h5 class="font-size-15"><?php echo $data[0]['q']?></h5>
                                                             <!-- <p class="text-muted"></p> -->
                                                         </div>
                                                     </div>
@@ -179,90 +188,10 @@
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">FocasApi.cnc_rdtofsr 에 관한 문의 1 file</h5>
+                                                            <h5 class="font-size-15"><?php echo $data[0]['a']?><</h5>
                                                             <!-- <p class="text-muted">Everyone realizes why a new common language would be desirable one could refuse to pay expensive translators.</p> -->
                                                         </div>
                                                     </div>
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">FocasApi.cnc_rdparam 관련 문의 2 file</h5>
-                                                            <!-- <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p> -->
-                                                        </div>
-                                                    </div>
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">메뉴얼 질문드립니다. 1</h5>
-                                                            <!-- <p class="text-muted">Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p> -->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="v-pills-privacy" role="tabpanel" aria-labelledby="v-pills-privacy-tab">
-                                                    <h4 class="card-title mb-5">Privacy Policy</h4>
-                                                    
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">Where does it come from?</h5>
-                                                            <p class="text-muted">Everyone realizes why a new common language would be desirable one could refuse to pay expensive translators.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">Where can I get some?</h5>
-                                                            <p class="text-muted">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">What is Lorem Ipsum?</h5>
-                                                            <p class="text-muted">New common language will be more simple and regular than the existing European languages. It will be as simple as occidental.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">Why do we use it?</h5>
-                                                            <p class="text-muted">Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="faq-box d-flex   ">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">Where can I get some?</h5>
-                                                            <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane fade" id="v-pills-support" role="tabpanel" aria-labelledby="v-pills-support-tab">
-                                                    <h4 class="card-title mb-5">Support</h4>
-                                                
-                                                    <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
-                                                            <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
-                                                        <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">Where can I get some?</h5>
-                                                            <p class="text-muted">To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental</p>
-                                                        </div>
-                                                    </div>                                                    
                                                     
                                                 </div>
                                             </div>
