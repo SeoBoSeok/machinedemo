@@ -211,7 +211,7 @@
                                         <div class="col-sm-9">
 
                                             <div>
-                                                <button type="button" class="btn btn-primary w-md">등 록</button>
+                                                <button type="button" id="submit_btn" class="btn btn-primary w-md">등 록</button>
                                             </div>
                                         </div>
                                     </div>
@@ -225,8 +225,7 @@
   </div>
   <script src="assets/libs/jquery/jquery.min.js"></script>
 <script>
-  $('form').bind('submit', submitAction);
-  var submitAction = function(e){
+  $('#submit_btn').click(function(e){
     e.preventDefault();
     $.ajax({
       url:'pages-qa-update', // 요청 할 주소
@@ -245,7 +244,7 @@
       error:function(jqXHR) {},// 요청 실패.
       complete:function(jqXHR) {}// 요청의 실패, 성공과 상관 없이 완료 될 경우 호출
     });
-  }
+  });
 </script>
 </main>
 
