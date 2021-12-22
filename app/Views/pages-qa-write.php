@@ -211,7 +211,7 @@
                                         <div class="col-sm-9">
 
                                             <div>
-                                                <button type="submit" class="btn btn-primary w-md">등 록</button>
+                                                <button type="button" class="btn btn-primary w-md">등 록</button>
                                             </div>
                                         </div>
                                     </div>
