@@ -191,13 +191,13 @@
                                     <div class="row mb-4">
                                         <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">제 목</label>
                                         <div class="col-sm-9">
-                                            <input type="text" class="form-control" name="form_title" id="horizontal-firstname-input" placeholder="Enter Your ">
+                                            <input type="text" class="form-control" name="form_title" id="horizontal-firstname-input" placeholder="제목을 입력해주세요 ">
                                         </div>
                                     </div>
                                     <div class="row mb-4">
                                         <label for="horizontal-email-input" class="col-sm-3 col-form-label">작성자</label>
                                         <div class="col-sm-9">
-                                            <input type="text" class="form-control" name="form_author" id="horizontal-email-input" placeholder="Enter Your Email ID">
+                                            <input type="text" class="form-control" name="form_author" id="horizontal-email-input" placeholder="작성자를 입력해주세요">
                                         </div>
                                     </div>
                                     <div class="row mb-4">
@@ -210,15 +210,8 @@
                                     <div class="row justify-content-end">
                                         <div class="col-sm-9">
 
-                                            <div class="form-check mb-4">
-                                                <input class="form-check-input" type="checkbox" id="horizontalLayout-Check">
-                                                <label class="form-check-label" for="horizontalLayout-Check">
-                                                    Remember me
-                                                </label>
-                                            </div>
-
                                             <div>
-                                                <button type="submit" class="btn btn-primary w-md">Submit</button>
+                                                <button type="submit" class="btn btn-primary w-md">등 록</button>
                                             </div>
                                         </div>
                                     </div>
