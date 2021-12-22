@@ -150,19 +150,6 @@
               <div class="card">
                 <!-- <div class="card-header text-white">플랫폼 개념</div> -->
                 <div class="card-body">
-                  <p class="card-text">다양한 제품 적용을 통한 당사 공작기계 경쟁력 향상 Application 생태계 구축을 통한 플랫폼 사업</p>
-                  <div class="">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <!-- <div class="card-header text-white">플랫폼 구조</div> -->
-                <div class="card-body">
                   <p class="card-title">동적 장비 시뮬레이션</p>
                   <p class="card-text ">고속 이송에 따른 잔류진동<br>장비+교환공구 주파수응답함수<br>가공조건별 가공안정성 분석</p>
                   <img src="/assets/images/1.png" alt="가상공작기계">
@@ -177,14 +164,33 @@
             </div>
             <div class="col">
               <div class="card">
-              <!-- <div class="card-header text-white">앱 개발 지원 방식</div> -->
+                <!-- <div class="card-header text-white">플랫폼 구조</div> -->
                 <div class="card-body">
-                  <p class="card-text ">HMI의 지능화 소프트웨어 기능들을 앱 단위로 용이하게 개발할 수 있도록 앱에 대한 구동 제어</p>
-                  <div class="">
+                  <p class="card-title">가공 시뮬레이션 및 최적화</p>
+                  <p class="card-text ">5축 장비 간섭 확인<br>보간기를 고려한 가공시간 분석(Fanuc 제어기)<br>3축 가공 절삭부하, 가공오차 분석 및 코드 최적화</p>
+                  <img src="/assets/images/2.png" alt="가상공작기계">
+                  <a href="#;">자세히보기</a>
+                  <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
                     </div>
-                  </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+              <!-- <div class="card-header text-white">앱 개발 지원 방식</div> -->
+              <div class="card-body">
+                  <p class="card-title">데이터 기반 장비-공정 이상진단</p>
+                  <p class="card-text ">마찰부하 기반 이송계 이상진단<br>주축 가속도 신호 기반 이상진단 및 채터 검출<br>이송축 부하 기반 공구 이상 진단</p>
+                  <img src="/assets/images/3.png" alt="가상공작기계">
+                  <a href="#;">자세히보기</a>
+                  <!-- <div class="">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
+                    </div>
+                  </div> -->
                 </div>
               </div>
             </div>
