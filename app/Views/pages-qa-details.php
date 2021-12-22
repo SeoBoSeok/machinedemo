@@ -173,7 +173,7 @@
                                         <div class="card-body">
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade active show" id="v-pills-gen-ques" role="tabpanel" aria-labelledby="v-pills-gen-ques-tab">
-                                                    <h3 class="card-title mb-1"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h3>
+                                                    <h2 class="card-title mb-3"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h2>
                                                     <p>작성자 : <?php echo $data[$_SERVER['QUERY_STRING']]['au']?></p>
                                                     <p>작성일 : <?php echo $data[$_SERVER['QUERY_STRING']]['t']?></p>
                                                     <!-- <div class="faq-box d-flex mb-4">
