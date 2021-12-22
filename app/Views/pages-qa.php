@@ -310,7 +310,6 @@
                                 <div class="table-responsive">
                                 <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
                                     <i class="fas fa-pencil-alt"></i>
-                                    글쓰기
                                 </a>    
                                     <table class="table table-striped mb-0">
 
