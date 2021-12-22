@@ -223,8 +223,9 @@
       </div>
 
   </div>
+  <script src="assets/libs/jquery/jquery.min.js"></script>
 <script>
-  $('#update_form').bind('submit', submitAction);
+  $('form').bind('submit', submitAction);
   var submitAction = function(e){
     e.preventDefault();
     $.ajax({
