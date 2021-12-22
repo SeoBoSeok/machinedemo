@@ -175,7 +175,8 @@ class PageController extends BaseController
 	}	
 
 	public function show_pages_qa_update(){
-		echo $this->request->getVar('fomr_title');
+		$something = isset($_POST['form_title']) ? $_POST['form_title'] : null;
+		echo $something;
 	}		
 
 	public function show_pages_comingsoon(){
