@@ -76,7 +76,7 @@
     .card {border: 1px solid #E3E3E3!important; border-radius: 7px!important; overflow: hidden;}
     .card-header {background-color: #3C4251 !important; padding-top: 10px!important;padding-bottom: 10px!important; font-size: 18px!important;}
     .card-text {padding-bottom: 30px; min-height: 102px;}
-    .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
+    .card-body {background-color: white !important; padding: 2.4rem !important; color: #808080;}
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
     .add_h2 {padding-bottom: 30px; color: #000!important;}
     .card {border: 1px solid #E3E3E3; border-radius: 5px;}
@@ -85,6 +85,8 @@
     .heading-t h4{font-size: 15px;}
     .heading-t h1{font-size: 48px; font-weight: 700;}
     .blue {color: #558BCF;}
+    .card-body img {width: 100%;}
+    .card-body a {display: block; width : 100%; text-align: center; padding-top: 20px;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
