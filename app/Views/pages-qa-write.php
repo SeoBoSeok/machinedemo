@@ -183,27 +183,27 @@
     <div class="container">
         <!-- <h2 class="add_h2">Product</h2> -->
       <div class="row">
-        <div class="col-xl-6">
+        <div class="col-xl-6" style="margin: auto;">
                                     <div class="card">
                                         <div class="card-body">
                                             
                                         <form>
                                     <div class="row mb-4">
-                                        <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">First name</label>
+                                        <label for="horizontal-firstname-input" class="col-sm-3 col-form-label">제 목</label>
                                         <div class="col-sm-9">
-                                            <input type="text" class="form-control" id="horizontal-firstname-input" placeholder="Enter Your ">
+                                            <input type="text" class="form-control" name="form_title" id="horizontal-firstname-input" placeholder="Enter Your ">
                                         </div>
                                     </div>
                                     <div class="row mb-4">
-                                        <label for="horizontal-email-input" class="col-sm-3 col-form-label">Email</label>
+                                        <label for="horizontal-email-input" class="col-sm-3 col-form-label">작성자</label>
                                         <div class="col-sm-9">
-                                            <input type="email" class="form-control" id="horizontal-email-input" placeholder="Enter Your Email ID">
+                                            <input type="text" class="form-control" name="form_author" id="horizontal-email-input" placeholder="Enter Your Email ID">
                                         </div>
                                     </div>
                                     <div class="row mb-4">
-                                        <label for="horizontal-password-input" class="col-sm-3 col-form-label">Password</label>
+                                        <label for="horizontal-password-input" class="col-sm-3 col-form-label">질문내용</label>
                                         <div class="col-sm-9">
-                                            <input type="password" class="form-control" id="horizontal-password-input" placeholder="Enter Your Password">
+                                        <textarea id="textarea" class="form-control" maxlength="225" rows="3" placeholder="" name="form_content"></textarea>
                                         </div>
                                     </div>
 
