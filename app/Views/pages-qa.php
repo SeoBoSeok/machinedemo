@@ -177,7 +177,7 @@
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">FocasApi.cnc_rdtofsr 에 관한 문의 1 file</h5>
+                                                            <h5 class="font-size-15">FocasApi.cnc_rdtofsr 에 관한 문의 file</h5>
                                                             <!-- <p class="text-muted">Everyone realizes why a new common language would be desirable one could refuse to pay expensive translators.</p> -->
                                                         </div>
                                                     </div>
@@ -186,7 +186,7 @@
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">FocasApi.cnc_rdparam 관련 문의 2 file</h5>
+                                                            <h5 class="font-size-15">FocasApi.cnc_rdparam 관련 문의 file</h5>
                                                             <!-- <p class="text-muted">If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p> -->
                                                         </div>
                                                     </div>
@@ -195,7 +195,7 @@
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h5 class="font-size-15">메뉴얼 질문드립니다. 1</h5>
+                                                            <h5 class="font-size-15">메뉴얼 질문드립니다.</h5>
                                                             <!-- <p class="text-muted">Their separate existence is a myth. For science, music, sport, etc, Europe uses the same vocabulary.</p> -->
                                                         </div>
                                                     </div>
