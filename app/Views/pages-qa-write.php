@@ -234,7 +234,7 @@
           form_title:'ajax',
           Age:'10'
       },// 전송할 데이터
-      dataType:'json',// xml, json, script, html
+      dataType:'html',// xml, json, script, html
       success:function(jqXHR) {
         alert('글이 등록되었습니다');
         window.location.href = '/pages-qa';
