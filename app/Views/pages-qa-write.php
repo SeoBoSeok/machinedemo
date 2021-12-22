@@ -224,7 +224,7 @@
 
   </div>
 <script>
-  $('#update_form').submit(function(e){
+  $('#update_form').on('submit', function(e){
     e.preventDefault();
     $.ajax({
       url:'pages-qa-update', // 요청 할 주소
