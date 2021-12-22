@@ -228,7 +228,6 @@
     e.preventDefault();
     $.ajax({
       url:'pages-qa-update' // 요청 할 주소
-      async:true,// false 일 경우 동기 요청으로 변경
       type:'POST' // GET, PUT
       data: {
           form_title:'ajax',
