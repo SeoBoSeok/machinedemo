@@ -167,6 +167,13 @@ class PageController extends BaseController
 		return view('pages-qa-details', $data);
 	}		
 
+	public function show_pages_qa_write(){
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Q&A'])
+		];
+		return view('pages-qa-write', $data);
+	}	
+
 	public function show_pages_comingsoon(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Coming Soon'])

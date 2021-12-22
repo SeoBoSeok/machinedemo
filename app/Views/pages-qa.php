@@ -308,7 +308,7 @@
       <div class="card">
                             <div class="card-body">
                                 <div class="table-responsive">
-                                <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+                                <a class="btn btn-outline-secondary btn-sm edit" href="/pages-qa-write" title="Edit">
                                     <i class="fas fa-pencil-alt"></i>
                                 </a>    
                                     <table class="table table-striped mb-0">
