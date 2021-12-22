@@ -148,7 +148,7 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
         <div class="col">
               <div class="card">
-                <div class="card-header text-white">플랫폼 개념</div>
+                <!-- <div class="card-header text-white">플랫폼 개념</div> -->
                 <div class="card-body">
                   <p class="card-text">다양한 제품 적용을 통한 당사 공작기계 경쟁력 향상 Application 생태계 구축을 통한 플랫폼 사업</p>
                   <div class="">
@@ -161,20 +161,23 @@
             </div>
             <div class="col">
               <div class="card">
-                <div class="card-header text-white">플랫폼 구조</div>
+                <!-- <div class="card-header text-white">플랫폼 구조</div> -->
                 <div class="card-body">
-                  <p class="card-text ">지능형 HMI플랫폼 아키텍처 구조 - 계층형 아키텍처, 내부 모듈 간 관계 블럭도</p>
-                  <div class="">
+                  <p class="card-title">동적 장비 시뮬레이션</p>
+                  <p class="card-text ">고속 이송에 따른 잔류진동<br>장비+교환공구 주파수응답함수<br>가공조건별 가공안정성 분석</p>
+                  <img src="/assets/images/1.png" alt="가상공작기계">
+                  <a href="#;">자세히보기</a>
+                  <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card">
-              <div class="card-header text-white">앱 개발 지원 방식</div>
+              <!-- <div class="card-header text-white">앱 개발 지원 방식</div> -->
                 <div class="card-body">
                   <p class="card-text ">HMI의 지능화 소프트웨어 기능들을 앱 단위로 용이하게 개발할 수 있도록 앱에 대한 구동 제어</p>
                   <div class="">
