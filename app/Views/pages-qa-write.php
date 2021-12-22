@@ -224,7 +224,8 @@
 
   </div>
 <script>
-  $('#update_form').on('submit', function(e){
+  $('#update_form').bind('submit', submitAction);
+  var submitAction = function(e){
     e.preventDefault();
     $.ajax({
       url:'pages-qa-update', // 요청 할 주소
@@ -243,7 +244,7 @@
       error:function(jqXHR) {},// 요청 실패.
       complete:function(jqXHR) {}// 요청의 실패, 성공과 상관 없이 완료 될 경우 호출
     });
-  });
+  }
 </script>
 </main>
 
