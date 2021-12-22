@@ -174,6 +174,10 @@ class PageController extends BaseController
 		return view('pages-qa-write', $data);
 	}	
 
+	public function show_pages_qa_update(){
+		echo $this->request->getVar('fomr_title');
+	}		
+
 	public function show_pages_comingsoon(){
 		$data = [
 			'title_meta' => view('partials/title-meta', ['title' => 'Coming Soon'])
