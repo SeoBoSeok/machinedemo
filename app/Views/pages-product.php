@@ -78,8 +78,8 @@
     .navbar>.container ul li:last-child {padding-right: 0;}
     .card {border: 1px solid #E3E3E3!important; border-radius: 7px!important; overflow: hidden;}
     .card-header {background-color: #3C4251 !important; padding-top: 10px!important;padding-bottom: 10px!important; font-size: 18px!important;}
-    .card-text {padding-bottom: 0px; min-height: 80px;}
-    .card-body {background-color: white !important; padding: 3rem !important; color: #808080;}
+    .card-text {font-size: 13px; text-align: center; padding-top: 5px; padding-bottom: 10px;}
+    .card-body {background-color: white !important; padding: 2.4rem !important; padding-bottom: 1.7rem !important; color: #808080;}
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
     .add_h2 {padding-bottom: 30px; color: #000!important;}
     .card {border: 1px solid #E3E3E3; border-radius: 5px;}
@@ -93,6 +93,9 @@
     .container.video {padding: 30px 200px;background-color: rgb(248, 249, 250);}
     .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; } .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
     .sub_heading_txt {padding-top: 20px;}
+    .card-body .card-title {font-size: 18px; line-height: 18px; font-weight: 600; text-align: center; display: block; color: #000;}
+    .card-body img {width: 100%; max-height: 229px;}
+    .card-body a {display: block; width : 100%; text-align: center; padding-top: 20px;}
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -150,18 +153,21 @@
   </section>
 
   <div class="container video">
-    <div class="video-container"> <iframe src="https://www.youtube.com/embed/-xW22MYvqXY" frameborder="0" width="560" height="315"></iframe> </div>
+    <div class="video-container"> <iframe src="https://www.youtube.com/embed/LXEMAgAti_w" frameborder="0" width="560" height="315"></iframe> </div>
   </div>
   
   <div class="album py-5 bg-light">
     <div class="container">
         <h2 class="add_h2">Product</h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
-            <div class="col">
+      <div class="col">
               <div class="card">
-                <div class="card-header text-white">플랫폼 개념</div>
+                <!-- <div class="card-header text-white">플랫폼 개념</div> -->
                 <div class="card-body">
-                  <p class="card-text">다양한 제품 적용을 통한 당사 공작기계 경쟁력 향상 Application 생태계 구축을 통한 플랫폼 사업</p>
+                  <p class="card-title">동적 장비 시뮬레이션</p>
+                  <p class="card-text ">고속 이송에 따른 잔류진동<br>장비+교환공구 주파수응답함수<br>가공조건별 가공안정성 분석</p>
+                  <img src="/assets/images/1.png" alt="가상공작기계">
+                  <a href="#;">자세히보기</a>
                   <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
@@ -172,9 +178,12 @@
             </div>
             <div class="col">
               <div class="card">
-                <div class="card-header text-white">플랫폼 구조</div>
+                <!-- <div class="card-header text-white">플랫폼 구조</div> -->
                 <div class="card-body">
-                  <p class="card-text ">지능형 HMI플랫폼 아키텍처 구조 - 계층형 아키텍처, 내부 모듈 간 관계 블럭도</p>
+                  <p class="card-title">가공 시뮬레이션 및 최적화</p>
+                  <p class="card-text ">5축 장비 간섭 확인<br>보간기를 고려한 가공시간 분석(Fanuc 제어기)<br>3축 가공 절삭부하, 가공오차 분석 및 코드 최적화</p>
+                  <img src="/assets/images/2.png" alt="가상공작기계">
+                  <a href="#;">자세히보기</a>
                   <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
@@ -185,9 +194,12 @@
             </div>
             <div class="col">
               <div class="card">
-              <div class="card-header text-white">앱 개발 지원 방식</div>
-                <div class="card-body">
-                  <p class="card-text ">HMI의 지능화 소프트웨어 기능들을 앱 단위로 용이하게 개발할 수 있도록 앱에 대한 구동 제어</p>
+              <!-- <div class="card-header text-white">앱 개발 지원 방식</div> -->
+              <div class="card-body">
+                  <p class="card-title">데이터 기반 장비-공정 이상진단</p>
+                  <p class="card-text ">마찰부하 기반 이송계 이상진단<br>주축 가속도 신호 기반 이상진단 및 채터 검출<br>이송축 부하 기반 공구 이상 진단</p>
+                  <img src="/assets/images/3.png" alt="가상공작기계">
+                  <a href="#;">자세히보기</a>
                   <!-- <div class="">
                     <div class="btn-group">
                       <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
@@ -196,47 +208,6 @@
                 </div>
               </div>
             </div>
-
-            <div class="col">
-              <div class="card">
-                <div class="card-header text-white">개발 방식 비교</div>
-                <div class="card-body">
-                  <p class="card-text">지능형 HMI 플랫폼 적용 전/후의 App 개발 방식 비교</p>
-                  <!-- <div class="">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <div class="card-header text-white">플랫폼 활용</div>
-                <div class="card-body">
-                  <p class="card-text ">이해관계자에 따른 지능형 HMI 플랫폼 활용</p>
-                  <!-- <div class="">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-              <div class="card-header text-white">플랫폼 확장</div>
-                <div class="card-body">
-                  <p class="card-text ">공작기계 스마트화를 넘어 제조.생산 현장의 스마트화/디지털화를 위한 기능 확장 예정</p>
-                  <!-- <div class="">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-md btn-outline-secondary main_button text-white">제품소개</button>
-                    </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-
       </div>
     </div>
   </div>
