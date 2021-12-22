@@ -177,6 +177,7 @@ class PageController extends BaseController
 	public function show_pages_qa_update(){
 		$something = isset($_POST['form_title']) ? $_POST['form_title'] : null;
 		echo $something;
+		echo '1111';
 	}		
 
 	public function show_pages_comingsoon(){
