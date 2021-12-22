@@ -223,8 +223,8 @@
       </div>
 
   </div>
-  <script src="assets/libs/jquery/jquery.min.js"></script>
-<script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script>
   $('#submit_btn').click(function(e){
     // e.preventDefault();
     $.ajax({
