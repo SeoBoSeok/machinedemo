@@ -183,6 +183,7 @@
     <div class="container">
         <!-- <h2 class="add_h2">Product</h2> -->
       <div class="row">
+        <div class="col-xl-6">
                                     <div class="card">
                                         <div class="card-body">
                                             
@@ -223,8 +224,9 @@
                                     </div>
                                 </form>
 
-                                            <a class="btn btn-primary" href="/pages-qa">목 록</a>
+                                            <!-- <a class="btn btn-primary" href="/pages-qa">목 록</a> -->
                                         </div>
+        </div>
       </div>
 
   </div>
