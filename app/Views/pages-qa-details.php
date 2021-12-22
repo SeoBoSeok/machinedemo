@@ -142,10 +142,24 @@
   $data = array();
 
   array_push($data, array(
-    'q' => 'processMachiningTime 1',
-    'a' => 'processMachiningTime 1 file을 download에서 찾으실 수 있습니다.',
+    'q' => 'processMachiningTime',
+    'a' => 'processMachiningTime file을 Manual 메뉴에서 찾으실 수 있습니다.',
     't' => '2021.09.15',
     'au' => '정수민'
+  ));
+
+  array_push($data, array(
+    'q' => '메뉴얼 질문드립니다.',
+    'a' => '다운로드 메뉴에서 찾으실 수 있습니다',
+    't' => '2021.11.15',
+    'au' => '김대혁'
+  ));
+
+  array_push($data, array(
+    'q' => 'FocasApi.cnc_rdtofsr 에 관한 문의',
+    'a' => '이메일로 관련 내용을 보내드리겠습니다',
+    't' => '2021.12.21',
+    'au' => '이진호'
   ));
 
 ?>
