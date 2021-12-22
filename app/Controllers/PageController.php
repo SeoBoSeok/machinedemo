@@ -175,8 +175,12 @@ class PageController extends BaseController
 	}	
 
 	public function show_pages_qa_update(){
-		$something = isset($_POST['form_title']) ? $_POST['form_title'] : null;
-		echo $something;
+		$getfile = file_get_contents('data.json');
+    $all = json_decode($getfile, true);
+		$form_title = isset($_POST['form_title']) ? $_POST['form_title'] : null;
+		$form_author = isset($_POST['form_author']) ? $_POST['form_author'] : null;
+		$form_content = isset($_POST['form_content']) ? $_POST['form_content'] : null;
+		echo $all;
 	}		
 
 	public function show_pages_comingsoon(){
