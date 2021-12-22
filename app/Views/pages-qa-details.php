@@ -266,6 +266,7 @@
                                                     
                                                 </div>
                                             </div>
+                                            <a class="btn btn-primary" href="/pages-qa">목 록</a>
                                         </div>
       </div>
 
