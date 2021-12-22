@@ -94,6 +94,9 @@
     .pagination {justify-content: center; margin-bottom: 30px;}
     .page-link {color: #4B4B4B !important;}
     .page-item.active .page-link {background-color: #4B4B4B !important; border-color: #4B4B4B !important; color: white !important;}
+    tr:hover {
+        cursor: pointer;
+    }
     </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossOrigin="anonymous" />
     
@@ -316,23 +319,23 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
+                                            <tr onclick="go_to('/pages-qa-details?2')">
                                                 <th scope="row">3</th>
-                                                <td>FocasApi.cnc_rdtofsr 에 관한 문의 1 file</td>
+                                                <td>FocasApi.cnc_rdtofsr 에 관한 문의</td>
                                                 <td>이진호</td>
                                                 <td>2021.12.21</td>
                                                 <td>26</td>
                                             </tr>
-                                            <tr>
+                                            <tr onclick="go_to('/pages-qa-details?1')">
                                                 <th scope="row">2</th>
-                                                <td>메뉴얼 질문드립니다. 1</td>
+                                                <td>메뉴얼 질문드립니다.</td>
                                                 <td>김대혁</td>
                                                 <td>2021.11.15</td>
                                                 <td>15</td>
                                             </tr>
-                                            <tr>
+                                            <tr onclick="go_to('/pages-qa-details?0')">
                                                 <th scope="row">1</th>
-                                                <td>processMachiningTime 1</td>
+                                                <td>processMachiningTime</td>
                                                 <td>정수민</td>
                                                 <td>2021.09.15</td>
                                                 <td>55</td>
@@ -347,7 +350,11 @@
       </div>
     </div>
   </div>
-
+<script>
+    function go_to(url) {
+        window.location.href = url;
+    }
+</script>
 </main>
 
 </body>
