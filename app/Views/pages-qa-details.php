@@ -137,7 +137,7 @@
 
 <main>
 <?php
-  print_r()
+  // print_r()
 ?>
   <section class="bg-sub">
     <div class="py-lg-5">
