@@ -226,7 +226,6 @@
   <script src="assets/libs/jquery/jquery.min.js"></script>
 <script>
   $('#submit_btn').click(function(e){
-    console.log('1111');
     e.preventDefault();
     $.ajax({
       url:'pages-qa-update', // 요청 할 주소
