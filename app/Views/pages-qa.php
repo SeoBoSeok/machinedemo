@@ -307,6 +307,9 @@
       <div class="card">
                             <div class="card-body">
                                 <div class="table-responsive">
+                                <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
+                                    <i class="fas fa-pencil-alt"></i>
+                                </a>    
                                     <table class="table table-striped mb-0">
 
                                         <thead>
@@ -346,9 +349,7 @@
 
                             </div>
 
-                            <div class="col-sm-12"><div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="datatable_previous"><a href="#" aria-controls="datatable" data-dt-idx="0" tabindex="0" class="page-link">이전</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next" id="datatable_next"><a href="#" aria-controls="datatable" data-dt-idx="7" tabindex="0" class="page-link">다음</a></li></ul>                            <a class="btn btn-outline-secondary btn-sm edit" title="Edit">
-                                <i class="fas fa-pencil-alt"></i>
-                            </a></div>
+                            <div class="col-sm-12"><div class="dataTables_paginate paging_simple_numbers" id="datatable_paginate"><ul class="pagination"><li class="paginate_button page-item previous disabled" id="datatable_previous"><a href="#" aria-controls="datatable" data-dt-idx="0" tabindex="0" class="page-link">이전</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="datatable" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class="paginate_button page-item next" id="datatable_next"><a href="#" aria-controls="datatable" data-dt-idx="7" tabindex="0" class="page-link">다음</a></li></ul></div>
                             </div>
                         </div>
       </div>
