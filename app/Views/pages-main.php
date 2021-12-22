@@ -75,7 +75,7 @@
     .navbar>.container ul li:last-child {padding-right: 0;}
     .card {border: 1px solid #E3E3E3!important; border-radius: 7px!important; overflow: hidden;}
     .card-header {background-color: #3C4251 !important; padding-top: 10px!important;padding-bottom: 10px!important; font-size: 18px!important;}
-    .card-text {padding-bottom: 30px; min-height: 102px;}
+    .card-text {padding-bottom: 20px; font-size: 13px; text-align: center;}
     .card-body {background-color: white !important; padding: 2.4rem !important; color: #808080;}
     .main_button {background-color: #03A9F4 !important; border: 0 !important; font-size: 2rem;}
     .add_h2 {padding-bottom: 30px; color: #000!important;}
@@ -85,7 +85,7 @@
     .heading-t h4{font-size: 15px;}
     .heading-t h1{font-size: 48px; font-weight: 700;}
     .blue {color: #558BCF;}
-    .card-body .card-title {font-size: 16px; line-height: 18px; font-weight: 600; text-align: center; display: block; color: #000;}
+    .card-body .card-title {font-size: 18px; line-height: 18px; font-weight: 600; text-align: center; display: block; color: #000;}
     .card-body img {width: 100%;}
     .card-body a {display: block; width : 100%; text-align: center; padding-top: 20px;}
     </style>
