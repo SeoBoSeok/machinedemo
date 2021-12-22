@@ -85,7 +85,7 @@
     .heading-t h4{font-size: 15px;}
     .heading-t h1{font-size: 48px; font-weight: 700;}
     .blue {color: #558BCF;}
-    .card-body .card-title {font-size: 16px; line-height: 18px; font-weight: 600; text-align: center; display: block;}
+    .card-body .card-title {font-size: 16px; line-height: 18px; font-weight: 600; text-align: center; display: block; color: #000;}
     .card-body img {width: 100%;}
     .card-body a {display: block; width : 100%; text-align: center; padding-top: 20px;}
     </style>
