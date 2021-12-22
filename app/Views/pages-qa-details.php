@@ -173,7 +173,7 @@
                                         <div class="card-body">
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade active show" id="v-pills-gen-ques" role="tabpanel" aria-labelledby="v-pills-gen-ques-tab">
-                                                    <h4 class="card-title mb-5"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h4>
+                                                    <h3 class="card-title mb-1"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h3>
                                                     <p>작성자 : <?php echo $data[$_SERVER['QUERY_STRING']]['au']?></p>
                                                     <p>작성일 : <?php echo $data[$_SERVER['QUERY_STRING']]['t']?></p>
                                                     <!-- <div class="faq-box d-flex mb-4">
@@ -187,9 +187,9 @@
                                                     </div> -->
                                                     <hr>
                                                     <div class="faq-box d-flex mb-4">
-                                                        <div class="flex-shrink-0 me-3 faq-icon">
+                                                        <!-- <div class="flex-shrink-0 me-3 faq-icon">
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
-                                                        </div>
+                                                        </div> -->
                                                         <div class="flex-grow-1">
                                                             답변 : <?php echo $data[$_SERVER['QUERY_STRING']]['a']?></h5>
                                                             <!-- <p class="text-muted">Everyone realizes why a new common language would be desirable one could refuse to pay expensive translators.</p> -->
