@@ -236,7 +236,6 @@
           Age:'10'
       },// 전송할 데이터
       dataType:'json',// xml, json, script, html
-      beforeSend:function(jqXHR) {},// 서버 요청 전 호출 되는 함수 return false; 일 경우 요청 중단
       success:function(jqXHR) {
         alert('글이 등록되었습니다');
         window.location.href = '/pages-qa';
