@@ -175,7 +175,7 @@ class PageController extends BaseController
 	}	
 
 	public function show_pages_qa_update(){
-		$getfile = file_get_contents('data.json');
+		$getfile = file_get_contents('./data.json');
     $all = json_decode($getfile, true);
 		$jsonfile = $all["playlist"];
 
