@@ -367,7 +367,19 @@
       type:'GET', // GET, PUT
       dataType:'json',// xml, json, script, html
       success:function(jqXHR) {
-          console.log(jqXHR);
+          var html = "";
+          jqXHR.forEach(function(el){
+
+            html += `<tr onclick="go_to('${el.id}">
+                <th scope="row">${el.id}</th>
+                <td>${el.form_title}</td>
+                <td>${el.form_author}</td>
+                <td>${el.form_date}</td>
+                <td>15</td>
+            </tr>`;
+
+          });
+          $('tbody').html(html);
       },// 요청 완료 시
       error:function(jqXHR) {},// 요청 실패.
       complete:function(jqXHR) {}// 요청의 실패, 성공과 상관 없이 완료 될 경우 호출
