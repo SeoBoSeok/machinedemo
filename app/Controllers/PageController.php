@@ -183,14 +183,14 @@ class PageController extends BaseController
 		$form_author = isset($_POST['form_author']) ? $_POST['form_author'] : null;
 		$form_content = isset($_POST['form_content']) ? $_POST['form_content'] : null;
 
-		if ($jsonfile) {
-			array_push($jsonfile, array(
-				'title' => $form_title,
-				'form_author' => $form_author,
-				'form_content' => $form_content
-			));
-			file_put_contents("data.json", json_encode($all));
-		}
+		// if ($jsonfile) {
+		// 	array_push($jsonfile, array(
+		// 		'title' => $form_title,
+		// 		'form_author' => $form_author,
+		// 		'form_content' => $form_content
+		// 	));
+		// 	file_put_contents("data.json", json_encode($all));
+		// }
 		// header("Location: http://localhost/test/index.php");
 
 		echo json_encode($all);
