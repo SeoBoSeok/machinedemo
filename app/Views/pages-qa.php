@@ -356,9 +356,25 @@
       </div>
     </div>
   </div>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
     function go_to(url) {
         window.location.href = url;
+    }
+    function getDate() {
+        $.ajax({
+      url:'http://54.180.107.68:3000/users', // 요청 할 주소
+      type:'GET', // GET, PUT
+      dataType:'json',// xml, json, script, html
+      success:function(jqXHR) {
+          console.log(jqXHR);
+      },// 요청 완료 시
+      error:function(jqXHR) {},// 요청 실패.
+      complete:function(jqXHR) {}// 요청의 실패, 성공과 상관 없이 완료 될 경우 호출
+      });
+    }
+    window.onload = function() {
+        getDate();
     }
 </script>
 </main>
