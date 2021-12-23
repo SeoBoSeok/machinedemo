@@ -319,7 +319,6 @@
                                                 <th>제목</th>
                                                 <th>이름</th>
                                                 <th>날짜</th>
-                                                <th>조회수</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -375,7 +374,6 @@
                 <td>${el.form_title}</td>
                 <td>${el.form_author}</td>
                 <td>${el.form_date}</td>
-                <td>15</td>
             </tr>`;
 
           });

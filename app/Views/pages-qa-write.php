@@ -234,7 +234,7 @@
           form_title: $('input[name="form_title"]').val(),
           form_author: $('input[name="form_author"]').val(),
           form_content: $('textarea[name="form_content"]').val(),
-          form_date: new Date().toLocaleDateString(),
+          form_date: new Date().toLocaleDateString()
       },// 전송할 데이터
       dataType:'json',// xml, json, script, html
       success:function(jqXHR) {
