@@ -187,16 +187,16 @@
                                         <div class="card-body">
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade active show" id="v-pills-gen-ques" role="tabpanel" aria-labelledby="v-pills-gen-ques-tab">
-                                                    <h2 class="card-title mb-3" id="title"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h2>
-                                                    <p>작성자 : <span id="author"></span><?php echo $data[$_SERVER['QUERY_STRING']]['au']?></p>
-                                                    <p>작성일 : <span id="date"></span><?php echo $data[$_SERVER['QUERY_STRING']]['t']?></p>
+                                                    <h2 class="card-title mb-3" id="title"></h2>
+                                                    <p>작성자 : <span id="author"></span></p>
+                                                    <p>작성일 : <span id="date"></span></p>
                                                     <p>질문내용 : <span id="content"></span></p>
                                                     <!-- <div class="faq-box d-flex mb-4">
                                                         <div class="flex-shrink-0 me-3 faq-icon">
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
                                                         </div>
                                                         <div class="flex-grow-1">
-                                                            <h5 class="font-size-15"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h5>
+                                                            <h5 class="font-size-15"></h5>
                                                             <p class="text-muted"></p>
                                                         </div>
                                                     </div> -->
