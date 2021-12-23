@@ -111,7 +111,7 @@ class PageController extends BaseController
     $all = json_decode($getfile, true);
 		$jsonfile = $all["playlist"];
 
-		echo json_encode($all);
+		// echo json_encode($all);
 
 		if ($jsonfile) {
 			array_push($jsonfile, array(
