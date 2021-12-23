@@ -107,7 +107,7 @@ class PageController extends BaseController
 
 	public function show_pages_starter(){
 
-		$this->load->database();
+		// $this->load->database();
 		
 		// $getfile = file_get_contents('./data.json');
     // $all = json_decode($getfile, true);
@@ -125,11 +125,11 @@ class PageController extends BaseController
 		// 	file_put_contents("./data.json", json_encode($jsonfile));
 		// }
 
-		// $data = [
-		// 	'title_meta' => view('partials/title-meta', ['title' => 'Starter Page']),
-		// 	'page_title' => view('partials/page-title', ['title' => 'Starter Page', 'pagetitle' => 'Utility'])
-		// ];
-		// return view('pages-starter', $data);
+		$data = [
+			'title_meta' => view('partials/title-meta', ['title' => 'Starter Page']),
+			'page_title' => view('partials/page-title', ['title' => 'Starter Page', 'pagetitle' => 'Utility'])
+		];
+		return view('pages-starter', $data);
 	}
 
 	public function show_pages_maintenance(){
