@@ -228,6 +228,9 @@
       dataType:'json',// xml, json, script, html
       success:function(jqXHR) {
           $('#title').text(jqXHR.form_title);
+          $('#author').text(jqXHR.form_author);
+          $('#date').text(jqXHR.form_date);
+          $('#content').text(jqXHR.form_content);
       },// 요청 완료 시
       error:function(jqXHR) {},// 요청 실패.
       complete:function(jqXHR) {}// 요청의 실패, 성공과 상관 없이 완료 될 경우 호출
