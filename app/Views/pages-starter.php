@@ -47,7 +47,7 @@
         <script>
             $('#test').click(function(){
                 $.ajax({
-                    url:'http://172.26.3.129:3000/users', // 요청 할 주소
+                    url:'http://54.180.107.68:3000/users', // 요청 할 주소
                     type:'POST', // GET, PUT
                     data: {
                         form_title:'ajax',
