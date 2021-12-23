@@ -367,7 +367,7 @@
       dataType:'json',// xml, json, script, html
       success:function(jqXHR) {
           var html = "";
-          jqXHR.forEach(function(el){
+          jqXHR.reverse().forEach(function(el){
 
             html += `<tr onclick="go_to('/pages-qa-details?${el.id}')">
                 <th scope="row">${el.id}</th>
