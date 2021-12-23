@@ -114,7 +114,6 @@ class PageController extends BaseController
 		// echo json_encode($all);
 
 		if ($jsonfile) {
-			unset($jsonfile);
 			array_push($jsonfile, array(
 				'title' => 'test',
 				'form_author' => '$form_author',
