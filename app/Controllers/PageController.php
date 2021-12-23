@@ -119,7 +119,8 @@ class PageController extends BaseController
 				'form_author' => '$form_author',
 				'form_content' => '$form_content'
 			));
-			file_put_contents("./data.json", json_enode(array('playlist' => $jsonfile)));
+			echo json_encode($jsonfile);
+			// file_put_contents("./data.json", json_enode(array('playlist' => $jsonfile)));
 		}
 
 		// $data = [
