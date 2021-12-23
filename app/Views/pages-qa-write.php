@@ -228,20 +228,22 @@
   $('#submit_btn').click(function(e){
     // e.preventDefault();
     $.ajax({
-      url:'pages-qa-update', // 요청 할 주소
+      url:'http://54.180.107.68:3000/users', // 요청 할 주소
       type:'POST', // GET, PUT
       data: {
-          form_title:'ajax',
-          Age:'10'
+          form_title: $('input[name="form_title"]').val(),
+          form_author: $('input[name="form_author"]').val(),
+          form_content: $('input[name="form_content"]').val()
       },// 전송할 데이터
-      dataType:'html',// xml, json, script, html
+      dataType:'json',// xml, json, script, html
       success:function(jqXHR) {
-        alert('글이 등록되었습니다');
-        window.location.href = '/pages-qa';
+          console.log(jqXHR);
+          alert('질문이 등록되었습니다.');
+          window.location.href = '/pages-qa';
       },// 요청 완료 시
       error:function(jqXHR) {},// 요청 실패.
       complete:function(jqXHR) {}// 요청의 실패, 성공과 상관 없이 완료 될 경우 호출
-    });
+      });
   });
 </script>
 </main>
