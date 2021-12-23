@@ -106,11 +106,19 @@ class PageController extends BaseController
 	}
 
 	public function show_pages_starter(){
-		$data = [
-			'title_meta' => view('partials/title-meta', ['title' => 'Starter Page']),
-			'page_title' => view('partials/page-title', ['title' => 'Starter Page', 'pagetitle' => 'Utility'])
-		];
-		return view('pages-starter', $data);
+		
+		$getfile = file_get_contents('./data.json');
+    $all = json_decode($getfile, true);
+		$jsonfile = $all["playlist"];
+
+		echo json_encode($all); 
+		echo $jsonfile;
+
+		// $data = [
+		// 	'title_meta' => view('partials/title-meta', ['title' => 'Starter Page']),
+		// 	'page_title' => view('partials/page-title', ['title' => 'Starter Page', 'pagetitle' => 'Utility'])
+		// ];
+		// return view('pages-starter', $data);
 	}
 
 	public function show_pages_maintenance(){
