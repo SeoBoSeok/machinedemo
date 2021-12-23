@@ -177,10 +177,23 @@ class PageController extends BaseController
 	public function show_pages_qa_update(){
 		$getfile = file_get_contents('data.json');
     $all = json_decode($getfile, true);
+		$jsonfile = $all["playlist"];
+
 		$form_title = isset($_POST['form_title']) ? $_POST['form_title'] : null;
 		$form_author = isset($_POST['form_author']) ? $_POST['form_author'] : null;
 		$form_content = isset($_POST['form_content']) ? $_POST['form_content'] : null;
-		echo $all;
+
+		if ($jsonfile) {
+			array_push($jsonfile, array(
+				'title' => $form_title,
+				'form_author' => $form_author,
+				'form_content' => $form_content
+			));
+			file_put_contents("data.json", json_encode($all));
+		}
+		// header("Location: http://localhost/test/index.php");
+
+		echo json_encode($all);
 	}		
 
 	public function show_pages_comingsoon(){
