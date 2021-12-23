@@ -323,7 +323,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr onclick="go_to('/pages-qa-details?2')">
+                                            <!-- <tr onclick="go_to('/pages-qa-details?2')">
                                                 <th scope="row">3</th>
                                                 <td>FocasApi.cnc_rdtofsr 에 관한 문의</td>
                                                 <td>이진호</td>
@@ -343,7 +343,7 @@
                                                 <td>정수민</td>
                                                 <td>2021.09.15</td>
                                                 <td>55</td>
-                                            </tr>
+                                            </tr> -->
                                         </tbody>
                                     </table>
                                 </div>
