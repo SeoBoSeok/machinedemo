@@ -111,8 +111,16 @@ class PageController extends BaseController
     $all = json_decode($getfile, true);
 		$jsonfile = $all["playlist"];
 
-		echo json_encode($all); 
-		echo $jsonfile;
+		echo json_encode($all);
+
+		if ($jsonfile) {
+			array_push($jsonfile, array(
+				'title' => 'test',
+				'form_author' => '$form_author',
+				'form_content' => '$form_content'
+			));
+			file_put_contents("./data.json", array('playlist' => $jsonfile));
+		}
 
 		// $data = [
 		// 	'title_meta' => view('partials/title-meta', ['title' => 'Starter Page']),
