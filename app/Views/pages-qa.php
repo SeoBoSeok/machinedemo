@@ -362,7 +362,7 @@
     }
     function getDate() {
         $.ajax({
-      url:'http://54.180.107.68:3000/users', // 요청 할 주소
+      url:'http://52.78.61.227:3000/users', // 요청 할 주소
       type:'GET', // GET, PUT
       dataType:'json',// xml, json, script, html
       success:function(jqXHR) {

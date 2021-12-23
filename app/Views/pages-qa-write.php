@@ -228,7 +228,7 @@
   $('#submit_btn').click(function(e){
     // e.preventDefault();
     $.ajax({
-      url:'http://54.180.107.68:3000/users', // 요청 할 주소
+      url:'http://52.78.61.227:3000/users', // 요청 할 주소
       type:'POST', // GET, PUT
       data: {
           form_title: $('input[name="form_title"]').val(),
