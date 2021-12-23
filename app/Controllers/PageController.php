@@ -106,22 +106,24 @@ class PageController extends BaseController
 	}
 
 	public function show_pages_starter(){
+
+		$this->load->database();
 		
-		$getfile = file_get_contents('./data.json');
-    $all = json_decode($getfile, true);
-		$jsonfile = $all["playlist"];
+		// $getfile = file_get_contents('./data.json');
+    // $all = json_decode($getfile, true);
+		// $jsonfile = $all["playlist"];
 
-		// echo json_encode($all);
+		// // echo json_encode($all);
 
-		if ($jsonfile) {
-			array_push($jsonfile, array(
-				'title' => 'test',
-				'form_author' => '$form_author',
-				'form_content' => '$form_content'
-			));
-			// echo json_encode($jsonfile);
-			file_put_contents("./data.json", json_encode($jsonfile));
-		}
+		// if ($jsonfile) {
+		// 	array_push($jsonfile, array(
+		// 		'title' => 'test',
+		// 		'form_author' => '$form_author',
+		// 		'form_content' => '$form_content'
+		// 	));
+		// 	// echo json_encode($jsonfile);
+		// 	file_put_contents("./data.json", json_encode($jsonfile));
+		// }
 
 		// $data = [
 		// 	'title_meta' => view('partials/title-meta', ['title' => 'Starter Page']),
