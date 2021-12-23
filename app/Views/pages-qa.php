@@ -370,7 +370,7 @@
           var html = "";
           jqXHR.forEach(function(el){
 
-            html += `<tr onclick="go_to('${el.id}">
+            html += `<tr onclick="go_to('/pages-qa-details?${el.id}')">
                 <th scope="row">${el.id}</th>
                 <td>${el.form_title}</td>
                 <td>${el.form_author}</td>
