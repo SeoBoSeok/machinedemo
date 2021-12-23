@@ -187,9 +187,10 @@
                                         <div class="card-body">
                                             <div class="tab-content" id="v-pills-tabContent">
                                                 <div class="tab-pane fade active show" id="v-pills-gen-ques" role="tabpanel" aria-labelledby="v-pills-gen-ques-tab">
-                                                    <h2 class="card-title mb-3"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h2>
-                                                    <p>작성자 : <?php echo $data[$_SERVER['QUERY_STRING']]['au']?></p>
-                                                    <p>작성일 : <?php echo $data[$_SERVER['QUERY_STRING']]['t']?></p>
+                                                    <h2 class="card-title mb-3" id="title"><?php echo $data[$_SERVER['QUERY_STRING']]['q']?></h2>
+                                                    <p>작성자 : <span id="author"></span><?php echo $data[$_SERVER['QUERY_STRING']]['au']?></p>
+                                                    <p>작성일 : <span id="date"></span><?php echo $data[$_SERVER['QUERY_STRING']]['t']?></p>
+                                                    <p>질문내용 : <span id="content"></span></p>
                                                     <!-- <div class="faq-box d-flex mb-4">
                                                         <div class="flex-shrink-0 me-3 faq-icon">
                                                             <i class="bx bx-help-circle font-size-20 text-success"></i>
@@ -217,7 +218,24 @@
       </div>
 
   </div>
+<script>
 
+  function getDate() {
+        $.ajax({
+      url:`http://54.180.107.68:3000/users/${window.location.href.split("?")[1]}`, // 요청 할 주소
+      type:'GET', // GET, PUT
+      dataType:'json',// xml, json, script, html
+      success:function(jqXHR) {
+          $('#title').text(jqXHR.form_title);
+      },// 요청 완료 시
+      error:function(jqXHR) {},// 요청 실패.
+      complete:function(jqXHR) {}// 요청의 실패, 성공과 상관 없이 완료 될 경우 호출
+      });
+    }
+    window.onload = function() {
+        getDate();
+    }
+</script>
 </main>
 
 </body>
